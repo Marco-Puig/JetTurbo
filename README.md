@@ -7,6 +7,8 @@ Made using Blender, Unity, and written in C#
 
 ## Gameplay Screenshot
 ![ui_template1](https://github.com/Marco-Puig/JetTurbo/assets/90495366/829191a7-2335-45ad-a455-4fe41e08b889)
+![Capture](https://github.com/Marco-Puig/JetTurbo/assets/90495366/35070aac-e44d-49f0-8da1-f206cda72633)
+
 
 ## Character Designs
 ![Untitled_Artwork](https://github.com/Marco-Puig/JetTurbo/assets/90495366/c3a9b6c1-8cb2-401c-a538-39fff22c10cd)
