@@ -15,7 +15,7 @@ Made using Blender, Unity, and written in C#
 ![Untitled_Artwork](https://github.com/Marco-Puig/JetTurbo/assets/90495366/86a57686-2974-4805-bbf3-5f29d5429ee1)
 
 ## Graphic Logos
-![bgnb-logo1](https://user-images.githubusercontent.com/90495366/235374150-0218dca0-2a28-41ac-a506-3e2f8ebaded5.png)
+![image0](https://github.com/Marco-Puig/JetTurbo/assets/90495366/4693741b-e9d4-4acd-8d1b-26602d9b1bc2)
 
 
 
@@ -34,8 +34,9 @@ Made using Blender, Unity, and written in C#
 | Solid Physics | Done  |
 | Controller Support | Done |
 | Rail Grinding | Done  |
-| Menu | WIP  |
-| Loaded | WIP |
+| Multiplayer | Done  |
+| Menu | Done |
+| Loading Screen | Done |
 | UI | WIP  |
 | Leaderboard | WIP  |
 | Maps | WIP  |
@@ -44,9 +45,8 @@ Made using Blender, Unity, and written in C#
 | Models | WIP  |
 | Animations | WIP  |
 | Music | WIP  |
-| Steamworks| WIP  |
+| Steamworks | Done  |
 | Steam Demo | WIP  |
-| Multiplayer | WIP  |
 | More Maps | WIP  |
 | More Characters | WIP  |
 | More Boards | WIP  |
