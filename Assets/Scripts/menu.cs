@@ -10,6 +10,7 @@ public class menu : MonoBehaviour
     public GameObject ui_map;
     public GameObject ui_news;
     public GameObject ui_set;
+    public GameObject ui_char;
 
     public void Quit(){
     #if UNITY_EDITOR
@@ -27,6 +28,7 @@ public class menu : MonoBehaviour
         ui_map.SetActive(false);
         ui_news.SetActive(false);
         ui_set.SetActive(false);
+        ui_char.SetActive(false);
     }
     public void Multiplayer_Back(){
         ui_multi.SetActive(false);
@@ -34,6 +36,7 @@ public class menu : MonoBehaviour
         ui_map.SetActive(false);
         ui_news.SetActive(true);
         ui_set.SetActive(false);
+        ui_char.SetActive(false);
     }
     public void Maps(){
         ui_multi.SetActive(false);
@@ -41,6 +44,7 @@ public class menu : MonoBehaviour
         ui_map.SetActive(true);
         ui_news.SetActive(false);
         ui_set.SetActive(false);
+        ui_char.SetActive(false);
     }
     public void Settings(){
         ui_multi.SetActive(false);
@@ -48,5 +52,15 @@ public class menu : MonoBehaviour
         ui_map.SetActive(false);
         ui_news.SetActive(false);
         ui_set.SetActive(true);
+        ui_char.SetActive(false);
+    }
+    public void Customize()
+    {
+        ui_multi.SetActive(false);
+        ui_menu.SetActive(false);
+        ui_map.SetActive(false);
+        ui_news.SetActive(false);
+        ui_set.SetActive(false);
+        ui_char.SetActive(true);
     }
 }
