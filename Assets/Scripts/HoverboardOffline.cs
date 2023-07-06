@@ -28,6 +28,8 @@ public class HoverboardOffline : MonoBehaviour
     public bool driftBoost = false;
     public bool hovering = true;
     public TMP_Text driftReady;
+    public TMP_Text driftPurple;
+    public TMP_Text boostReady;
     bool r = false; //right drift
     bool l = false; //left drift
     bool driftCoolDown = false;
@@ -52,11 +54,13 @@ public class HoverboardOffline : MonoBehaviour
         //keep track of speed
         speed = hb.velocity.magnitude; 
         double speed_for_text = System.Math.Round(speed, 0); 
-        speed_count.SetText("Speed: " + speed_for_text * 3);
+        speed_count.SetText((speed_for_text * 3).ToString());
 
         if (!(Input.GetKey(KeyCode.Mouse1) || Input.GetAxis("RT") > 0))
             boostPad = false;
-
+        
+        if (boostPad) boostReady.enabled = false; else boostReady.enabled = true;
+        
         //check if player is paused
         if (Input.GetKeyDown(KeyCode.Escape))
         { if (isPaused) isPaused = false; else isPaused = true;}
@@ -128,9 +132,12 @@ public class HoverboardOffline : MonoBehaviour
         //for both boosting and regular
         //Torque will be handled by mouse movement via player.
         //if not drifting:
-        if (!(l == true || r == true)){
-            hb.AddTorque(Input.GetAxis("Mouse X") * turnTorque * transform.up);
-            hb.AddTorque(Input.GetAxis("Joystick X") * turnTorque * transform.up);
+        if (!(l == true || r == true))
+        {
+            if (!isPaused){
+                hb.AddTorque(Input.GetAxis("Mouse X") * turnTorque * transform.up);
+                hb.AddTorque(Input.GetAxis("Joystick X") * turnTorque * transform.up);
+            }
         }
     }
 
@@ -310,10 +317,12 @@ public class HoverboardOffline : MonoBehaviour
             StartCoroutine((driftWait()));
         }
         if (boostPad == false || driftCoolDown == false){
-            driftReady.SetText("Drift: Ready");
+            //driftReady.SetText("Drift: Ready");
+            driftPurple.enabled = true;
         }
         if (boostPad || driftCoolDown){
-            driftReady.SetText("Drift: Not Ready");
+            driftPurple.enabled = false;
+            //driftReady.SetText("Drift: Not Ready");
         }
     }
     public IEnumerator driftWait()
@@ -341,6 +350,7 @@ public class HoverboardOffline : MonoBehaviour
     public IEnumerator dec_speed(){
         if ((at.trickBoost || driftBoost)){
             if (Input.GetKey(KeyCode.Mouse1) || Input.GetAxis("RT") > 0){
+                boostReady.enabled = false;
                 if (Input.GetKey(KeyCode.Mouse1))
                     hb.AddForce(Input.GetAxis("Fire2") * 5000 * transform.forward);
                 else if (Input.GetAxis("RT") > 0)
@@ -351,6 +361,7 @@ public class HoverboardOffline : MonoBehaviour
                 speedEffect.Stop();
                 at.trickBoost = false;
                 driftBoost = false;
+                boostReady.enabled = true;
             }
         }
         else{

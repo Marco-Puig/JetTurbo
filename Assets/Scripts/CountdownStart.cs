@@ -15,7 +15,7 @@ public class CountdownStart : MonoBehaviour
     void Update()
     {
         currentTime += Time.deltaTime;
-        countdownText.SetText((5f-currentTime).ToString());
+        countdownText.SetText(((5f-currentTime)+1f).ToString());
 
         if (currentTime > 2)
         {

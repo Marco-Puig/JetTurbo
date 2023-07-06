@@ -1,0 +1,1394 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.26f1 (a16dc32e0ff2) revision 10579395'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 16225 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.26f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/marco/OneDrive/Documents/JetTurbo
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+58442
+Successfully changed project path to: C:/Users/marco/OneDrive/Documents/JetTurbo
+C:/Users/marco/OneDrive/Documents/JetTurbo
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [16368] Host "[IP] 10.0.0.132 [Port] 0 [Flags] 2 [Guid] 2691273979 [EditorId] 2691273979 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KHEODDI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [16368] Host "[IP] 10.0.0.132 [Port] 0 [Flags] 2 [Guid] 2691273979 [EditorId] 2691273979 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KHEODDI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 89.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.26f1 (a16dc32e0ff2)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/marco/OneDrive/Documents/JetTurbo/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+[vulkan] LoadVulkanLibrary vulkan-1.dll[vulkan] Loaded instance function vkGetInstanceProcAddr
+[vulkan] Loaded instance function vkGetInstanceProcAddr
+[vulkan] Loaded instance function vkCreateInstance
+[vulkan] Loaded instance function vkEnumerateInstanceExtensionProperties
+[vulkan] Loaded instance function vkEnumerateInstanceLayerProperties
+[vulkan] Loaded instance function vkEnumerateInstanceVersion
+[Vulkan init] extensions: count=15
+[Vulkan init] extensions: name=VK_KHR_device_group_creation, enabled=0
+[Vulkan init] extensions: name=VK_KHR_external_fence_capabilities, enabled=0
+[Vulkan init] extensions: name=VK_KHR_external_memory_capabilities, enabled=1
+[Vulkan init] extensions: name=VK_KHR_external_semaphore_capabilities, enabled=0
+[Vulkan init] extensions: name=VK_KHR_get_physical_device_properties2, enabled=1
+[Vulkan init] extensions: name=VK_KHR_get_surface_capabilities2, enabled=0
+[Vulkan init] extensions: name=VK_KHR_surface, enabled=1
+[Vulkan init] extensions: name=VK_KHR_surface_protected_capabilities, enabled=0
+[Vulkan init] extensions: name=VK_KHR_win32_surface, enabled=1
+[Vulkan init] extensions: name=VK_EXT_debug_report, enabled=1
+[Vulkan init] extensions: name=VK_EXT_debug_utils, enabled=0
+[Vulkan init] extensions: name=VK_EXT_swapchain_colorspace, enabled=1
+[Vulkan init] extensions: name=VK_NV_external_memory_capabilities, enabled=0
+[Vulkan init] extensions: name=VK_KHR_portability_enumeration, enabled=0
+[Vulkan init] extensions: name=VK_LUNARG_direct_driver_loading, enabled=0
+[vulkan] Loaded instance function vkDestroyInstance
+[vulkan] Loaded instance function vkGetPhysicalDeviceProperties
+[vulkan] Loaded instance function vkEnumeratePhysicalDevices
+Vulkan detection: 2
+[Vulkan init] extensions: count=15
+[Vulkan init] extensions: name=VK_KHR_device_group_creation, enabled=0
+[Vulkan init] extensions: name=VK_KHR_external_fence_capabilities, enabled=0
+[Vulkan init] extensions: name=VK_KHR_external_memory_capabilities, enabled=1
+[Vulkan init] extensions: name=VK_KHR_external_semaphore_capabilities, enabled=0
+[Vulkan init] extensions: name=VK_KHR_get_physical_device_properties2, enabled=1
+[Vulkan init] extensions: name=VK_KHR_get_surface_capabilities2, enabled=0
+[Vulkan init] extensions: name=VK_KHR_surface, enabled=1
+[Vulkan init] extensions: name=VK_KHR_surface_protected_capabilities, enabled=0
+[Vulkan init] extensions: name=VK_KHR_win32_surface, enabled=1
+[Vulkan init] extensions: name=VK_EXT_debug_report, enabled=1
+[Vulkan init] extensions: name=VK_EXT_debug_utils, enabled=0
+[Vulkan init] extensions: name=VK_EXT_swapchain_colorspace, enabled=1
+[Vulkan init] extensions: name=VK_NV_external_memory_capabilities, enabled=0
+[Vulkan init] extensions: name=VK_KHR_portability_enumeration, enabled=0
+[Vulkan init] extensions: name=VK_LUNARG_direct_driver_loading, enabled=0
+[vulkan] Loaded instance function vkDestroyInstance
+[vulkan] Loaded instance function vkGetPhysicalDeviceProperties
+[vulkan] Loaded instance function vkEnumeratePhysicalDevices
+[vulkan] Loaded instance function vkGetDeviceProcAddr
+[vulkan] Loaded instance function vkGetPhysicalDeviceFeatures
+[vulkan] Loaded instance function vkGetPhysicalDeviceFormatProperties
+[vulkan] Loaded instance function vkGetPhysicalDeviceImageFormatProperties
+[vulkan] Loaded instance function vkGetPhysicalDeviceQueueFamilyProperties
+[vulkan] Loaded instance function vkGetPhysicalDeviceMemoryProperties
+[vulkan] Loaded instance function vkCreateDevice
+[vulkan] Loaded instance function vkEnumerateDeviceExtensionProperties
+[vulkan] Loaded instance function vkEnumerateDeviceLayerProperties
+[vulkan] Loaded instance function vkGetPhysicalDeviceSparseImageFormatProperties
+[vulkan] Loaded instance function vkDestroySurfaceKHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceSurfaceSupportKHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceSurfaceCapabilitiesKHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceSurfaceFormatsKHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceSurfacePresentModesKHR
+[vulkan] Loaded instance function vkCreateSwapchainKHR
+[vulkan] Loaded instance function vkDestroySwapchainKHR
+[vulkan] Loaded instance function vkGetSwapchainImagesKHR
+[vulkan] Loaded instance function vkAcquireNextImageKHR
+[vulkan] Loaded instance function vkQueuePresentKHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceDisplayPropertiesKHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceDisplayPlanePropertiesKHR
+[vulkan] Loaded instance function vkGetDisplayPlaneSupportedDisplaysKHR
+[vulkan] Loaded instance function vkGetDisplayModePropertiesKHR
+[vulkan] Loaded instance function vkCreateDisplayModeKHR
+[vulkan] Loaded instance function vkGetDisplayPlaneCapabilitiesKHR
+[vulkan] Loaded instance function vkCreateDisplayPlaneSurfaceKHR
+[vulkan] Loaded instance function vkCreateSharedSwapchainsKHR
+[vulkan] Loaded instance function vkCreateWin32SurfaceKHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceWin32PresentationSupportKHR
+[vulkan] Loaded instance function vkSetHdrMetadataEXT
+[vulkan] Loaded instance function vkGetPhysicalDeviceFeatures2KHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceProperties2KHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceFormatProperties2KHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceImageFormatProperties2KHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceQueueFamilyProperties2KHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceMemoryProperties2KHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceSparseImageFormatProperties2KHR
+[Vulkan init] SelectPhysicalDevice requestedDeviceIndex=-1 xrDevice=0000000000000000
+[Vulkan init] Physical Device 0000028FC89A1510 [0]: "NVIDIA GeForce GTX 1070" deviceType=2 vendorID=10de deviceID=1b81
+[Vulkan init] Selected physical device 0000028FC89A1510
+[Vulkan init] Graphics queue count=1
+[Vulkan init] extensions: count=164
+[Vulkan init] extensions: name=VK_KHR_16bit_storage, enabled=1
+[Vulkan init] extensions: name=VK_KHR_8bit_storage, enabled=0
+[Vulkan init] extensions: name=VK_KHR_acceleration_structure, enabled=0
+[Vulkan init] extensions: name=VK_KHR_bind_memory2, enabled=0
+[Vulkan init] extensions: name=VK_KHR_buffer_device_address, enabled=0
+[Vulkan init] extensions: name=VK_KHR_copy_commands2, enabled=0
+[Vulkan init] extensions: name=VK_KHR_create_renderpass2, enabled=1
+[Vulkan init] extensions: name=VK_KHR_dedicated_allocation, enabled=1
+[Vulkan init] extensions: name=VK_KHR_deferred_host_operations, enabled=0
+[Vulkan init] extensions: name=VK_KHR_depth_stencil_resolve, enabled=1
+[Vulkan init] extensions: name=VK_KHR_descriptor_update_template, enabled=1
+[Vulkan init] extensions: name=VK_KHR_device_group, enabled=0
+[Vulkan init] extensions: name=VK_KHR_draw_indirect_count, enabled=0
+[Vulkan init] extensions: name=VK_KHR_driver_properties, enabled=0
+[Vulkan init] extensions: name=VK_KHR_dynamic_rendering, enabled=0
+[Vulkan init] extensions: name=VK_KHR_external_fence, enabled=0
+[Vulkan init] extensions: name=VK_KHR_external_fence_win32, enabled=1
+[Vulkan init] extensions: name=VK_KHR_external_memory, enabled=1
+[Vulkan init] extensions: name=VK_KHR_external_memory_win32, enabled=1
+[Vulkan init] extensions: name=VK_KHR_external_semaphore, enabled=0
+[Vulkan init] extensions: name=VK_KHR_external_semaphore_win32, enabled=1
+[Vulkan init] extensions: name=VK_KHR_format_feature_flags2, enabled=0
+[Vulkan init] extensions: name=VK_KHR_get_memory_requirements2, enabled=1
+[Vulkan init] extensions: name=VK_KHR_image_format_list, enabled=1
+[Vulkan init] extensions: name=VK_KHR_imageless_framebuffer, enabled=0
+[Vulkan init] extensions: name=VK_KHR_maintenance1, enabled=1
+[Vulkan init] extensions: name=VK_KHR_maintenance2, enabled=1
+[Vulkan init] extensions: name=VK_KHR_maintenance3, enabled=0
+[Vulkan init] extensions: name=VK_KHR_maintenance4, enabled=0
+[Vulkan init] extensions: name=VK_KHR_multiview, enabled=1
+[Vulkan init] extensions: name=VK_KHR_pipeline_executable_properties, enabled=0
+[Vulkan init] extensions: name=VK_KHR_pipeline_library, enabled=0
+[Vulkan init] extensions: name=VK_KHR_present_id, enabled=0
+[Vulkan init] extensions: name=VK_KHR_present_wait, enabled=0
+[Vulkan init] extensions: name=VK_KHR_push_descriptor, enabled=0
+[Vulkan init] extensions: name=VK_KHR_ray_tracing_maintenance1, enabled=0
+[Vulkan init] extensions: name=VK_KHR_ray_tracing_pipeline, enabled=0
+[Vulkan init] extensions: name=VK_KHR_relaxed_block_layout, enabled=0
+[Vulkan init] extensions: name=VK_KHR_sampler_mirror_clamp_to_edge, enabled=1
+[Vulkan init] extensions: name=VK_KHR_sampler_ycbcr_conversion, enabled=0
+[Vulkan init] extensions: name=VK_KHR_separate_depth_stencil_layouts, enabled=0
+[Vulkan init] extensions: name=VK_KHR_shader_atomic_int64, enabled=0
+[Vulkan init] extensions: name=VK_KHR_shader_clock, enabled=0
+[Vulkan init] extensions: name=VK_KHR_shader_draw_parameters, enabled=0
+[Vulkan init] extensions: name=VK_KHR_shader_float16_int8, enabled=1
+[Vulkan init] extensions: name=VK_KHR_shader_float_controls, enabled=0
+[Vulkan init] extensions: name=VK_KHR_shader_integer_dot_product, enabled=0
+[Vulkan init] extensions: name=VK_KHR_shader_non_semantic_info, enabled=0
+[Vulkan init] extensions: name=VK_KHR_shader_subgroup_extended_types, enabled=0
+[Vulkan init] extensions: name=VK_KHR_shader_terminate_invocation, enabled=0
+[Vulkan init] extensions: name=VK_KHR_spirv_1_4, enabled=0
+[Vulkan init] extensions: name=VK_KHR_storage_buffer_storage_class, enabled=0
+[Vulkan init] extensions: name=VK_KHR_swapchain, enabled=1
+[Vulkan init] extensions: name=VK_KHR_swapchain_mutable_format, enabled=0
+[Vulkan init] extensions: name=VK_KHR_synchronization2, enabled=0
+[Vulkan init] extensions: name=VK_KHR_timeline_semaphore, enabled=0
+[Vulkan init] extensions: name=VK_KHR_uniform_buffer_standard_layout, enabled=0
+[Vulkan init] extensions: name=VK_KHR_variable_pointers, enabled=0
+[Vulkan init] extensions: name=VK_KHR_video_decode_h264, enabled=0
+[Vulkan init] extensions: name=VK_KHR_video_decode_h265, enabled=0
+[Vulkan init] extensions: name=VK_KHR_video_decode_queue, enabled=0
+[Vulkan init] extensions: name=VK_KHR_video_queue, enabled=0
+[Vulkan init] extensions: name=VK_KHR_vulkan_memory_model, enabled=0
+[Vulkan init] extensions: name=VK_KHR_win32_keyed_mutex, enabled=0
+[Vulkan init] extensions: name=VK_KHR_workgroup_memory_explicit_layout, enabled=0
+[Vulkan init] extensions: name=VK_KHR_zero_initialize_workgroup_memory, enabled=0
+[Vulkan init] extensions: name=VK_EXT_4444_formats, enabled=0
+[Vulkan init] extensions: name=VK_EXT_attachment_feedback_loop_layout, enabled=0
+[Vulkan init] extensions: name=VK_EXT_blend_operation_advanced, enabled=0
+[Vulkan init] extensions: name=VK_EXT_border_color_swizzle, enabled=0
+[Vulkan init] extensions: name=VK_EXT_buffer_device_address, enabled=0
+[Vulkan init] extensions: name=VK_EXT_calibrated_timestamps, enabled=0
+[Vulkan init] extensions: name=VK_EXT_color_write_enable, enabled=0
+[Vulkan init] extensions: name=VK_EXT_conditional_rendering, enabled=0
+[Vulkan init] extensions: name=VK_EXT_conservative_rasterization, enabled=1
+[Vulkan init] extensions: name=VK_EXT_custom_border_color, enabled=0
+[Vulkan init] extensions: name=VK_EXT_depth_clamp_zero_one, enabled=0
+[Vulkan init] extensions: name=VK_EXT_depth_clip_control, enabled=0
+[Vulkan init] extensions: name=VK_EXT_depth_clip_enable, enabled=0
+[Vulkan init] extensions: name=VK_EXT_depth_range_unrestricted, enabled=0
+[Vulkan init] extensions: name=VK_EXT_descriptor_buffer, enabled=0
+[Vulkan init] extensions: name=VK_EXT_descriptor_indexing, enabled=0
+[Vulkan init] extensions: name=VK_EXT_discard_rectangles, enabled=0
+[Vulkan init] extensions: name=VK_EXT_extended_dynamic_state, enabled=0
+[Vulkan init] extensions: name=VK_EXT_extended_dynamic_state2, enabled=0
+[Vulkan init] extensions: name=VK_EXT_extended_dynamic_state3, enabled=0
+[Vulkan init] extensions: name=VK_EXT_external_memory_host, enabled=0
+[Vulkan init] extensions: name=VK_EXT_fragment_shader_interlock, enabled=0
+[Vulkan init] extensions: name=VK_EXT_full_screen_exclusive, enabled=0
+[Vulkan init] extensions: name=VK_EXT_graphics_pipeline_library, enabled=0
+[Vulkan init] extensions: name=VK_EXT_hdr_metadata, enabled=1
+[Vulkan init] extensions: name=VK_EXT_host_query_reset, enabled=0
+[Vulkan init] extensions: name=VK_EXT_image_2d_view_of_3d, enabled=0
+[Vulkan init] extensions: name=VK_EXT_image_robustness, enabled=0
+[Vulkan init] extensions: name=VK_EXT_image_sliced_view_of_3d, enabled=0
+[Vulkan init] extensions: name=VK_EXT_image_view_min_lod, enabled=0
+[Vulkan init] extensions: name=VK_EXT_index_type_uint8, enabled=0
+[Vulkan init] extensions: name=VK_EXT_inline_uniform_block, enabled=0
+[Vulkan init] extensions: name=VK_EXT_line_rasterization, enabled=0
+[Vulkan init] extensions: name=VK_EXT_load_store_op_none, enabled=0
+[Vulkan init] extensions: name=VK_EXT_memory_budget, enabled=1
+[Vulkan init] extensions: name=VK_EXT_memory_priority, enabled=1
+[Vulkan init] extensions: name=VK_EXT_multi_draw, enabled=0
+[Vulkan init] extensions: name=VK_EXT_non_seamless_cube_map, enabled=0
+[Vulkan init] extensions: name=VK_EXT_pci_bus_info, enabled=0
+[Vulkan init] extensions: name=VK_EXT_pipeline_creation_cache_control, enabled=0
+[Vulkan init] extensions: name=VK_EXT_pipeline_creation_feedback, enabled=0
+[Vulkan init] extensions: name=VK_EXT_pipeline_library_group_handles, enabled=0
+[Vulkan init] extensions: name=VK_EXT_pipeline_robustness, enabled=0
+[Vulkan init] extensions: name=VK_EXT_post_depth_coverage, enabled=0
+[Vulkan init] extensions: name=VK_EXT_primitive_topology_list_restart, enabled=0
+[Vulkan init] extensions: name=VK_EXT_primitives_generated_query, enabled=0
+[Vulkan init] extensions: name=VK_EXT_private_data, enabled=0
+[Vulkan init] extensions: name=VK_EXT_provoking_vertex, enabled=0
+[Vulkan init] extensions: name=VK_EXT_queue_family_foreign, enabled=0
+[Vulkan init] extensions: name=VK_EXT_robustness2, enabled=0
+[Vulkan init] extensions: name=VK_EXT_sample_locations, enabled=0
+[Vulkan init] extensions: name=VK_EXT_sampler_filter_minmax, enabled=0
+[Vulkan init] extensions: name=VK_EXT_scalar_block_layout, enabled=1
+[Vulkan init] extensions: name=VK_EXT_separate_stencil_usage, enabled=0
+[Vulkan init] extensions: name=VK_EXT_shader_atomic_float, enabled=0
+[Vulkan init] extensions: name=VK_EXT_shader_demote_to_helper_invocation, enabled=0
+[Vulkan init] extensions: name=VK_EXT_shader_image_atomic_int64, enabled=0
+[Vulkan init] extensions: name=VK_EXT_shader_module_identifier, enabled=0
+[Vulkan init] extensions: name=VK_EXT_shader_object, enabled=0
+[Vulkan init] extensions: name=VK_EXT_shader_subgroup_ballot, enabled=0
+[Vulkan init] extensions: name=VK_EXT_shader_subgroup_vote, enabled=0
+[Vulkan init] extensions: name=VK_EXT_shader_viewport_index_layer, enabled=1
+[Vulkan init] extensions: name=VK_EXT_subgroup_size_control, enabled=0
+[Vulkan init] extensions: name=VK_EXT_texel_buffer_alignment, enabled=0
+[Vulkan init] extensions: name=VK_EXT_tooling_info, enabled=0
+[Vulkan init] extensions: name=VK_EXT_transform_feedback, enabled=0
+[Vulkan init] extensions: name=VK_EXT_vertex_attribute_divisor, enabled=0
+[Vulkan init] extensions: name=VK_EXT_vertex_input_dynamic_state, enabled=0
+[Vulkan init] extensions: name=VK_EXT_ycbcr_2plane_444_formats, enabled=0
+[Vulkan init] extensions: name=VK_EXT_ycbcr_image_arrays, enabled=0
+[Vulkan init] extensions: name=VK_NV_clip_space_w_scaling, enabled=0
+[Vulkan init] extensions: name=VK_NV_copy_memory_indirect, enabled=0
+[Vulkan init] extensions: name=VK_NV_coverage_reduction_mode, enabled=0
+[Vulkan init] extensions: name=VK_NV_dedicated_allocation, enabled=0
+[Vulkan init] extensions: name=VK_NV_dedicated_allocation_image_aliasing, enabled=0
+[Vulkan init] extensions: name=VK_NV_device_diagnostic_checkpoints, enabled=0
+[Vulkan init] extensions: name=VK_NV_device_diagnostics_config, enabled=0
+[Vulkan init] extensions: name=VK_NV_device_generated_commands, enabled=0
+[Vulkan init] extensions: name=VK_NV_external_memory, enabled=0
+[Vulkan init] extensions: name=VK_NV_external_memory_win32, enabled=0
+[Vulkan init] extensions: name=VK_NV_fill_rectangle, enabled=0
+[Vulkan init] extensions: name=VK_NV_fragment_coverage_to_color, enabled=0
+[Vulkan init] extensions: name=VK_NV_framebuffer_mixed_samples, enabled=0
+[Vulkan init] extensions: name=VK_NV_geometry_shader_passthrough, enabled=0
+[Vulkan init] extensions: name=VK_NV_inherited_viewport_scissor, enabled=0
+[Vulkan init] extensions: name=VK_NV_linear_color_attachment, enabled=0
+[Vulkan init] extensions: name=VK_NV_low_latency, enabled=0
+[Vulkan init] extensions: name=VK_NV_memory_decompression, enabled=0
+[Vulkan init] extensions: name=VK_NV_ray_tracing, enabled=0
+[Vulkan init] extensions: name=VK_NV_ray_tracing_invocation_reorder, enabled=0
+[Vulkan init] extensions: name=VK_NV_sample_mask_override_coverage, enabled=0
+[Vulkan init] extensions: name=VK_NV_shader_sm_builtins, enabled=0
+[Vulkan init] extensions: name=VK_NV_shader_subgroup_partitioned, enabled=0
+[Vulkan init] extensions: name=VK_NV_viewport_array2, enabled=0
+[Vulkan init] extensions: name=VK_NV_viewport_swizzle, enabled=0
+[Vulkan init] extensions: name=VK_NV_win32_keyed_mutex, enabled=0
+[Vulkan init] extensions: name=VK_NVX_multiview_per_view_attributes, enabled=0
+[Vulkan init] extensions: name=VK_AMD_buffer_marker, enabled=0
+[vulkan] Loaded instance function vkDestroyDevice
+[vulkan] Loaded instance function vkGetDeviceQueue
+[vulkan] Loaded instance function vkQueueSubmit
+[vulkan] Loaded instance function vkQueueWaitIdle
+[vulkan] Loaded instance function vkDeviceWaitIdle
+[vulkan] Loaded instance function vkAllocateMemory
+[vulkan] Loaded instance function vkFreeMemory
+[vulkan] Loaded instance function vkMapMemory
+[vulkan] Loaded instance function vkUnmapMemory
+[vulkan] Loaded instance function vkFlushMappedMemoryRanges
+[vulkan] Loaded instance function vkInvalidateMappedMemoryRanges
+[vulkan] Loaded instance function vkGetDeviceMemoryCommitment
+[vulkan] Loaded instance function vkBindBufferMemory
+[vulkan] Loaded instance function vkBindImageMemory
+[vulkan] Loaded instance function vkGetBufferMemoryRequirements
+[vulkan] Loaded instance function vkGetImageMemoryRequirements
+[vulkan] Loaded instance function vkGetImageSparseMemoryRequirements
+[vulkan] Loaded instance function vkQueueBindSparse
+[vulkan] Loaded instance function vkCreateFence
+[vulkan] Loaded instance function vkDestroyFence
+[vulkan] Loaded instance function vkResetFences
+[vulkan] Loaded instance function vkGetFenceStatus
+[vulkan] Loaded instance function vkWaitForFences
+[vulkan] Loaded instance function vkCreateSemaphore
+[vulkan] Loaded instance function vkDestroySemaphore
+[vulkan] Loaded instance function vkCreateEvent
+[vulkan] Loaded instance function vkDestroyEvent
+[vulkan] Loaded instance function vkGetEventStatus
+[vulkan] Loaded instance function vkSetEvent
+[vulkan] Loaded instance function vkResetEvent
+[vulkan] Loaded instance function vkCreateQueryPool
+[vulkan] Loaded instance function vkDestroyQueryPool
+[vulkan] Loaded instance function vkGetQueryPoolResults
+[vulkan] Loaded instance function vkCreateBuffer
+[vulkan] Loaded instance function vkDestroyBuffer
+[vulkan] Loaded instance function vkCreateBufferView
+[vulkan] Loaded instance function vkDestroyBufferView
+[vulkan] Loaded instance function vkCreateImage
+[vulkan] Loaded instance function vkDestroyImage
+[vulkan] Loaded instance function vkGetImageSubresourceLayout
+[vulkan] Loaded instance function vkCreateImageView
+[vulkan] Loaded instance function vkDestroyImageView
+[vulkan] Loaded instance function vkCreateShaderModule
+[vulkan] Loaded instance function vkDestroyShaderModule
+[vulkan] Loaded instance function vkCreatePipelineCache
+[vulkan] Loaded instance function vkDestroyPipelineCache
+[vulkan] Loaded instance function vkGetPipelineCacheData
+[vulkan] Loaded instance function vkMergePipelineCaches
+[vulkan] Loaded instance function vkCreateGraphicsPipelines
+[vulkan] Loaded instance function vkCreateComputePipelines
+[vulkan] Loaded instance function vkDestroyPipeline
+[vulkan] Loaded instance function vkCreatePipelineLayout
+[vulkan] Loaded instance function vkDestroyPipelineLayout
+[vulkan] Loaded instance function vkCreateSampler
+[vulkan] Loaded instance function vkDestroySampler
+[vulkan] Loaded instance function vkCreateDescriptorSetLayout
+[vulkan] Loaded instance function vkDestroyDescriptorSetLayout
+[vulkan] Loaded instance function vkCreateDescriptorPool
+[vulkan] Loaded instance function vkDestroyDescriptorPool
+[vulkan] Loaded instance function vkResetDescriptorPool
+[vulkan] Loaded instance function vkAllocateDescriptorSets
+[vulkan] Loaded instance function vkFreeDescriptorSets
+[vulkan] Loaded instance function vkUpdateDescriptorSets
+[vulkan] Loaded instance function vkCreateFramebuffer
+[vulkan] Loaded instance function vkDestroyFramebuffer
+[vulkan] Loaded instance function vkCreateRenderPass
+[vulkan] Loaded instance function vkDestroyRenderPass
+[vulkan] Loaded instance function vkGetRenderAreaGranularity
+[vulkan] Loaded instance function vkCreateCommandPool
+[vulkan] Loaded instance function vkDestroyCommandPool
+[vulkan] Loaded instance function vkResetCommandPool
+[vulkan] Loaded instance function vkAllocateCommandBuffers
+[vulkan] Loaded instance function vkFreeCommandBuffers
+[vulkan] Loaded instance function vkBeginCommandBuffer
+[vulkan] Loaded instance function vkEndCommandBuffer
+[vulkan] Loaded instance function vkResetCommandBuffer
+[vulkan] Loaded instance function vkCmdBindPipeline
+[vulkan] Loaded instance function vkCmdSetViewport
+[vulkan] Loaded instance function vkCmdSetScissor
+[vulkan] Loaded instance function vkCmdSetLineWidth
+[vulkan] Loaded instance function vkCmdSetDepthBias
+[vulkan] Loaded instance function vkCmdSetBlendConstants
+[vulkan] Loaded instance function vkCmdSetDepthBounds
+[vulkan] Loaded instance function vkCmdSetStencilCompareMask
+[vulkan] Loaded instance function vkCmdSetStencilWriteMask
+[vulkan] Loaded instance function vkCmdSetStencilReference
+[vulkan] Loaded instance function vkCmdBindDescriptorSets
+[vulkan] Loaded instance function vkCmdBindIndexBuffer
+[vulkan] Loaded instance function vkCmdBindVertexBuffers
+[vulkan] Loaded instance function vkCmdDraw
+[vulkan] Loaded instance function vkCmdDrawIndexed
+[vulkan] Loaded instance function vkCmdDrawIndirect
+[vulkan] Loaded instance function vkCmdDrawIndexedIndirect
+[vulkan] Loaded instance function vkCmdDispatch
+[vulkan] Loaded instance function vkCmdDispatchIndirect
+[vulkan] Loaded instance function vkCmdCopyBuffer
+[vulkan] Loaded instance function vkCmdCopyImage
+[vulkan] Loaded instance function vkCmdBlitImage
+[vulkan] Loaded instance function vkCmdCopyBufferToImage
+[vulkan] Loaded instance function vkCmdCopyImageToBuffer
+[vulkan] Loaded instance function vkCmdUpdateBuffer
+[vulkan] Loaded instance function vkCmdFillBuffer
+[vulkan] Loaded instance function vkCmdClearColorImage
+[vulkan] Loaded instance function vkCmdClearDepthStencilImage
+[vulkan] Loaded instance function vkCmdClearAttachments
+[vulkan] Loaded instance function vkCmdResolveImage
+[vulkan] Loaded instance function vkCmdSetEvent
+[vulkan] Loaded instance function vkCmdResetEvent
+[vulkan] Loaded instance function vkCmdWaitEvents
+[vulkan] Loaded instance function vkCmdPipelineBarrier
+[vulkan] Loaded instance function vkCmdBeginQuery
+[vulkan] Loaded instance function vkCmdEndQuery
+[vulkan] Loaded instance function vkCmdResetQueryPool
+[vulkan] Loaded instance function vkCmdWriteTimestamp
+[vulkan] Loaded instance function vkCmdCopyQueryPoolResults
+[vulkan] Loaded instance function vkCmdPushConstants
+[vulkan] Loaded instance function vkCmdBeginRenderPass
+[vulkan] Loaded instance function vkCmdNextSubpass
+[vulkan] Loaded instance function vkCmdEndRenderPass
+[vulkan] Loaded instance function vkCmdExecuteCommands
+[vulkan] Loaded instance function vkGetImageMemoryRequirements2KHR
+[vulkan] Loaded instance function vkGetBufferMemoryRequirements2KHR
+[vulkan] Loaded instance function vkGetImageSparseMemoryRequirements2KHR
+[vulkan] Loaded instance function vkCreateDescriptorUpdateTemplateKHR
+[vulkan] Loaded instance function vkDestroyDescriptorUpdateTemplateKHR
+[vulkan] Loaded instance function vkUpdateDescriptorSetWithTemplateKHR
+[vulkan] Loaded instance function vkCmdBeginRenderPass2KHR
+[vulkan] Loaded instance function vkCmdEndRenderPass2KHR
+[vulkan] Loaded instance function vkCmdNextSubpass2KHR
+[vulkan] Loaded instance function vkCreateRenderPass2KHR
+[vulkan] Loaded instance function vkDebugMarkerSetObjectTagEXT
+[vulkan] Loaded instance function vkDebugMarkerSetObjectNameEXT
+[vulkan] Loaded instance function vkCmdDebugMarkerBeginEXT
+[vulkan] Loaded instance function vkCmdDebugMarkerEndEXT
+[vulkan] Loaded instance function vkCmdDebugMarkerInsertEXT
+Vulkan API version 1.1.0 (1.3.242 supported by driver, 1.1.0 requested)
+Vulkan vendor=[NVIDIA] id=[10de]
+Vulkan renderer=[NVIDIA GeForce GTX 1070] id=[1b81]
+Vulkan device type 2
+Vulkan driverversion=[0x860a0000] uint=[-2046164992]
+Vulkan PSO: Cache data successfully loaded [size=1730835,path=C:/Users/marco/AppData/Local/Temp/ButteredPopcornLLC/JetTurbo/vulkan_pso_cache.bin]
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56324
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006168 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 89.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.647 seconds
+Domain Reload Profiling:
+	ReloadAssembly (648ms)
+		BeginReloadAssembly (82ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (470ms)
+			LoadAssemblies (80ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (101ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (291ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (89ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (146ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005855 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 90.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+Exception :System.IO.IOException: Sharing violation on path C:\Users\marco\OneDrive\Documents\JetTurbo\Library\ScriptAssemblies\UnityEngine.UI.dll
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <1c8569827291471e9db0dcd976e97952>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00000] in <1c8569827291471e9db0dcd976e97952>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
+  at Mono.CecilX.ModuleDefinition.GetFileStream (System.String fileName, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00006] in <9a2bc2dadc3549b3bfc74bb584d58989>:0 
+  at Mono.CecilX.ModuleDefinition.ReadModule (System.String fileName, Mono.CecilX.ReaderParameters parameters) [0x00008] in <9a2bc2dadc3549b3bfc74bb584d58989>:0 
+  at Mono.CecilX.AssemblyDefinition.ReadAssembly (System.String fileName, Mono.CecilX.ReaderParameters parameters) [0x00000] in <9a2bc2dadc3549b3bfc74bb584d58989>:0 
+  at Mirror.Weaver.Weaver.Weave (System.String assName, System.Collections.Generic.IEnumerable`1[T] dependencies) [0x00006] in C:\Users\marco\OneDrive\Documents\JetTurbo\Assets\Mirror\Editor\Weaver\Weaver.cs:176 
+  at Mirror.Weaver.Weaver.WeaveAssembly (System.String assembly, System.Collections.Generic.IEnumerable`1[T] dependencies) [0x00006] in C:\Users\marco\OneDrive\Documents\JetTurbo\Assets\Mirror\Editor\Weaver\Weaver.cs:247 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Mirror.Weaver.CompilationFinishedHook:HandleError (string) (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:35)
+Mirror.Weaver.Weaver:WeaveAssembly (string,System.Collections.Generic.IEnumerable`1<string>) (at Assets/Mirror/Editor/Weaver/Weaver.cs:251)
+Mirror.Weaver.CompilationFinishedHook:OnCompilationFinished (string,UnityEditor.Compilation.CompilerMessage[]) (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:142)
+Mirror.Weaver.CompilationFinishedHook:WeaveExistingAssemblies () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:62)
+Mirror.Weaver.CompilationFinishedHook:OnInitializeOnLoad () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:52)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs Line: 35)
+
+Weaving failed for: Library/ScriptAssemblies/UnityEngine.UI.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Mirror.Weaver.CompilationFinishedHook:OnCompilationFinished (string,UnityEditor.Compilation.CompilerMessage[]) (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:146)
+Mirror.Weaver.CompilationFinishedHook:WeaveExistingAssemblies () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:62)
+Mirror.Weaver.CompilationFinishedHook:OnInitializeOnLoad () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:52)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs Line: 146)
+
+Find all reader and writers took 116 milliseconds
+Script Module: Unity.RenderPipelines.Core.Runtime.dll
+Weave behaviours and messages took85 milliseconds
+Exception :System.IO.IOException: Sharing violation on path C:\Users\marco\OneDrive\Documents\JetTurbo\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <1c8569827291471e9db0dcd976e97952>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00000] in <1c8569827291471e9db0dcd976e97952>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
+  at Mono.CecilX.ModuleDefinition.GetFileStream (System.String fileName, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00006] in <9a2bc2dadc3549b3bfc74bb584d58989>:0 
+  at Mono.CecilX.ModuleDefinition.ReadModule (System.String fileName, Mono.CecilX.ReaderParameters parameters) [0x00008] in <9a2bc2dadc3549b3bfc74bb584d58989>:0 
+  at Mono.CecilX.AssemblyDefinition.ReadAssembly (System.String fileName, Mono.CecilX.ReaderParameters parameters) [0x00000] in <9a2bc2dadc3549b3bfc74bb584d58989>:0 
+  at Mirror.Weaver.Weaver.Weave (System.String assName, System.Collections.Generic.IEnumerable`1[T] dependencies) [0x00006] in C:\Users\marco\OneDrive\Documents\JetTurbo\Assets\Mirror\Editor\Weaver\Weaver.cs:176 
+  at Mirror.Weaver.Weaver.WeaveAssembly (System.String assembly, System.Collections.Generic.IEnumerable`1[T] dependencies) [0x00006] in C:\Users\marco\OneDrive\Documents\JetTurbo\Assets\Mirror\Editor\Weaver\Weaver.cs:247 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Mirror.Weaver.CompilationFinishedHook:HandleError (string) (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:35)
+Mirror.Weaver.Weaver:WeaveAssembly (string,System.Collections.Generic.IEnumerable`1<string>) (at Assets/Mirror/Editor/Weaver/Weaver.cs:251)
+Mirror.Weaver.CompilationFinishedHook:OnCompilationFinished (string,UnityEditor.Compilation.CompilerMessage[]) (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:142)
+Mirror.Weaver.CompilationFinishedHook:WeaveExistingAssemblies () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:62)
+Mirror.Weaver.CompilationFinishedHook:OnInitializeOnLoad () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:52)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs Line: 35)
+
+Weaving failed for: Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Mirror.Weaver.CompilationFinishedHook:OnCompilationFinished (string,UnityEditor.Compilation.CompilerMessage[]) (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:146)
+Mirror.Weaver.CompilationFinishedHook:WeaveExistingAssemblies () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:62)
+Mirror.Weaver.CompilationFinishedHook:OnInitializeOnLoad () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:52)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs Line: 146)
+
+Find all reader and writers took 72 milliseconds
+Script Module: SimpleWebTransport.dll
+Weave behaviours and messages took7 milliseconds
+Exception :System.IO.IOException: Sharing violation on path C:\Users\marco\OneDrive\Documents\JetTurbo\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <1c8569827291471e9db0dcd976e97952>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00000] in <1c8569827291471e9db0dcd976e97952>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
+  at Mono.CecilX.ModuleDefinition.GetFileStream (System.String fileName, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00006] in <9a2bc2dadc3549b3bfc74bb584d58989>:0 
+  at Mono.CecilX.ModuleDefinition.ReadModule (System.String fileName, Mono.CecilX.ReaderParameters parameters) [0x00008] in <9a2bc2dadc3549b3bfc74bb584d58989>:0 
+  at Mono.CecilX.AssemblyDefinition.ReadAssembly (System.String fileName, Mono.CecilX.ReaderParameters parameters) [0x00000] in <9a2bc2dadc3549b3bfc74bb584d58989>:0 
+  at Mirror.Weaver.Weaver.Weave (System.String assName, System.Collections.Generic.IEnumerable`1[T] dependencies) [0x00006] in C:\Users\marco\OneDrive\Documents\JetTurbo\Assets\Mirror\Editor\Weaver\Weaver.cs:176 
+  at Mirror.Weaver.Weaver.WeaveAssembly (System.String assembly, System.Collections.Generic.IEnumerable`1[T] dependencies) [0x00006] in C:\Users\marco\OneDrive\Documents\JetTurbo\Assets\Mirror\Editor\Weaver\Weaver.cs:247 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Mirror.Weaver.CompilationFinishedHook:HandleError (string) (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:35)
+Mirror.Weaver.Weaver:WeaveAssembly (string,System.Collections.Generic.IEnumerable`1<string>) (at Assets/Mirror/Editor/Weaver/Weaver.cs:251)
+Mirror.Weaver.CompilationFinishedHook:OnCompilationFinished (string,UnityEditor.Compilation.CompilerMessage[]) (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:142)
+Mirror.Weaver.CompilationFinishedHook:WeaveExistingAssemblies () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:62)
+Mirror.Weaver.CompilationFinishedHook:OnInitializeOnLoad () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:52)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs Line: 35)
+
+Weaving failed for: Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Mirror.Weaver.CompilationFinishedHook:OnCompilationFinished (string,UnityEditor.Compilation.CompilerMessage[]) (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:146)
+Mirror.Weaver.CompilationFinishedHook:WeaveExistingAssemblies () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:62)
+Mirror.Weaver.CompilationFinishedHook:OnInitializeOnLoad () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:52)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs Line: 146)
+
+Find all reader and writers took 91 milliseconds
+Script Module: Unity.TextMeshPro.dll
+Weave behaviours and messages took67 milliseconds
+Exception :System.IO.IOException: Sharing violation on path C:\Users\marco\OneDrive\Documents\JetTurbo\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <1c8569827291471e9db0dcd976e97952>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00000] in <1c8569827291471e9db0dcd976e97952>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
+  at Mono.CecilX.ModuleDefinition.GetFileStream (System.String fileName, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00006] in <9a2bc2dadc3549b3bfc74bb584d58989>:0 
+  at Mono.CecilX.ModuleDefinition.ReadModule (System.String fileName, Mono.CecilX.ReaderParameters parameters) [0x00008] in <9a2bc2dadc3549b3bfc74bb584d58989>:0 
+  at Mono.CecilX.AssemblyDefinition.ReadAssembly (System.String fileName, Mono.CecilX.ReaderParameters parameters) [0x00000] in <9a2bc2dadc3549b3bfc74bb584d58989>:0 
+  at Mirror.Weaver.Weaver.Weave (System.String assName, System.Collections.Generic.IEnumerable`1[T] dependencies) [0x00006] in C:\Users\marco\OneDrive\Documents\JetTurbo\Assets\Mirror\Editor\Weaver\Weaver.cs:176 
+  at Mirror.Weaver.Weaver.WeaveAssembly (System.String assembly, System.Collections.Generic.IEnumerable`1[T] dependencies) [0x00006] in C:\Users\marco\OneDrive\Documents\JetTurbo\Assets\Mirror\Editor\Weaver\Weaver.cs:247 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Mirror.Weaver.CompilationFinishedHook:HandleError (string) (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:35)
+Mirror.Weaver.Weaver:WeaveAssembly (string,System.Collections.Generic.IEnumerable`1<string>) (at Assets/Mirror/Editor/Weaver/Weaver.cs:251)
+Mirror.Weaver.CompilationFinishedHook:OnCompilationFinished (string,UnityEditor.Compilation.CompilerMessage[]) (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:142)
+Mirror.Weaver.CompilationFinishedHook:WeaveExistingAssemblies () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:62)
+Mirror.Weaver.CompilationFinishedHook:OnInitializeOnLoad () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:52)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs Line: 35)
+
+Weaving failed for: Library/ScriptAssemblies/Unity.ProBuilder.Poly2Tri.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Mirror.Weaver.CompilationFinishedHook:OnCompilationFinished (string,UnityEditor.Compilation.CompilerMessage[]) (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:146)
+Mirror.Weaver.CompilationFinishedHook:WeaveExistingAssemblies () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:62)
+Mirror.Weaver.CompilationFinishedHook:OnInitializeOnLoad () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:52)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs Line: 146)
+
+Find all reader and writers took 81 milliseconds
+Script Module: Unity.Timeline.dll
+Weave behaviours and messages took26 milliseconds
+Exception :System.IO.IOException: Sharing violation on path C:\Users\marco\OneDrive\Documents\JetTurbo\Library\ScriptAssemblies\Unity.ProBuilder.dll
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <1c8569827291471e9db0dcd976e97952>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00000] in <1c8569827291471e9db0dcd976e97952>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
+  at Mono.CecilX.ModuleDefinition.GetFileStream (System.String fileName, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00006] in <9a2bc2dadc3549b3bfc74bb584d58989>:0 
+  at Mono.CecilX.ModuleDefinition.ReadModule (System.String fileName, Mono.CecilX.ReaderParameters parameters) [0x00008] in <9a2bc2dadc3549b3bfc74bb584d58989>:0 
+  at Mono.CecilX.AssemblyDefinition.ReadAssembly (System.String fileName, Mono.CecilX.ReaderParameters parameters) [0x00000] in <9a2bc2dadc3549b3bfc74bb584d58989>:0 
+  at Mirror.Weaver.Weaver.Weave (System.String assName, System.Collections.Generic.IEnumerable`1[T] dependencies) [0x00006] in C:\Users\marco\OneDrive\Documents\JetTurbo\Assets\Mirror\Editor\Weaver\Weaver.cs:176 
+  at Mirror.Weaver.Weaver.WeaveAssembly (System.String assembly, System.Collections.Generic.IEnumerable`1[T] dependencies) [0x00006] in C:\Users\marco\OneDrive\Documents\JetTurbo\Assets\Mirror\Editor\Weaver\Weaver.cs:247 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Mirror.Weaver.CompilationFinishedHook:HandleError (string) (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:35)
+Mirror.Weaver.Weaver:WeaveAssembly (string,System.Collections.Generic.IEnumerable`1<string>) (at Assets/Mirror/Editor/Weaver/Weaver.cs:251)
+Mirror.Weaver.CompilationFinishedHook:OnCompilationFinished (string,UnityEditor.Compilation.CompilerMessage[]) (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:142)
+Mirror.Weaver.CompilationFinishedHook:WeaveExistingAssemblies () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:62)
+Mirror.Weaver.CompilationFinishedHook:OnInitializeOnLoad () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:52)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs Line: 35)
+
+Weaving failed for: Library/ScriptAssemblies/Unity.ProBuilder.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Mirror.Weaver.CompilationFinishedHook:OnCompilationFinished (string,UnityEditor.Compilation.CompilerMessage[]) (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:146)
+Mirror.Weaver.CompilationFinishedHook:WeaveExistingAssemblies () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:62)
+Mirror.Weaver.CompilationFinishedHook:OnInitializeOnLoad () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:52)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs Line: 146)
+
+Find all reader and writers took 77 milliseconds
+Script Module: Telepathy.dll
+Weave behaviours and messages took2 milliseconds
+Exception :System.IO.IOException: Sharing violation on path C:\Users\marco\OneDrive\Documents\JetTurbo\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <1c8569827291471e9db0dcd976e97952>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00000] in <1c8569827291471e9db0dcd976e97952>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
+  at Mono.CecilX.ModuleDefinition.GetFileStream (System.String fileName, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00006] in <9a2bc2dadc3549b3bfc74bb584d58989>:0 
+  at Mono.CecilX.ModuleDefinition.ReadModule (System.String fileName, Mono.CecilX.ReaderParameters parameters) [0x00008] in <9a2bc2dadc3549b3bfc74bb584d58989>:0 
+  at Mono.CecilX.AssemblyDefinition.ReadAssembly (System.String fileName, Mono.CecilX.ReaderParameters parameters) [0x00000] in <9a2bc2dadc3549b3bfc74bb584d58989>:0 
+  at Mirror.Weaver.Weaver.Weave (System.String assName, System.Collections.Generic.IEnumerable`1[T] dependencies) [0x00006] in C:\Users\marco\OneDrive\Documents\JetTurbo\Assets\Mirror\Editor\Weaver\Weaver.cs:176 
+  at Mirror.Weaver.Weaver.WeaveAssembly (System.String assembly, System.Collections.Generic.IEnumerable`1[T] dependencies) [0x00006] in C:\Users\marco\OneDrive\Documents\JetTurbo\Assets\Mirror\Editor\Weaver\Weaver.cs:247 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Mirror.Weaver.CompilationFinishedHook:HandleError (string) (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:35)
+Mirror.Weaver.Weaver:WeaveAssembly (string,System.Collections.Generic.IEnumerable`1<string>) (at Assets/Mirror/Editor/Weaver/Weaver.cs:251)
+Mirror.Weaver.CompilationFinishedHook:OnCompilationFinished (string,UnityEditor.Compilation.CompilerMessage[]) (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:142)
+Mirror.Weaver.CompilationFinishedHook:WeaveExistingAssemblies () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:62)
+Mirror.Weaver.CompilationFinishedHook:OnInitializeOnLoad () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:52)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs Line: 35)
+
+Weaving failed for: Library/ScriptAssemblies/Unity.ProBuilder.Csg.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Mirror.Weaver.CompilationFinishedHook:OnCompilationFinished (string,UnityEditor.Compilation.CompilerMessage[]) (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:146)
+Mirror.Weaver.CompilationFinishedHook:WeaveExistingAssemblies () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:62)
+Mirror.Weaver.CompilationFinishedHook:OnInitializeOnLoad () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:52)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs Line: 146)
+
+Find all reader and writers took 76 milliseconds
+Script Module: kcp2k.dll
+Weave behaviours and messages took4 milliseconds
+Exception :System.IO.IOException: Sharing violation on path C:\Users\marco\OneDrive\Documents\JetTurbo\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <1c8569827291471e9db0dcd976e97952>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00000] in <1c8569827291471e9db0dcd976e97952>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
+  at Mono.CecilX.ModuleDefinition.GetFileStream (System.String fileName, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00006] in <9a2bc2dadc3549b3bfc74bb584d58989>:0 
+  at Mono.CecilX.ModuleDefinition.ReadModule (System.String fileName, Mono.CecilX.ReaderParameters parameters) [0x00008] in <9a2bc2dadc3549b3bfc74bb584d58989>:0 
+  at Mono.CecilX.AssemblyDefinition.ReadAssembly (System.String fileName, Mono.CecilX.ReaderParameters parameters) [0x00000] in <9a2bc2dadc3549b3bfc74bb584d58989>:0 
+  at Mirror.Weaver.Weaver.Weave (System.String assName, System.Collections.Generic.IEnumerable`1[T] dependencies) [0x00006] in C:\Users\marco\OneDrive\Documents\JetTurbo\Assets\Mirror\Editor\Weaver\Weaver.cs:176 
+  at Mirror.Weaver.Weaver.WeaveAssembly (System.String assembly, System.Collections.Generic.IEnumerable`1[T] dependencies) [0x00006] in C:\Users\marco\OneDrive\Documents\JetTurbo\Assets\Mirror\Editor\Weaver\Weaver.cs:247 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Mirror.Weaver.CompilationFinishedHook:HandleError (string) (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:35)
+Mirror.Weaver.Weaver:WeaveAssembly (string,System.Collections.Generic.IEnumerable`1<string>) (at Assets/Mirror/Editor/Weaver/Weaver.cs:251)
+Mirror.Weaver.CompilationFinishedHook:OnCompilationFinished (string,UnityEditor.Compilation.CompilerMessage[]) (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:142)
+Mirror.Weaver.CompilationFinishedHook:WeaveExistingAssemblies () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:62)
+Mirror.Weaver.CompilationFinishedHook:OnInitializeOnLoad () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:52)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs Line: 35)
+
+Weaving failed for: Library/ScriptAssemblies/Unity.ProBuilder.KdTree.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Mirror.Weaver.CompilationFinishedHook:OnCompilationFinished (string,UnityEditor.Compilation.CompilerMessage[]) (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:146)
+Mirror.Weaver.CompilationFinishedHook:WeaveExistingAssemblies () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:62)
+Mirror.Weaver.CompilationFinishedHook:OnInitializeOnLoad () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:52)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs Line: 146)
+
+Find all reader and writers took 73 milliseconds
+Script Module: Unity.RenderPipelines.Core.ShaderLibrary.dll
+Weave behaviours and messages took0 milliseconds
+Find all reader and writers took 76 milliseconds
+Script Module: Unity.ProBuilder.Stl.dll
+Weave behaviours and messages took1 milliseconds
+Exception :System.IO.IOException: Sharing violation on path C:\Users\marco\OneDrive\Documents\JetTurbo\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <1c8569827291471e9db0dcd976e97952>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00000] in <1c8569827291471e9db0dcd976e97952>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
+  at Mono.CecilX.ModuleDefinition.GetFileStream (System.String fileName, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00006] in <9a2bc2dadc3549b3bfc74bb584d58989>:0 
+  at Mono.CecilX.ModuleDefinition.ReadModule (System.String fileName, Mono.CecilX.ReaderParameters parameters) [0x00008] in <9a2bc2dadc3549b3bfc74bb584d58989>:0 
+  at Mono.CecilX.AssemblyDefinition.ReadAssembly (System.String fileName, Mono.CecilX.ReaderParameters parameters) [0x00000] in <9a2bc2dadc3549b3bfc74bb584d58989>:0 
+  at Mirror.Weaver.Weaver.Weave (System.String assName, System.Collections.Generic.IEnumerable`1[T] dependencies) [0x00006] in C:\Users\marco\OneDrive\Documents\JetTurbo\Assets\Mirror\Editor\Weaver\Weaver.cs:176 
+  at Mirror.Weaver.Weaver.WeaveAssembly (System.String assembly, System.Collections.Generic.IEnumerable`1[T] dependencies) [0x00006] in C:\Users\marco\OneDrive\Documents\JetTurbo\Assets\Mirror\Editor\Weaver\Weaver.cs:247 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Mirror.Weaver.CompilationFinishedHook:HandleError (string) (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:35)
+Mirror.Weaver.Weaver:WeaveAssembly (string,System.Collections.Generic.IEnumerable`1<string>) (at Assets/Mirror/Editor/Weaver/Weaver.cs:251)
+Mirror.Weaver.CompilationFinishedHook:OnCompilationFinished (string,UnityEditor.Compilation.CompilerMessage[]) (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:142)
+Mirror.Weaver.CompilationFinishedHook:WeaveExistingAssemblies () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:62)
+Mirror.Weaver.CompilationFinishedHook:OnInitializeOnLoad () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:52)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs Line: 35)
+
+Weaving failed for: Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Mirror.Weaver.CompilationFinishedHook:OnCompilationFinished (string,UnityEditor.Compilation.CompilerMessage[]) (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:146)
+Mirror.Weaver.CompilationFinishedHook:WeaveExistingAssemblies () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:62)
+Mirror.Weaver.CompilationFinishedHook:OnInitializeOnLoad () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:52)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs Line: 146)
+
+Find all reader and writers took 110 milliseconds
+Script Module: UnityEditor.TestRunner.dll
+Weave behaviours and messages took26 milliseconds
+Find all reader and writers took 92 milliseconds
+Script Module: Unity.ProBuilder.AssetIdRemapUtility.dll
+Weave behaviours and messages took3 milliseconds
+Find all reader and writers took 70 milliseconds
+Script Module: Mirror.CompilerSymbols.dll
+Weave behaviours and messages took0 milliseconds
+Find all reader and writers took 102 milliseconds
+Script Module: UnityEditor.UI.dll
+Weave behaviours and messages took7 milliseconds
+Find all reader and writers took 78 milliseconds
+Script Module: Unity.ShaderGraph.Utilities.dll
+Weave behaviours and messages took0 milliseconds
+Mono: successfully reloaded assembly
+- Completed reload, in  4.782 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4782ms)
+		BeginReloadAssembly (117ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (4555ms)
+			LoadAssemblies (91ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (265ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (4093ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (91ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (409ms)
+				ProcessInitializeOnLoadMethodAttributes (3496ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3419 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 48 unused Assets / (1.9 MB). Loaded Objects now: 4002.
+Memory consumption went from 257.1 MB to 255.3 MB.
+Total: 4.648600 ms (FindLiveObjects: 0.300500 ms CreateObjectMapping: 0.249100 ms MarkObjects: 3.560200 ms  DeleteObjects: 0.537800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 140160.337999 seconds.
+  path: Assets/Toon City/Scenes/Demo_Scene_2.unity
+  artifactKey: Guid(e6cab21e300ae4121a2ab9b6871af456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Scenes/Demo_Scene_2.unity using Guid(e6cab21e300ae4121a2ab9b6871af456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '538b0eb99ba2988e1c1dcf26e8926cdb') in 0.012253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.225864 seconds.
+  path: Assets/Toon City/Scenes/Update_Demo Scene_2.unity
+  artifactKey: Guid(da763ba70bf244854a40c46a0b1365c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Scenes/Update_Demo Scene_2.unity using Guid(da763ba70bf244854a40c46a0b1365c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f691e11efcf5ebedbfdfbde86a20040') in 0.007427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.314918 seconds.
+  path: Assets/Toon City/Scenes/Update_Demo Scene_3.unity
+  artifactKey: Guid(bdc243660594d446fa706af695cf8745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Scenes/Update_Demo Scene_3.unity using Guid(bdc243660594d446fa706af695cf8745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cab079f5aa6873d61398ac74832fb9b') in 0.008555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.166724 seconds.
+  path: Assets/Toon City/Scenes/Update_Demo Scene_4.unity
+  artifactKey: Guid(812d7cf46550f4012b37dfbfbe71f6f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Scenes/Update_Demo Scene_4.unity using Guid(812d7cf46550f4012b37dfbfbe71f6f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a2456d8efd7ea20082c7edb63462dbb') in 0.008840 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005804 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.176 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1177ms)
+		BeginReloadAssembly (151ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (924ms)
+			LoadAssemblies (86ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (244ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (510ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (364ms)
+				ProcessInitializeOnLoadMethodAttributes (58ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3327 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (1.8 MB). Loaded Objects now: 4005.
+Memory consumption went from 247.5 MB to 245.6 MB.
+Total: 3.611600 ms (FindLiveObjects: 0.259700 ms CreateObjectMapping: 0.160300 ms MarkObjects: 2.748700 ms  DeleteObjects: 0.442400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 122.933900 seconds.
+  path: Assets/Toon City/Profiles/LUT/LUT_Autumn_Morning.psd
+  artifactKey: Guid(6c31cfac901deaf40a81d79b665f2fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Profiles/LUT/LUT_Autumn_Morning.psd using Guid(6c31cfac901deaf40a81d79b665f2fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b2db966c8522625136740a82a9db22e') in 0.072303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Toon City/Profiles/LUT/LUT_Sunny_Afternoon.psd
+  artifactKey: Guid(dfa405e092268c84989c70dfe83be2e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Profiles/LUT/LUT_Sunny_Afternoon.psd using Guid(dfa405e092268c84989c70dfe83be2e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '048f46842db67eb3c6a849bb7256e443') in 0.012786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 63.064939 seconds.
+  path: Assets/Scenes/Map1_Offline.unity
+  artifactKey: Guid(148acc0fff610dd46a0a9ad827627c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Map1_Offline.unity using Guid(148acc0fff610dd46a0a9ad827627c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7265f390a8138a1522b49855479a7e27') in 0.009872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 145.090401 seconds.
+  path: Assets/Toon City/Skyboxes/Skybox_Afternoon_1A.mat
+  artifactKey: Guid(328311cf4d55cf84898997e974e68cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Skyboxes/Skybox_Afternoon_1A.mat using Guid(328311cf4d55cf84898997e974e68cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9e740d5d2baa246b995a0c209ee5632') in 0.079782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.786471 seconds.
+  path: Assets/Toon City/Models/Materials/Skyscraper_2A_D.mat
+  artifactKey: Guid(23b365d566ae84cce99885c1a96d5ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Models/Materials/Skyscraper_2A_D.mat using Guid(23b365d566ae84cce99885c1a96d5ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8528a26b8fb3a74efa79b353a357368a') in 0.295929 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006295 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.200 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1201ms)
+		BeginReloadAssembly (164ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (941ms)
+			LoadAssemblies (101ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (254ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (523ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (367ms)
+				ProcessInitializeOnLoadMethodAttributes (62ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3327 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (1.8 MB). Loaded Objects now: 4051.
+Memory consumption went from 252.3 MB to 250.4 MB.
+Total: 3.660800 ms (FindLiveObjects: 0.275100 ms CreateObjectMapping: 0.160700 ms MarkObjects: 2.747000 ms  DeleteObjects: 0.477200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005053 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.192 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1193ms)
+		BeginReloadAssembly (145ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (941ms)
+			LoadAssemblies (93ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (252ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (517ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (363ms)
+				ProcessInitializeOnLoadMethodAttributes (58ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3327 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (1.8 MB). Loaded Objects now: 4054.
+Memory consumption went from 253.2 MB to 251.4 MB.
+Total: 3.801200 ms (FindLiveObjects: 0.277100 ms CreateObjectMapping: 0.163100 ms MarkObjects: 2.872000 ms  DeleteObjects: 0.488200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006280 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.185 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1186ms)
+		BeginReloadAssembly (152ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (939ms)
+			LoadAssemblies (96ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (254ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (524ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (369ms)
+				ProcessInitializeOnLoadMethodAttributes (61ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3327 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (1.8 MB). Loaded Objects now: 4057.
+Memory consumption went from 254.1 MB to 252.3 MB.
+Total: 3.749900 ms (FindLiveObjects: 0.279700 ms CreateObjectMapping: 0.189500 ms MarkObjects: 2.770900 ms  DeleteObjects: 0.509300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006535 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.156 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1157ms)
+		BeginReloadAssembly (152ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (909ms)
+			LoadAssemblies (86ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (241ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (508ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (358ms)
+				ProcessInitializeOnLoadMethodAttributes (61ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3327 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (1.8 MB). Loaded Objects now: 4060.
+Memory consumption went from 255.0 MB to 253.2 MB.
+Total: 3.721500 ms (FindLiveObjects: 0.282800 ms CreateObjectMapping: 0.194900 ms MarkObjects: 2.747800 ms  DeleteObjects: 0.495200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 473.201977 seconds.
+  path: Assets/Scenes/menu.unity
+  artifactKey: Guid(dd1175ad1a717854ea8ce077ab2286f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/menu.unity using Guid(dd1175ad1a717854ea8ce077ab2286f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b59c8beee09d18dcd2732c653681d7f') in 0.019482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 164.896555 seconds.
+  path: Assets/Toon City/Models/Materials/Building_16A_D.mat
+  artifactKey: Guid(f522aa164273648948b2f3a6db0a4dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Models/Materials/Building_16A_D.mat using Guid(f522aa164273648948b2f3a6db0a4dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6ea3b821f6e2ba26b978e0b248b275a') in 0.079871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Toon City/Models/Materials/Car_15B_D.mat
+  artifactKey: Guid(0e0b4d6a685a0474aa7afaeed7ffdd88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Models/Materials/Car_15B_D.mat using Guid(0e0b4d6a685a0474aa7afaeed7ffdd88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '526784011b278adc81c87e88944c4ca6') in 0.013030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Toon City/Models/Materials/Tree_1A_D.mat
+  artifactKey: Guid(1352bb60b506b492eab17262b28279d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Models/Materials/Tree_1A_D.mat using Guid(1352bb60b506b492eab17262b28279d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '537e6cbe2ff90094f9d6ea9e4affd626') in 0.014580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Toon City/Models/Materials/Car_16A_D.mat
+  artifactKey: Guid(93c2a4641cdab49a3984cfbd70d41b1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Models/Materials/Car_16A_D.mat using Guid(93c2a4641cdab49a3984cfbd70d41b1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caa028d0cbad434e3ff80f99ebd52283') in 0.016747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Toon City/Models/Materials/Tree_3A_D.mat
+  artifactKey: Guid(35bc5180a0c3b4358bd0855ebd20a470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Models/Materials/Tree_3A_D.mat using Guid(35bc5180a0c3b4358bd0855ebd20a470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1ab0f762d52dd53845df0e367fadf80') in 0.013045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Toon City/Models/Materials/Road_2A_D.mat
+  artifactKey: Guid(d9a03c533a8c14139a68851d19d40b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Models/Materials/Road_2A_D.mat using Guid(d9a03c533a8c14139a68851d19d40b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a621a26a377fcb74c541f93b5715104') in 0.015428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Toon City/Models/Materials/Car_10D_D.mat
+  artifactKey: Guid(d7e4e9b9fc67e48bd8ea09fa2eacbb65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Models/Materials/Car_10D_D.mat using Guid(d7e4e9b9fc67e48bd8ea09fa2eacbb65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '942631955c1e8feb05e83bfdbf512ae5') in 0.015733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Toon City/Models/Materials/Light_Blue.mat
+  artifactKey: Guid(805c51b7cc20b4c84834cec7b5381c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Models/Materials/Light_Blue.mat using Guid(805c51b7cc20b4c84834cec7b5381c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f10bdbca4342d6033626017772b5067') in 0.021405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Toon City/Models/Materials/Car_17A_D.mat
+  artifactKey: Guid(fe75d89fc810145eb8dc289993fcdb97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Models/Materials/Car_17A_D.mat using Guid(fe75d89fc810145eb8dc289993fcdb97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7a10df1446404487f0b750a84651e33') in 0.014413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Toon City/Models/Materials/Car_4E_D.mat
+  artifactKey: Guid(82d90f8bd75684695a3f76bfeea2fb8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Models/Materials/Car_4E_D.mat using Guid(82d90f8bd75684695a3f76bfeea2fb8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04e74a3f105c54af652b45446cd087d2') in 0.015945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Toon City/Models/Materials/Service_Helicopter_1A_D.mat
+  artifactKey: Guid(f912382ffacce4de6be6885b70af1b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Models/Materials/Service_Helicopter_1A_D.mat using Guid(f912382ffacce4de6be6885b70af1b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2523b6e77efbc661b05bcceaf9d09f5') in 0.015276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Toon City/Models/Materials/Building_20A_D.mat
+  artifactKey: Guid(38b69f0a0ef206f4388a3a2380dd9b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Models/Materials/Building_20A_D.mat using Guid(38b69f0a0ef206f4388a3a2380dd9b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '528bc5c2ab90250ba7ee31810efda187') in 0.013313 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Toon City/Models/Materials/Props_2A_D.mat
+  artifactKey: Guid(4bf2123b420384ecfb748592188deb63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Models/Materials/Props_2A_D.mat using Guid(4bf2123b420384ecfb748592188deb63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e3b0c8d781109cc8a71e69d6a68316c') in 0.015046 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Toon City/Models/Materials/Car_4D_D.mat
+  artifactKey: Guid(974453634cfb84c05a3a9fcf6131b16b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Models/Materials/Car_4D_D.mat using Guid(974453634cfb84c05a3a9fcf6131b16b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06f3b713fe0403469bc565b0b332c6f5') in 0.016678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Toon City/Models/Materials/Car_10C_D.mat
+  artifactKey: Guid(583a671e1d2fd49b994d997ea69357cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Models/Materials/Car_10C_D.mat using Guid(583a671e1d2fd49b994d997ea69357cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b5a88cb05631c6535d33a7005f3d233') in 0.022195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Toon City/Models/Materials/Smoke_Black.mat
+  artifactKey: Guid(e2c7442f868504d24bb2df826c632cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Models/Materials/Smoke_Black.mat using Guid(e2c7442f868504d24bb2df826c632cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a02697a74a0d91865acee4f9a84fe1e') in 0.054090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Toon City/Models/Materials/Light_Red.mat
+  artifactKey: Guid(c03ede3143de248748e6fd3fa5e0b4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Models/Materials/Light_Red.mat using Guid(c03ede3143de248748e6fd3fa5e0b4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5e067f12a533a3a535d9196ac555c7b') in 0.018319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Toon City/Models/Materials/Clouds_D.mat
+  artifactKey: Guid(133566210696d47dca6aa516a8841936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Models/Materials/Clouds_D.mat using Guid(133566210696d47dca6aa516a8841936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '477b5d15425bbb2b7af2873d01ec7431') in 0.014968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Toon City/Models/Materials/Smoke_Grey.mat
+  artifactKey: Guid(478d7590dde524f528671bea5f378be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Models/Materials/Smoke_Grey.mat using Guid(478d7590dde524f528671bea5f378be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75b4ad6f8a8c47dd56ab398be1d4e86f') in 0.013335 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Toon City/Models/Materials/Logo_1B_D.mat
+  artifactKey: Guid(1a18f5569743d495db06976eccef9b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Models/Materials/Logo_1B_D.mat using Guid(1a18f5569743d495db06976eccef9b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '125621e89be66215949efb369c7e89c3') in 0.020674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Toon City/Models/Materials/News_Helicopter_1A_D.mat
+  artifactKey: Guid(da60d1bfb00df4da9960de012abf569e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Models/Materials/News_Helicopter_1A_D.mat using Guid(da60d1bfb00df4da9960de012abf569e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a44388ec56d2873122f36d6b9d519a0') in 0.016525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Toon City/Models/Materials/Building_19A_D.mat
+  artifactKey: Guid(6f5f18a864dc4794383940620137fac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Models/Materials/Building_19A_D.mat using Guid(6f5f18a864dc4794383940620137fac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bd289cf8cfb8df675221ffe0c4fd9f6') in 0.012605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Toon City/Models/Materials/Logo_1A_D.mat
+  artifactKey: Guid(070684557a597400d998b2b5f9b946d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Models/Materials/Logo_1A_D.mat using Guid(070684557a597400d998b2b5f9b946d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '366633c3a760d19d0fd764adbb226738') in 0.044931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Toon City/Models/Materials/Car_7D_D.mat
+  artifactKey: Guid(b5e30503b0293495a97979ee70bb0ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Models/Materials/Car_7D_D.mat using Guid(b5e30503b0293495a97979ee70bb0ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c3887781c46efab6b8d0b84f1be6f01') in 0.014957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Toon City/Models/Materials/Car_14C_D.mat
+  artifactKey: Guid(ec8ee9404d4744a799bcf92fb5b3535d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Models/Materials/Car_14C_D.mat using Guid(ec8ee9404d4744a799bcf92fb5b3535d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea333a44ef0d47b36f20f6be3d7867ee') in 0.015228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Toon City/Models/Materials/Car_3B_D.mat
+  artifactKey: Guid(38ae77aa49fc642f0b80cec41ab37e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Models/Materials/Car_3B_D.mat using Guid(38ae77aa49fc642f0b80cec41ab37e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37a9deed3e791a90e736bb295df359ff') in 0.017264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Toon City/Models/Materials/Car_11A_D.mat
+  artifactKey: Guid(a31074dab92f54b43889609358a3320b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Models/Materials/Car_11A_D.mat using Guid(a31074dab92f54b43889609358a3320b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93c4d110c2e800c1983283a56951575e') in 0.017981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Toon City/Models/Materials/Pavement_1A_D.mat
+  artifactKey: Guid(ab1f2cc08784ac845b668abf1bcde205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon City/Models/Materials/Pavement_1A_D.mat using Guid(ab1f2cc08784ac845b668abf1bcde205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27bba7bcf733359a9301edddf24a261d') in 0.184105 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
