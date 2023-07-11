@@ -33,12 +33,19 @@ public class SettingsMenu : MonoBehaviour
 
     public void SetVolume(float volume)
     {
-       audioMixer.SetFloat("Volume", volume);
+       PlayerPrefs.SetFloat("vol", volume);
+       audioMixer.SetFloat("Volume", PlayerPrefs.GetFloat("vol"));
+    }
+
+    public void SetSensitvity(float sens)
+    {
+       PlayerPrefs.SetFloat("Mouse Sensitivity", sens);
     }
 
     public void SetQuality(int qualityIndex)
     {
-        QualitySettings.SetQualityLevel(qualityIndex);
+        PlayerPrefs.SetInt("quality", qualityIndex);
+        QualitySettings.SetQualityLevel(PlayerPrefs.GetInt("quality"));
     }
 
     public void SetFullScreen(bool isFs)

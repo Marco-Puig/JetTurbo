@@ -68,7 +68,7 @@ public class airTimeOffline : MonoBehaviour
                 performedTrick = true;
 
                 //updated score to level will need to adjust how much exp you get
-                PlayerPrefs.SetFloat("Level", PlayerPrefs.GetFloat("Level") + (score_count / 200));
+                PlayerPrefs.SetFloat("Level", PlayerPrefs.GetFloat("Level") + (score_count / 2000));
             }
         }
         else{

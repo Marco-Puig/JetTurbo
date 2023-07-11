@@ -79,8 +79,8 @@ public class HoverboardOffline : MonoBehaviour
         else{
             //still be able to look around when in the air
             if (!isPaused){
-                hb.AddTorque(Input.GetAxis("Mouse X") * turnTorque * hb.transform.up);
-                hb.AddTorque(Input.GetAxis("Joystick X") * turnTorque * hb.transform.up);                
+                hb.AddTorque(Input.GetAxis("Mouse X") * turnTorque * hb.transform.up * PlayerPrefs.GetFloat("Mouse Sensitivity"));
+                hb.AddTorque(Input.GetAxis("Joystick X") * turnTorque * hb.transform.up * PlayerPrefs.GetFloat("Mouse Sensitivity"));                
             }
         }
 
@@ -135,8 +135,8 @@ public class HoverboardOffline : MonoBehaviour
         if (!(l == true || r == true))
         {
             if (!isPaused){
-                hb.AddTorque(Input.GetAxis("Mouse X") * turnTorque * transform.up);
-                hb.AddTorque(Input.GetAxis("Joystick X") * turnTorque * transform.up);
+                hb.AddTorque(Input.GetAxis("Mouse X") * turnTorque * transform.up * PlayerPrefs.GetFloat("Mouse Sensitivity"));
+                hb.AddTorque(Input.GetAxis("Joystick X") * turnTorque * transform.up * PlayerPrefs.GetFloat("Mouse Sensitivity"));
             }
         }
     }
@@ -271,7 +271,7 @@ public class HoverboardOffline : MonoBehaviour
 
     void Drifting(){
         //torque value
-        float driftTorque = Mathf.Lerp(0, 200, 15f);
+        float driftTorque = Mathf.Lerp(0, 120, 15f);
         //right
         if ((Input.GetKey(KeyCode.LeftShift) && Input.GetKey(KeyCode.D) || Input.GetButton("RB")) && (Input.GetKey(KeyCode.Mouse1) || Input.GetAxis("RT") > 0) && boostPad == false && (!(l == true || r == true)) && driftCoolDown == false)
         {
@@ -284,9 +284,11 @@ public class HoverboardOffline : MonoBehaviour
             if (drift_countR >= 80){
                 at.coroutineQueue.Enqueue(at.boost());
                 driftBoost = true;
+                InAir = false;
             }
             else
                 boostEffect.startColor = Color.magenta;
+                InAir = true;
         }
         else{
             drift_countR = 0; 
