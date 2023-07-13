@@ -15,7 +15,7 @@ C:/Users/marco/OneDrive/Documents/JetTurbo
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49840
+54682
 Successfully changed project path to: C:/Users/marco/OneDrive/Documents/JetTurbo
 C:/Users/marco/OneDrive/Documents/JetTurbo
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/marco/OneDrive/Documents/JetTurbo
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [12636] Host "[IP] 10.0.0.132 [Port] 0 [Flags] 2 [Guid] 4100528183 [EditorId] 4100528183 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KHEODDI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [5768] Host "[IP] 10.0.0.132 [Port] 0 [Flags] 2 [Guid] 331960486 [EditorId] 331960486 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KHEODDI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [12636] Host "[IP] 10.0.0.132 [Port] 0 [Flags] 2 [Guid] 4100528183 [EditorId] 4100528183 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KHEODDI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [5768] Host "[IP] 10.0.0.132 [Port] 0 [Flags] 2 [Guid] 331960486 [EditorId] 331960486 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KHEODDI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 96.13 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 92.56 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.26f1 (a16dc32e0ff2)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/Resources/UnitySubsystems
@@ -143,8 +143,8 @@ Fossilize ERROR: Failed to parse ApplicationInfoFilter, letting recording go thr
 [vulkan] Loaded instance function vkGetPhysicalDeviceMemoryProperties2KHR
 [vulkan] Loaded instance function vkGetPhysicalDeviceSparseImageFormatProperties2KHR
 [Vulkan init] SelectPhysicalDevice requestedDeviceIndex=-1 xrDevice=0000000000000000
-[Vulkan init] Physical Device 00000170B8587370 [0]: "NVIDIA GeForce GTX 1070" deviceType=2 vendorID=10de deviceID=1b81
-[Vulkan init] Selected physical device 00000170B8587370
+[Vulkan init] Physical Device 0000021018658660 [0]: "NVIDIA GeForce GTX 1070" deviceType=2 vendorID=10de deviceID=1b81
+[Vulkan init] Selected physical device 0000021018658660
 [Vulkan init] Graphics queue count=1
 [Vulkan init] extensions: count=164
 [Vulkan init] extensions: name=VK_KHR_16bit_storage, enabled=1
@@ -452,53 +452,53 @@ Vulkan vendor=[NVIDIA] id=[10de]
 Vulkan renderer=[NVIDIA GeForce GTX 1070] id=[1b81]
 Vulkan device type 2
 Vulkan driverversion=[0x860a0000] uint=[-2046164992]
-Vulkan PSO: Cache data successfully loaded [size=4712181,path=C:/Users/marco/AppData/Local/Temp/ButteredPopcornLLC/JetTurbo/vulkan_pso_cache.bin]
+Vulkan PSO: Cache data successfully loaded [size=4746430,path=C:/Users/marco/AppData/Local/Temp/ButteredPopcornLLC/JetTurbo/vulkan_pso_cache.bin]
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56900
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56992
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006826 seconds.
+Registered in 0.006850 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 99.90 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 106.85 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.711 seconds
+- Completed reload, in  0.695 seconds
 Domain Reload Profiling:
-	ReloadAssembly (711ms)
-		BeginReloadAssembly (86ms)
+	ReloadAssembly (696ms)
+		BeginReloadAssembly (84ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (516ms)
-			LoadAssemblies (83ms)
+		EndReloadAssembly (510ms)
+			LoadAssemblies (80ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (109ms)
+			SetupTypeCache (101ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (310ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (331ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (100ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (149ms)
-				ProcessInitializeOnLoadMethodAttributes (52ms)
+				RefreshPlugins (107ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (164ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005444 seconds.
+Registered in 0.005511 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 91.60 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 92.62 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 Exception :System.IO.IOException: Sharing violation on path C:\Users\marco\OneDrive\Documents\JetTurbo\Library\ScriptAssemblies\UnityEngine.UI.dll
@@ -539,10 +539,7 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 (Filename: Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs Line: 146)
 
-Find all reader and writers took 110 milliseconds
-Script Module: Unity.RenderPipelines.Core.Runtime.dll
-Weave behaviours and messages took84 milliseconds
-Exception :System.IO.IOException: Sharing violation on path C:\Users\marco\OneDrive\Documents\JetTurbo\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Exception :System.IO.IOException: Sharing violation on path C:\Users\marco\OneDrive\Documents\JetTurbo\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
   at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <1c8569827291471e9db0dcd976e97952>:0 
   at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00000] in <1c8569827291471e9db0dcd976e97952>:0 
   at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
@@ -566,7 +563,7 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 (Filename: Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs Line: 35)
 
-Weaving failed for: Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Weaving failed for: Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
 UnityEngine.Logger:Log (UnityEngine.LogType,object)
@@ -580,9 +577,12 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 (Filename: Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs Line: 146)
 
-Find all reader and writers took 70 milliseconds
+Find all reader and writers took 105 milliseconds
+Script Module: UnityEngine.TestRunner.dll
+Weave behaviours and messages took37 milliseconds
+Find all reader and writers took 66 milliseconds
 Script Module: SimpleWebTransport.dll
-Weave behaviours and messages took6 milliseconds
+Weave behaviours and messages took11 milliseconds
 Exception :System.IO.IOException: Sharing violation on path C:\Users\marco\OneDrive\Documents\JetTurbo\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
   at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <1c8569827291471e9db0dcd976e97952>:0 
   at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00000] in <1c8569827291471e9db0dcd976e97952>:0 
@@ -621,50 +621,15 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 (Filename: Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs Line: 146)
 
-Find all reader and writers took 87 milliseconds
+Find all reader and writers took 90 milliseconds
 Script Module: Unity.TextMeshPro.dll
-Weave behaviours and messages took66 milliseconds
-Exception :System.IO.IOException: Sharing violation on path C:\Users\marco\OneDrive\Documents\JetTurbo\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <1c8569827291471e9db0dcd976e97952>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00000] in <1c8569827291471e9db0dcd976e97952>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
-  at Mono.CecilX.ModuleDefinition.GetFileStream (System.String fileName, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00006] in <9a2bc2dadc3549b3bfc74bb584d58989>:0 
-  at Mono.CecilX.ModuleDefinition.ReadModule (System.String fileName, Mono.CecilX.ReaderParameters parameters) [0x00008] in <9a2bc2dadc3549b3bfc74bb584d58989>:0 
-  at Mono.CecilX.AssemblyDefinition.ReadAssembly (System.String fileName, Mono.CecilX.ReaderParameters parameters) [0x00000] in <9a2bc2dadc3549b3bfc74bb584d58989>:0 
-  at Mirror.Weaver.Weaver.Weave (System.String assName, System.Collections.Generic.IEnumerable`1[T] dependencies) [0x00006] in C:\Users\marco\OneDrive\Documents\JetTurbo\Assets\Mirror\Editor\Weaver\Weaver.cs:176 
-  at Mirror.Weaver.Weaver.WeaveAssembly (System.String assembly, System.Collections.Generic.IEnumerable`1[T] dependencies) [0x00006] in C:\Users\marco\OneDrive\Documents\JetTurbo\Assets\Mirror\Editor\Weaver\Weaver.cs:247 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-Mirror.Weaver.CompilationFinishedHook:HandleError (string) (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:35)
-Mirror.Weaver.Weaver:WeaveAssembly (string,System.Collections.Generic.IEnumerable`1<string>) (at Assets/Mirror/Editor/Weaver/Weaver.cs:251)
-Mirror.Weaver.CompilationFinishedHook:OnCompilationFinished (string,UnityEditor.Compilation.CompilerMessage[]) (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:142)
-Mirror.Weaver.CompilationFinishedHook:WeaveExistingAssemblies () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:62)
-Mirror.Weaver.CompilationFinishedHook:OnInitializeOnLoad () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:52)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-(Filename: Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs Line: 35)
-
-Weaving failed for: Library/ScriptAssemblies/Unity.ProBuilder.Poly2Tri.dll
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-Mirror.Weaver.CompilationFinishedHook:OnCompilationFinished (string,UnityEditor.Compilation.CompilerMessage[]) (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:146)
-Mirror.Weaver.CompilationFinishedHook:WeaveExistingAssemblies () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:62)
-Mirror.Weaver.CompilationFinishedHook:OnInitializeOnLoad () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:52)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-(Filename: Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs Line: 146)
-
-Find all reader and writers took 67 milliseconds
+Weave behaviours and messages took64 milliseconds
+Find all reader and writers took 72 milliseconds
+Script Module: Unity.ProBuilder.Poly2Tri.dll
+Weave behaviours and messages took7 milliseconds
+Find all reader and writers took 77 milliseconds
 Script Module: Unity.Timeline.dll
-Weave behaviours and messages took20 milliseconds
+Weave behaviours and messages took26 milliseconds
 Exception :System.IO.IOException: Sharing violation on path C:\Users\marco\OneDrive\Documents\JetTurbo\Library\ScriptAssemblies\Unity.ProBuilder.dll
   at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <1c8569827291471e9db0dcd976e97952>:0 
   at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00000] in <1c8569827291471e9db0dcd976e97952>:0 
@@ -703,19 +668,51 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 (Filename: Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs Line: 146)
 
-Find all reader and writers took 73 milliseconds
+Find all reader and writers took 64 milliseconds
 Script Module: Telepathy.dll
 Weave behaviours and messages took2 milliseconds
-Find all reader and writers took 71 milliseconds
-Script Module: Unity.ProBuilder.Csg.dll
-Weave behaviours and messages took1 milliseconds
-Find all reader and writers took 71 milliseconds
+Exception :System.IO.IOException: Sharing violation on path C:\Users\marco\OneDrive\Documents\JetTurbo\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <1c8569827291471e9db0dcd976e97952>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00000] in <1c8569827291471e9db0dcd976e97952>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
+  at Mono.CecilX.ModuleDefinition.GetFileStream (System.String fileName, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00006] in <9a2bc2dadc3549b3bfc74bb584d58989>:0 
+  at Mono.CecilX.ModuleDefinition.ReadModule (System.String fileName, Mono.CecilX.ReaderParameters parameters) [0x00008] in <9a2bc2dadc3549b3bfc74bb584d58989>:0 
+  at Mono.CecilX.AssemblyDefinition.ReadAssembly (System.String fileName, Mono.CecilX.ReaderParameters parameters) [0x00000] in <9a2bc2dadc3549b3bfc74bb584d58989>:0 
+  at Mirror.Weaver.Weaver.Weave (System.String assName, System.Collections.Generic.IEnumerable`1[T] dependencies) [0x00006] in C:\Users\marco\OneDrive\Documents\JetTurbo\Assets\Mirror\Editor\Weaver\Weaver.cs:176 
+  at Mirror.Weaver.Weaver.WeaveAssembly (System.String assembly, System.Collections.Generic.IEnumerable`1[T] dependencies) [0x00006] in C:\Users\marco\OneDrive\Documents\JetTurbo\Assets\Mirror\Editor\Weaver\Weaver.cs:247 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Mirror.Weaver.CompilationFinishedHook:HandleError (string) (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:35)
+Mirror.Weaver.Weaver:WeaveAssembly (string,System.Collections.Generic.IEnumerable`1<string>) (at Assets/Mirror/Editor/Weaver/Weaver.cs:251)
+Mirror.Weaver.CompilationFinishedHook:OnCompilationFinished (string,UnityEditor.Compilation.CompilerMessage[]) (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:142)
+Mirror.Weaver.CompilationFinishedHook:WeaveExistingAssemblies () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:62)
+Mirror.Weaver.CompilationFinishedHook:OnInitializeOnLoad () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:52)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs Line: 35)
+
+Weaving failed for: Library/ScriptAssemblies/Unity.ProBuilder.Csg.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Mirror.Weaver.CompilationFinishedHook:OnCompilationFinished (string,UnityEditor.Compilation.CompilerMessage[]) (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:146)
+Mirror.Weaver.CompilationFinishedHook:WeaveExistingAssemblies () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:62)
+Mirror.Weaver.CompilationFinishedHook:OnInitializeOnLoad () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:52)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs Line: 146)
+
+Find all reader and writers took 70 milliseconds
 Script Module: kcp2k.dll
 Weave behaviours and messages took3 milliseconds
-Find all reader and writers took 60 milliseconds
-Script Module: Unity.ProBuilder.KdTree.dll
-Weave behaviours and messages took2 milliseconds
-Exception :System.IO.IOException: Sharing violation on path C:\Users\marco\OneDrive\Documents\JetTurbo\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Exception :System.IO.IOException: Sharing violation on path C:\Users\marco\OneDrive\Documents\JetTurbo\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
   at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <1c8569827291471e9db0dcd976e97952>:0 
   at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00000] in <1c8569827291471e9db0dcd976e97952>:0 
   at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
@@ -739,7 +736,7 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 (Filename: Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs Line: 35)
 
-Weaving failed for: Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll
+Weaving failed for: Library/ScriptAssemblies/Unity.ProBuilder.KdTree.dll
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
 UnityEngine.Logger:Log (UnityEngine.LogType,object)
@@ -753,10 +750,10 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 (Filename: Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs Line: 146)
 
-Find all reader and writers took 72 milliseconds
-Script Module: Unity.ProBuilder.Stl.dll
-Weave behaviours and messages took1 milliseconds
-Exception :System.IO.IOException: Sharing violation on path C:\Users\marco\OneDrive\Documents\JetTurbo\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Find all reader and writers took 68 milliseconds
+Script Module: Unity.RenderPipelines.Core.ShaderLibrary.dll
+Weave behaviours and messages took0 milliseconds
+Exception :System.IO.IOException: Sharing violation on path C:\Users\marco\OneDrive\Documents\JetTurbo\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
   at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <1c8569827291471e9db0dcd976e97952>:0 
   at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00000] in <1c8569827291471e9db0dcd976e97952>:0 
   at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
@@ -780,7 +777,7 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 (Filename: Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs Line: 35)
 
-Weaving failed for: Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Weaving failed for: Library/ScriptAssemblies/Unity.ProBuilder.Stl.dll
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
 UnityEngine.Logger:Log (UnityEngine.LogType,object)
@@ -794,115 +791,83 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 (Filename: Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs Line: 146)
 
-Find all reader and writers took 95 milliseconds
-Script Module: UnityEditor.TestRunner.dll
-Weave behaviours and messages took36 milliseconds
-Find all reader and writers took 94 milliseconds
+Find all reader and writers took 67 milliseconds
+Script Module: Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Weave behaviours and messages took0 milliseconds
+Exception :System.IO.IOException: Sharing violation on path C:\Users\marco\OneDrive\Documents\JetTurbo\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <1c8569827291471e9db0dcd976e97952>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00000] in <1c8569827291471e9db0dcd976e97952>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
+  at Mono.CecilX.ModuleDefinition.GetFileStream (System.String fileName, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00006] in <9a2bc2dadc3549b3bfc74bb584d58989>:0 
+  at Mono.CecilX.ModuleDefinition.ReadModule (System.String fileName, Mono.CecilX.ReaderParameters parameters) [0x00008] in <9a2bc2dadc3549b3bfc74bb584d58989>:0 
+  at Mono.CecilX.AssemblyDefinition.ReadAssembly (System.String fileName, Mono.CecilX.ReaderParameters parameters) [0x00000] in <9a2bc2dadc3549b3bfc74bb584d58989>:0 
+  at Mirror.Weaver.Weaver.Weave (System.String assName, System.Collections.Generic.IEnumerable`1[T] dependencies) [0x00006] in C:\Users\marco\OneDrive\Documents\JetTurbo\Assets\Mirror\Editor\Weaver\Weaver.cs:176 
+  at Mirror.Weaver.Weaver.WeaveAssembly (System.String assembly, System.Collections.Generic.IEnumerable`1[T] dependencies) [0x00006] in C:\Users\marco\OneDrive\Documents\JetTurbo\Assets\Mirror\Editor\Weaver\Weaver.cs:247 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Mirror.Weaver.CompilationFinishedHook:HandleError (string) (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:35)
+Mirror.Weaver.Weaver:WeaveAssembly (string,System.Collections.Generic.IEnumerable`1<string>) (at Assets/Mirror/Editor/Weaver/Weaver.cs:251)
+Mirror.Weaver.CompilationFinishedHook:OnCompilationFinished (string,UnityEditor.Compilation.CompilerMessage[]) (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:142)
+Mirror.Weaver.CompilationFinishedHook:WeaveExistingAssemblies () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:62)
+Mirror.Weaver.CompilationFinishedHook:OnInitializeOnLoad () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:52)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs Line: 35)
+
+Weaving failed for: Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Mirror.Weaver.CompilationFinishedHook:OnCompilationFinished (string,UnityEditor.Compilation.CompilerMessage[]) (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:146)
+Mirror.Weaver.CompilationFinishedHook:WeaveExistingAssemblies () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:62)
+Mirror.Weaver.CompilationFinishedHook:OnInitializeOnLoad () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:52)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs Line: 146)
+
+Find all reader and writers took 93 milliseconds
 Script Module: Unity.ProBuilder.AssetIdRemapUtility.dll
-Weave behaviours and messages took3 milliseconds
-Find all reader and writers took 74 milliseconds
+Weave behaviours and messages took6 milliseconds
+Find all reader and writers took 79 milliseconds
 Script Module: Mirror.CompilerSymbols.dll
 Weave behaviours and messages took0 milliseconds
-Exception :System.IO.IOException: Sharing violation on path C:\Users\marco\OneDrive\Documents\JetTurbo\Library\ScriptAssemblies\UnityEditor.UI.dll
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <1c8569827291471e9db0dcd976e97952>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00000] in <1c8569827291471e9db0dcd976e97952>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
-  at Mono.CecilX.ModuleDefinition.GetFileStream (System.String fileName, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00006] in <9a2bc2dadc3549b3bfc74bb584d58989>:0 
-  at Mono.CecilX.ModuleDefinition.ReadModule (System.String fileName, Mono.CecilX.ReaderParameters parameters) [0x00008] in <9a2bc2dadc3549b3bfc74bb584d58989>:0 
-  at Mono.CecilX.AssemblyDefinition.ReadAssembly (System.String fileName, Mono.CecilX.ReaderParameters parameters) [0x00000] in <9a2bc2dadc3549b3bfc74bb584d58989>:0 
-  at Mirror.Weaver.Weaver.Weave (System.String assName, System.Collections.Generic.IEnumerable`1[T] dependencies) [0x00006] in C:\Users\marco\OneDrive\Documents\JetTurbo\Assets\Mirror\Editor\Weaver\Weaver.cs:176 
-  at Mirror.Weaver.Weaver.WeaveAssembly (System.String assembly, System.Collections.Generic.IEnumerable`1[T] dependencies) [0x00006] in C:\Users\marco\OneDrive\Documents\JetTurbo\Assets\Mirror\Editor\Weaver\Weaver.cs:247 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-Mirror.Weaver.CompilationFinishedHook:HandleError (string) (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:35)
-Mirror.Weaver.Weaver:WeaveAssembly (string,System.Collections.Generic.IEnumerable`1<string>) (at Assets/Mirror/Editor/Weaver/Weaver.cs:251)
-Mirror.Weaver.CompilationFinishedHook:OnCompilationFinished (string,UnityEditor.Compilation.CompilerMessage[]) (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:142)
-Mirror.Weaver.CompilationFinishedHook:WeaveExistingAssemblies () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:62)
-Mirror.Weaver.CompilationFinishedHook:OnInitializeOnLoad () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:52)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-(Filename: Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs Line: 35)
-
-Weaving failed for: Library/ScriptAssemblies/UnityEditor.UI.dll
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-Mirror.Weaver.CompilationFinishedHook:OnCompilationFinished (string,UnityEditor.Compilation.CompilerMessage[]) (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:146)
-Mirror.Weaver.CompilationFinishedHook:WeaveExistingAssemblies () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:62)
-Mirror.Weaver.CompilationFinishedHook:OnInitializeOnLoad () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:52)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-(Filename: Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs Line: 146)
-
-Exception :System.IO.IOException: Sharing violation on path C:\Users\marco\OneDrive\Documents\JetTurbo\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <1c8569827291471e9db0dcd976e97952>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00000] in <1c8569827291471e9db0dcd976e97952>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
-  at Mono.CecilX.ModuleDefinition.GetFileStream (System.String fileName, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00006] in <9a2bc2dadc3549b3bfc74bb584d58989>:0 
-  at Mono.CecilX.ModuleDefinition.ReadModule (System.String fileName, Mono.CecilX.ReaderParameters parameters) [0x00008] in <9a2bc2dadc3549b3bfc74bb584d58989>:0 
-  at Mono.CecilX.AssemblyDefinition.ReadAssembly (System.String fileName, Mono.CecilX.ReaderParameters parameters) [0x00000] in <9a2bc2dadc3549b3bfc74bb584d58989>:0 
-  at Mirror.Weaver.Weaver.Weave (System.String assName, System.Collections.Generic.IEnumerable`1[T] dependencies) [0x00006] in C:\Users\marco\OneDrive\Documents\JetTurbo\Assets\Mirror\Editor\Weaver\Weaver.cs:176 
-  at Mirror.Weaver.Weaver.WeaveAssembly (System.String assembly, System.Collections.Generic.IEnumerable`1[T] dependencies) [0x00006] in C:\Users\marco\OneDrive\Documents\JetTurbo\Assets\Mirror\Editor\Weaver\Weaver.cs:247 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-Mirror.Weaver.CompilationFinishedHook:HandleError (string) (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:35)
-Mirror.Weaver.Weaver:WeaveAssembly (string,System.Collections.Generic.IEnumerable`1<string>) (at Assets/Mirror/Editor/Weaver/Weaver.cs:251)
-Mirror.Weaver.CompilationFinishedHook:OnCompilationFinished (string,UnityEditor.Compilation.CompilerMessage[]) (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:142)
-Mirror.Weaver.CompilationFinishedHook:WeaveExistingAssemblies () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:62)
-Mirror.Weaver.CompilationFinishedHook:OnInitializeOnLoad () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:52)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-(Filename: Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs Line: 35)
-
-Weaving failed for: Library/ScriptAssemblies/Unity.ShaderGraph.Utilities.dll
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-Mirror.Weaver.CompilationFinishedHook:OnCompilationFinished (string,UnityEditor.Compilation.CompilerMessage[]) (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:146)
-Mirror.Weaver.CompilationFinishedHook:WeaveExistingAssemblies () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:62)
-Mirror.Weaver.CompilationFinishedHook:OnInitializeOnLoad () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:52)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-(Filename: Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs Line: 146)
-
+Find all reader and writers took 94 milliseconds
+Script Module: UnityEditor.UI.dll
+Weave behaviours and messages took10 milliseconds
+Find all reader and writers took 77 milliseconds
+Script Module: Unity.ShaderGraph.Utilities.dll
+Weave behaviours and messages took0 milliseconds
 Mono: successfully reloaded assembly
-- Completed reload, in  4.560 seconds
+- Completed reload, in  4.663 seconds
 Domain Reload Profiling:
-	ReloadAssembly (4561ms)
-		BeginReloadAssembly (114ms)
+	ReloadAssembly (4664ms)
+		BeginReloadAssembly (119ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (4335ms)
-			LoadAssemblies (86ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (4441ms)
+			LoadAssemblies (89ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (257ms)
+			SetupTypeCache (272ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (61ms)
-			SetupLoadedEditorAssemblies (3895ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (3976ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (92ms)
-				BeforeProcessingInitializeOnLoad (93ms)
-				ProcessInitializeOnLoadAttributes (467ms)
-				ProcessInitializeOnLoadMethodAttributes (3231ms)
+				RefreshPlugins (93ms)
+				BeforeProcessingInitializeOnLoad (98ms)
+				ProcessInitializeOnLoadAttributes (401ms)
+				ProcessInitializeOnLoadMethodAttributes (3371ms)
 				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -910,13 +875,13 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 2.54 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.26 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3419 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 47 unused Assets / (1.8 MB). Loaded Objects now: 4007.
 Memory consumption went from 258.1 MB to 256.3 MB.
-Total: 4.319600 ms (FindLiveObjects: 0.304300 ms CreateObjectMapping: 0.214900 ms MarkObjects: 3.330400 ms  DeleteObjects: 0.468700 ms)
+Total: 4.508600 ms (FindLiveObjects: 0.301300 ms CreateObjectMapping: 0.184300 ms MarkObjects: 3.451300 ms  DeleteObjects: 0.570600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -930,7 +895,77 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 265685.728441 seconds.
-  path: Assets/Scenes/Map1_Offline.unity
-  artifactKey: Guid(148acc0fff610dd46a0a9ad827627c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Map1_Offline.unity using Guid(148acc0fff610dd46a0a9ad827627c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2a8e5dc48ea38c21268fad0fd492f87') in 0.012753 seconds 
+  Time since last request: 592148.834385 seconds.
+  path: Assets/Thirdparty/Toon City/Models/Materials/Building_9A_D.mat
+  artifactKey: Guid(20e332b159a0f4aa69b233aaf6da95be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/Toon City/Models/Materials/Building_9A_D.mat using Guid(20e332b159a0f4aa69b233aaf6da95be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0807c3d635331d7272d207c997eee4a') in 0.112796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Thirdparty/Toon City/Models/Materials/Advertising_1A_D.mat
+  artifactKey: Guid(5aa6b1e97e68645599c2945b085717d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/Toon City/Models/Materials/Advertising_1A_D.mat using Guid(5aa6b1e97e68645599c2945b085717d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1a55277b071a53bae17b4e373da2847') in 0.025186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Thirdparty/Toon City/Models/Materials/Building_5A_D.mat
+  artifactKey: Guid(b66619d4ae52e43f0808490b02c8c581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/Toon City/Models/Materials/Building_5A_D.mat using Guid(b66619d4ae52e43f0808490b02c8c581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89ca1697a02e6f1f66b13fdc763170ff') in 0.019281 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Thirdparty/Toon City/Models/Materials/Building_4A_D.mat
+  artifactKey: Guid(c577e65ceca5d45c79a38465529bd4b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/Toon City/Models/Materials/Building_4A_D.mat using Guid(c577e65ceca5d45c79a38465529bd4b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d4bc292234d12cd1b5999a3ff687f40') in 0.020709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Thirdparty/Toon City/Models/Update/Materials/Brownstone_5A_D.mat
+  artifactKey: Guid(ca7c1598fb83443479202efa8af1fcf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/Toon City/Models/Update/Materials/Brownstone_5A_D.mat using Guid(ca7c1598fb83443479202efa8af1fcf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b53bd9631d6613a66716d6f9604cbad') in 0.014537 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Thirdparty/Toon City/Models/Materials/Building_15A_D.mat
+  artifactKey: Guid(cb402ecc2c4174ffd9d3824c40432d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/Toon City/Models/Materials/Building_15A_D.mat using Guid(cb402ecc2c4174ffd9d3824c40432d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3979569bcb99ba2b913b247287c6fac7') in 0.020362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Thirdparty/Toon City/Models/Materials/Building_8A_D.mat
+  artifactKey: Guid(c0037782a09f1413f982325ef6e8e1ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/Toon City/Models/Materials/Building_8A_D.mat using Guid(c0037782a09f1413f982325ef6e8e1ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8778a12a9b218387604720407c846785') in 0.019836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Thirdparty/Toon City/Models/Materials/Building_13A_D.mat
+  artifactKey: Guid(edb31bde0e8a749d79fcd98e0355b8c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/Toon City/Models/Materials/Building_13A_D.mat using Guid(edb31bde0e8a749d79fcd98e0355b8c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d92e40c041b2f5b493b842facca5989') in 0.017931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Thirdparty/Toon City/Models/Materials/Building_7A_D.mat
+  artifactKey: Guid(c6e24719f3a964e678d51a7d45793570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/Toon City/Models/Materials/Building_7A_D.mat using Guid(c6e24719f3a964e678d51a7d45793570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27a5d0409bdb85cd68159c1576e7784b') in 0.020633 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Thirdparty/Toon City/Models/Update/Materials/Brownstone_2A_D.mat
+  artifactKey: Guid(6431c2f429d8d43d38b716ae42546d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/Toon City/Models/Update/Materials/Brownstone_2A_D.mat using Guid(6431c2f429d8d43d38b716ae42546d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6996e0a8f2d1bddc1b798a7cb7584d4d') in 0.014407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Thirdparty/Toon City/Models/Materials/Building_1A_D.mat
+  artifactKey: Guid(174ff82e5a6a7451eb03c6b2a182b23d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/Toon City/Models/Materials/Building_1A_D.mat using Guid(174ff82e5a6a7451eb03c6b2a182b23d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '941b4d3ead231c3a1f64a27be2cabb3d') in 0.020439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Thirdparty/Toon City/Models/Update/Materials/Brownstone_4A_D.mat
+  artifactKey: Guid(abed345e6d81f450d883307a04e95c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/Toon City/Models/Update/Materials/Brownstone_4A_D.mat using Guid(abed345e6d81f450d883307a04e95c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a43fd7740576a41e954139870728865') in 0.012953 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

@@ -11,7 +11,7 @@ public class airTimeOffline : MonoBehaviour
     public HoverboardOffline hbs;
     public bool InAir = false;
     public bool performedTrick = false;
-    public Animation anim;
+    public Animator anim;
     public bool trickBoost;
     public string[] anims;
     public TMP_Text score;
@@ -53,7 +53,7 @@ public class airTimeOffline : MonoBehaviour
             //gravity adjustments for better feel
             hbs.hb.AddForce(0,-500,0); 
 
-            if ((Input.GetKey(KeyCode.Mouse0) || Input.GetButton("A"))  && !(anim.isPlaying)){
+            if ((Input.GetKey(KeyCode.Mouse0) || Input.GetButton("A"))  && !(AnimatorIsPlaying())){
                 // do trick
                 int count = Random.Range(0, anims.Length-1);
                 //flip is too bad to look at, so just leave it as both spin.
@@ -76,6 +76,11 @@ public class airTimeOffline : MonoBehaviour
             boardAssist.constrainRotationX = false;
             hbs.InAir = false;
         }
+    }
+
+    bool AnimatorIsPlaying()
+    {
+        return anim.GetCurrentAnimatorStateInfo(0).length > anim.GetCurrentAnimatorStateInfo(0).normalizedTime;
     }
 
     bool IsGrounded()
