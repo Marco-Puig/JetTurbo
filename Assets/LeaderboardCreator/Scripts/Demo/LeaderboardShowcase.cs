@@ -25,7 +25,7 @@ namespace Dan.Demo
         public void Update()
         {
             _playerScore = (int)(PlayerPrefs.GetFloat("HighScore") * 100);
-            _playerScoreText.text = "Best Time: " + _playerScore;
+            _playerScoreText.text = "Best Time: " + (_playerScore / 100) + ":" + (_playerScore - _playerScore / 100 * 100);
             Submit();
         }
         
@@ -40,7 +40,7 @@ namespace Dan.Demo
             
             for (int i = 0; i < entries.Length; i++)
             {
-                _entryFields[i].text = $"{entries[i].RankSuffix()}. {entries[i].Username} : {entries[i].Score}";
+                _entryFields[i].text = $"{entries[i].RankSuffix()}. {entries[i].Username} : {entries[i].Score / 100}" +":"+ $"{entries[i].Score - entries[i].Score / 100 * 100}";
             }
         }
 
