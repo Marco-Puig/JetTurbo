@@ -38,14 +38,14 @@ Made using Blender, Unity, and written in C#
 | Multiplayer | Done  |
 | Menu | Done |
 | Loading Screen | Done |
-| UI | WIP  |
-| Leaderboard | WIP  |
+| UI | Done  |
+| Leaderboard | Done  |
 | Maps | WIP  |
-| Effects | WIP  |
+| Effects | Done  |
 | Modes | WIP  |
 | Models | WIP  |
 | Animations | WIP  |
-| Music | WIP  |
+| Music | Done |
 | Steamworks | Done  |
 | Steam Demo | WIP  |
 | More Maps | WIP  |
