@@ -14,7 +14,8 @@ public class BoardAssist : MonoBehaviour
 
     public float rotationZSpeed = 3f;
    
-    void Start () {
+    void Start () 
+    {
         startPosition = hb.transform.position;
         startRotation = hb.transform.eulerAngles;
     }
@@ -32,6 +33,11 @@ public class BoardAssist : MonoBehaviour
                 Quaternion targetRotation = Quaternion.Euler(transform.eulerAngles.x, transform.eulerAngles.y, 0f);
                 transform.rotation = Quaternion.Lerp(transform.rotation, targetRotation, Time.deltaTime * rotationZSpeed);
             }
+        }
+
+        if (currentRotation.z >= 50.0f)
+        {
+            constrainRotationZ = true;
         }
 
         if (constrainRotationX)

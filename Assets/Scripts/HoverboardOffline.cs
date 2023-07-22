@@ -271,7 +271,7 @@ public class HoverboardOffline : MonoBehaviour
 
     void Drifting(){
         //torque value
-        float driftTorque = Mathf.Lerp(0, 120, 15f);
+        float driftTorque = Mathf.Lerp(0, 150, 20f);
         //right
         if ((Input.GetKey(KeyCode.LeftShift) && Input.GetKey(KeyCode.D) || Input.GetButton("RB")) && (Input.GetKey(KeyCode.Mouse1) || Input.GetAxis("RT") > 0) && boostPad == false && (!(l == true || r == true)) && driftCoolDown == false)
         {
@@ -338,6 +338,7 @@ public class HoverboardOffline : MonoBehaviour
 
     public IEnumerator dec(){
         mainCam.fieldOfView += 0.3f;
+        speedEffect.Stop();
         speedEffect.Play();
         l = false;
         r = false;            
@@ -345,8 +346,6 @@ public class HoverboardOffline : MonoBehaviour
         if (mainCam.fieldOfView >= 75.0f){
             mainCam.fieldOfView -= 0.6f;
         }
-        yield return new WaitForSeconds(2);
-        speedEffect.Stop();
     }
 
     public IEnumerator dec_speed(){
