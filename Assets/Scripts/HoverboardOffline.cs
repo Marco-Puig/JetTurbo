@@ -51,7 +51,7 @@ public class HoverboardOffline : MonoBehaviour
 
     void Update()
     {
-        //keep track of speed
+        //keep track of speed and boostings
         speed = hb.velocity.magnitude; 
         double speed_for_text = System.Math.Round(speed, 0); 
         speed_count.SetText((speed_for_text * 3).ToString());

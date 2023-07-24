@@ -22,6 +22,7 @@ public class airTimeOffline : MonoBehaviour
     public float timer = 3f;
     public int score_count = 0;
     public Queue<IEnumerator> coroutineQueue = new Queue<IEnumerator>();
+    bool animPlayed = true;
 
     void Start()
     {
@@ -31,6 +32,12 @@ public class airTimeOffline : MonoBehaviour
     void Update()
     {
         score.SetText("Score: " + score_count);
+
+        if (!animPlayed && coroutineQueue.Count > 0)
+        {
+            anim.Play("touchboost");
+            animPlayed = true;
+        }
 
         // when player is in the air
         if(IsGrounded() == false)
@@ -133,8 +140,10 @@ public class airTimeOffline : MonoBehaviour
     public IEnumerator boost()
     {
         hbs.boostPad = true;
+        animPlayed = false;
         yield return new WaitForSeconds(3);
         hbs.boostPad = false;
+        animPlayed = true;
     }
 
     public IEnumerator clean()
@@ -146,10 +155,10 @@ public class airTimeOffline : MonoBehaviour
     public IEnumerator CoroutineCoordinator()
     {
      while (true)
-     {
-         while (coroutineQueue.Count > 0)
-             yield return StartCoroutine(coroutineQueue.Dequeue());
-         yield return null;
+     {        
+        while (coroutineQueue.Count > 0)
+            yield return StartCoroutine(coroutineQueue.Dequeue());            
+        yield return null;
      }
  }
 
