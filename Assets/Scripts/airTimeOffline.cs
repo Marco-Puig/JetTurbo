@@ -22,7 +22,7 @@ public class airTimeOffline : MonoBehaviour
     public float timer = 3f;
     public int score_count = 0;
     public Queue<IEnumerator> coroutineQueue = new Queue<IEnumerator>();
-    bool animPlayed = true;
+    bool animPlayed = false;
 
     void Start()
     {
@@ -33,7 +33,7 @@ public class airTimeOffline : MonoBehaviour
     {
         score.SetText("Score: " + score_count);
 
-        if (!animPlayed && coroutineQueue.Count > 0)
+        if (!animPlayed && coroutineQueue.Count > 0 && Input.GetKey(KeyCode.Mouse1))
         {
             anim.Play("touchboost");
             animPlayed = true;
@@ -140,10 +140,9 @@ public class airTimeOffline : MonoBehaviour
     public IEnumerator boost()
     {
         hbs.boostPad = true;
-        animPlayed = false;
         yield return new WaitForSeconds(3);
         hbs.boostPad = false;
-        animPlayed = true;
+        animPlayed = false;
     }
 
     public IEnumerator clean()
