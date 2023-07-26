@@ -20,13 +20,13 @@ namespace Dan.Demo
         private void Start()
         {
             Load();
+            Submit();
         }
 
         public void Update()
         {
             _playerScore = (int)(PlayerPrefs.GetFloat("HighScore") * 100);
-            _playerScoreText.text = "Best Time: " + (_playerScore / 100) + ":" + (_playerScore - _playerScore / 100 * 100);
-            Submit();
+            _playerScoreText.text = "Best Time: " + (_playerScore / 100) + ":" + (_playerScore - _playerScore / 100 * 100);    
         }
         
         public void Load() => LeaderboardCreator.GetLeaderboard(_leaderboardPublicKey, OnLeaderboardLoaded);

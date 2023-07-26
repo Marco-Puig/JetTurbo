@@ -1,0 +1,50 @@
+    
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.Rendering.PostProcessing;
+using TMPro;
+using Mirror;
+using UnityEngine.SceneManagement;
+
+    public GameObject PlayerModel;
+
+MONO --> NETWORK BEHAVIOUR
+
+    void FixedUpdate()
+    {
+        //enable player when in map
+        if ((SceneManager.GetActiveScene().name == "Dev_Tst"))
+        {
+            if (PlayerModel.activeSelf == false)
+            {
+                SetPosition();
+                PlayerModel.SetActive(true);  
+                Cursor.visible = false;              
+            }
+        
+            //if so allow player to do player stuff like normal
+            if (hasAuthority)
+            {
+                for (int i = 0; i < 4; i++)
+                    ApplyF(anchors[i], hits[i]);
+
+                if (InAir == false){
+                    ApplyMovement(boostForce, boostTorque);
+                   // BoardTilt();
+                    Drifting(); 
+                }
+                else{
+                    //still be able to look around when in the air
+                    if (!isPaused){
+                        hb.AddTorque(Input.GetAxis("Mouse X") * turnTorque * hb.transform.up);
+                        hb.AddTorque(Input.GetAxis("Joystick X") * turnTorque * hb.transform.up);                
+                    }
+                }
+            }
+        }
+
+    void SetPosition()
+    {
+        hb.transform.position = new Vector3(Random.Range(94,109), -14.77f, 23.26001f);
+    }

@@ -30,13 +30,15 @@ public class Hoverboard : NetworkBehaviour
     public bool driftBoost = false;
     public bool hovering = true;
     public TMP_Text driftReady;
-    bool isPaused = false;
+    public TMP_Text driftPurple;
+    public TMP_Text boostReady;
     bool r = false; //right drift
     bool l = false; //left drift
     bool driftCoolDown = false;
-    public GameObject PlayerModel;
     private float initialMouseX;
     private Quaternion initialRotation;
+    public GameObject PlayerModel;
+    bool isPaused = false;
     
     void Start()
     {
@@ -44,7 +46,7 @@ public class Hoverboard : NetworkBehaviour
         initialRotation = hb.transform.rotation;
         ResetMousePosition();
 
-        PlayerModel.SetActive(false);
+        Input.ResetInputAxes();
     }
 
     public Transform[] anchors = new Transform[4];
@@ -52,14 +54,16 @@ public class Hoverboard : NetworkBehaviour
 
     void Update()
     {
-        //keep track of speed
+        //keep track of speed and boostings
         speed = hb.velocity.magnitude; 
         double speed_for_text = System.Math.Round(speed, 0); 
-        speed_count.SetText("Speed: " + speed_for_text * 3);
+        speed_count.SetText((speed_for_text * 3).ToString());
 
         if (!(Input.GetKey(KeyCode.Mouse1) || Input.GetAxis("RT") > 0))
             boostPad = false;
-
+        
+        if (boostPad) boostReady.enabled = false; else boostReady.enabled = true;
+        
         //check if player is paused
         if (Input.GetKeyDown(KeyCode.Escape))
         { if (isPaused) isPaused = false; else isPaused = true;}
@@ -68,7 +72,7 @@ public class Hoverboard : NetworkBehaviour
     void FixedUpdate()
     {
         //enable player when in map
-        if ((SceneManager.GetActiveScene().name == "Dev_Tst"))
+        if ((SceneManager.GetActiveScene().name == "Map1"))
         {
             if (PlayerModel.activeSelf == false)
             {
@@ -85,26 +89,23 @@ public class Hoverboard : NetworkBehaviour
 
                 if (InAir == false){
                     ApplyMovement(boostForce, boostTorque);
-                   // BoardTilt();
+                    // BoardTilt();
                     Drifting(); 
                 }
                 else{
                     //still be able to look around when in the air
                     if (!isPaused){
-                        hb.AddTorque(Input.GetAxis("Mouse X") * turnTorque * hb.transform.up);
-                        hb.AddTorque(Input.GetAxis("Joystick X") * turnTorque * hb.transform.up);                
+                        hb.AddTorque(Input.GetAxis("Mouse X") * turnTorque * hb.transform.up * PlayerPrefs.GetFloat("Mouse Sensitivity"));
+                        hb.AddTorque(Input.GetAxis("Joystick X") * turnTorque * hb.transform.up * PlayerPrefs.GetFloat("Mouse Sensitivity"));                
                     }
                 }
             }
         }
         else
-            PlayerModel.SetActive(false);
+        {
+            PlayerModel.SetActive(false); 
+        }
 
-    }
-
-    void SetPosition()
-    {
-        hb.transform.position = new Vector3(Random.Range(-5,5), -5.9605e-08f, 3.04f);
     }
 
     void ApplyF(Transform anchor, RaycastHit hit)
@@ -115,6 +116,7 @@ public class Hoverboard : NetworkBehaviour
             force = Mathf.Abs(1 / (hit.point.y - anchor.position.y));
             hb.AddForceAtPosition(hb.transform.up * force * mult, anchor.position, ForceMode.Acceleration);
         }
+        
     }
 
 
@@ -152,10 +154,11 @@ public class Hoverboard : NetworkBehaviour
         //for both boosting and regular
         //Torque will be handled by mouse movement via player.
         //if not drifting:
-        if (!(l == true || r == true)){
+        if (!(l == true || r == true))
+        {
             if (!isPaused){
-                hb.AddTorque(Input.GetAxis("Mouse X") * turnTorque * hb.transform.up);
-                hb.AddTorque(Input.GetAxis("Joystick X") * turnTorque * hb.transform.up);
+                hb.AddTorque(Input.GetAxis("Mouse X") * turnTorque * hb.transform.up * PlayerPrefs.GetFloat("Mouse Sensitivity"));
+                hb.AddTorque(Input.GetAxis("Joystick X") * turnTorque * hb.transform.up * PlayerPrefs.GetFloat("Mouse Sensitivity"));
             }
         }
     }
@@ -230,17 +233,67 @@ public class Hoverboard : NetworkBehaviour
 
     }
 
+    float tilt_x = 1.5f;
+    float tilt_z = 0.0f;
+
     void BoardTilt()
     {   
         //REFACTOR USING LERP (Mathf.Lerp()) from BoardAssist.cs
         //basic version of tilting implementation
         //refactor code to just 0.5f and 1.0fs, rather than incerementing
+        if (Input.GetKey(KeyCode.A) && !(Input.GetKey(KeyCode.Mouse1)) && !(Input.GetKey(KeyCode.W))){
+            float tilt_z = 1.0f;
+            float tilt_x = 0.0f; 
+            Quaternion localRotation = Quaternion.Euler(tilt_x, 0f, tilt_z);
+            boardModel.transform.rotation = hb.transform.rotation * localRotation;
+        }
+        else if (Input.GetKey(KeyCode.D) && !(Input.GetKey(KeyCode.Mouse1)) && !(Input.GetKey(KeyCode.W))){
+            float tilt_z = -1.0f;
+            float tilt_x = 0.0f; 
+            Quaternion localRotation = Quaternion.Euler(tilt_x, 0f, tilt_z);
+            boardModel.transform.rotation = hb.transform.rotation * localRotation;
+        }   
+        else if (Input.GetKey(KeyCode.W) && !(Input.GetKey(KeyCode.Mouse1))){
+            float tilt_x = 0.5f;
+            float tilt_z = 0.0f;
 
+            if (Input.GetKey(KeyCode.D)){
+                tilt_z = -1.0f;
+            }
+            if (Input.GetKey(KeyCode.A)){
+                tilt_z = 1.0f;
+            }
+            Quaternion localRotation = Quaternion.Euler(tilt_x, 0f, tilt_z);
+            boardModel.transform.rotation = transform.rotation * localRotation;
+        }
+        else if (Input.GetKey(KeyCode.Mouse1)){
+            if (Input.GetKey(KeyCode.D)){
+                tilt_z = -1.5f;
+            }
+            if (Input.GetKey(KeyCode.A)){
+                tilt_z = 1.5f;
+            }
+            Quaternion localRotation = Quaternion.Euler(tilt_x, 0f, tilt_z);
+            boardModel.transform.rotation = transform.rotation * localRotation;    
+        }
+        else if (Input.GetKey(KeyCode.S) && !Input.GetKey(KeyCode.Mouse1)){
+            float tilt_z = 0.0f;
+            float tilt_x = 0.0f;
+            if (tilt_x >= -4.0f){
+                tilt_x -= 0.7f;
+            } 
+            Quaternion localRotation = Quaternion.Euler(tilt_x, 0f, tilt_z);
+            boardModel.transform.rotation = transform.rotation * localRotation;
+        }
+        else{
+            Quaternion localRotation = Quaternion.Euler(0f, 0f, 0f);
+            boardModel.transform.rotation = transform.rotation * localRotation;
+        }
     }
 
     void Drifting(){
         //torque value
-        float driftTorque = Mathf.Lerp(0, 200, 15f);
+        float driftTorque = Mathf.Lerp(0, 150, 20f);
         //right
         if ((Input.GetKey(KeyCode.LeftShift) && Input.GetKey(KeyCode.D) || Input.GetButton("RB")) && (Input.GetKey(KeyCode.Mouse1) || Input.GetAxis("RT") > 0) && boostPad == false && (!(l == true || r == true)) && driftCoolDown == false)
         {
@@ -253,9 +306,11 @@ public class Hoverboard : NetworkBehaviour
             if (drift_countR >= 80){
                 at.coroutineQueue.Enqueue(at.boost());
                 driftBoost = true;
+                InAir = false;
             }
             else
                 boostEffect.startColor = Color.magenta;
+                InAir = true;
         }
         else{
             drift_countR = 0; 
@@ -286,10 +341,12 @@ public class Hoverboard : NetworkBehaviour
             StartCoroutine((driftWait()));
         }
         if (boostPad == false || driftCoolDown == false){
-            driftReady.SetText("Drift: Ready");
+            //driftReady.SetText("Drift: Ready");
+            driftPurple.enabled = true;
         }
         if (boostPad || driftCoolDown){
-            driftReady.SetText("Drift: Not Ready");
+            driftPurple.enabled = false;
+            //driftReady.SetText("Drift: Not Ready");
         }
     }
     public IEnumerator driftWait()
@@ -303,6 +360,7 @@ public class Hoverboard : NetworkBehaviour
 
     public IEnumerator dec(){
         mainCam.fieldOfView += 0.3f;
+        speedEffect.Stop();
         speedEffect.Play();
         l = false;
         r = false;            
@@ -310,13 +368,12 @@ public class Hoverboard : NetworkBehaviour
         if (mainCam.fieldOfView >= 75.0f){
             mainCam.fieldOfView -= 0.6f;
         }
-        yield return new WaitForSeconds(2);
-        speedEffect.Stop();
     }
 
     public IEnumerator dec_speed(){
         if ((at.trickBoost || driftBoost)){
             if (Input.GetKey(KeyCode.Mouse1) || Input.GetAxis("RT") > 0){
+                boostReady.enabled = false;
                 if (Input.GetKey(KeyCode.Mouse1))
                     hb.AddForce(Input.GetAxis("Fire2") * 5000 * hb.transform.forward);
                 else if (Input.GetAxis("RT") > 0)
@@ -327,6 +384,7 @@ public class Hoverboard : NetworkBehaviour
                 speedEffect.Stop();
                 at.trickBoost = false;
                 driftBoost = false;
+                boostReady.enabled = true;
             }
         }
         else{
@@ -346,13 +404,17 @@ public class Hoverboard : NetworkBehaviour
             boostEffect.startColor = new Color(0.1439124f, 0.8442528f, 0.9245283f);
        // boostPad = false;
     }
-    
+
     private void ResetMousePosition()
     {
         float currentMouseX = Input.mousePosition.x;
         float deltaX = currentMouseX - initialMouseX;
         Quaternion rotationOffset = Quaternion.Euler(0f, deltaX, 0f);
-        transform.rotation = initialRotation * rotationOffset;
+        hb.transform.rotation = initialRotation * rotationOffset;
     }
     
+    void SetPosition()
+    {
+        hb.transform.position = new Vector3(Random.Range(94,109), -14.77f, 23.26001f);
+    }
 }
