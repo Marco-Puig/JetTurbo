@@ -15,7 +15,7 @@ C:/Users/marco/OneDrive/Documents/JetTurbo
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-55075
+54572
 Successfully changed project path to: C:/Users/marco/OneDrive/Documents/JetTurbo
 C:/Users/marco/OneDrive/Documents/JetTurbo
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/marco/OneDrive/Documents/JetTurbo
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [7568] Host "[IP] 10.0.0.132 [Port] 0 [Flags] 2 [Guid] 2030246199 [EditorId] 2030246199 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KHEODDI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [7900] Host "[IP] 10.0.0.132 [Port] 0 [Flags] 2 [Guid] 2463108079 [EditorId] 2463108079 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KHEODDI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [7568] Host "[IP] 10.0.0.132 [Port] 0 [Flags] 2 [Guid] 2030246199 [EditorId] 2030246199 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KHEODDI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [7900] Host "[IP] 10.0.0.132 [Port] 0 [Flags] 2 [Guid] 2463108079 [EditorId] 2463108079 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KHEODDI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 106.73 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 109.11 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.26f1 (a16dc32e0ff2)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/Resources/UnitySubsystems
@@ -141,8 +141,8 @@ Vulkan detection: 2
 [vulkan] Loaded instance function vkGetPhysicalDeviceMemoryProperties2KHR
 [vulkan] Loaded instance function vkGetPhysicalDeviceSparseImageFormatProperties2KHR
 [Vulkan init] SelectPhysicalDevice requestedDeviceIndex=-1 xrDevice=0000000000000000
-[Vulkan init] Physical Device 000002E613E39310 [0]: "NVIDIA GeForce GTX 1070" deviceType=2 vendorID=10de deviceID=1b81
-[Vulkan init] Selected physical device 000002E613E39310
+[Vulkan init] Physical Device 0000025049B6CCD0 [0]: "NVIDIA GeForce GTX 1070" deviceType=2 vendorID=10de deviceID=1b81
+[Vulkan init] Selected physical device 0000025049B6CCD0
 [Vulkan init] Graphics queue count=1
 [Vulkan init] extensions: count=164
 [Vulkan init] extensions: name=VK_KHR_16bit_storage, enabled=1
@@ -454,315 +454,140 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56912
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56132
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007644 seconds.
+Registered in 0.006761 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 91.07 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 105.24 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.677 seconds
+- Completed reload, in  0.734 seconds
 Domain Reload Profiling:
-	ReloadAssembly (677ms)
-		BeginReloadAssembly (84ms)
+	ReloadAssembly (735ms)
+		BeginReloadAssembly (99ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (492ms)
-			LoadAssemblies (81ms)
+		EndReloadAssembly (530ms)
+			LoadAssemblies (96ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (119ms)
+			SetupTypeCache (111ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (296ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (334ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
+				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (91ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (147ms)
-				ProcessInitializeOnLoadMethodAttributes (46ms)
+				RefreshPlugins (105ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (165ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005622 seconds.
+Registered in 0.006590 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 89.31 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 109.50 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
-Exception :System.IO.IOException: Sharing violation on path C:\Users\marco\OneDrive\Documents\JetTurbo\Library\ScriptAssemblies\UnityEngine.UI.dll
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <1c8569827291471e9db0dcd976e97952>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00000] in <1c8569827291471e9db0dcd976e97952>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
-  at Mono.CecilX.ModuleDefinition.GetFileStream (System.String fileName, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00006] in <9a2bc2dadc3549b3bfc74bb584d58989>:0 
-  at Mono.CecilX.ModuleDefinition.ReadModule (System.String fileName, Mono.CecilX.ReaderParameters parameters) [0x00008] in <9a2bc2dadc3549b3bfc74bb584d58989>:0 
-  at Mono.CecilX.AssemblyDefinition.ReadAssembly (System.String fileName, Mono.CecilX.ReaderParameters parameters) [0x00000] in <9a2bc2dadc3549b3bfc74bb584d58989>:0 
-  at Mirror.Weaver.Weaver.Weave (System.String assName, System.Collections.Generic.IEnumerable`1[T] dependencies) [0x00006] in C:\Users\marco\OneDrive\Documents\JetTurbo\Assets\Mirror\Editor\Weaver\Weaver.cs:176 
-  at Mirror.Weaver.Weaver.WeaveAssembly (System.String assembly, System.Collections.Generic.IEnumerable`1[T] dependencies) [0x00006] in C:\Users\marco\OneDrive\Documents\JetTurbo\Assets\Mirror\Editor\Weaver\Weaver.cs:247 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-Mirror.Weaver.CompilationFinishedHook:HandleError (string) (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:35)
-Mirror.Weaver.Weaver:WeaveAssembly (string,System.Collections.Generic.IEnumerable`1<string>) (at Assets/Mirror/Editor/Weaver/Weaver.cs:251)
-Mirror.Weaver.CompilationFinishedHook:OnCompilationFinished (string,UnityEditor.Compilation.CompilerMessage[]) (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:142)
-Mirror.Weaver.CompilationFinishedHook:WeaveExistingAssemblies () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:62)
-Mirror.Weaver.CompilationFinishedHook:OnInitializeOnLoad () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:52)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-(Filename: Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs Line: 35)
-
-Weaving failed for: Library/ScriptAssemblies/UnityEngine.UI.dll
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-Mirror.Weaver.CompilationFinishedHook:OnCompilationFinished (string,UnityEditor.Compilation.CompilerMessage[]) (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:146)
-Mirror.Weaver.CompilationFinishedHook:WeaveExistingAssemblies () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:62)
-Mirror.Weaver.CompilationFinishedHook:OnInitializeOnLoad () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:52)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-(Filename: Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs Line: 146)
-
-Find all reader and writers took 124 milliseconds
+Find all reader and writers took 118 milliseconds
+Script Module: UnityEngine.UI.dll
+Weave behaviours and messages took78 milliseconds
+Find all reader and writers took 103 milliseconds
 Script Module: Unity.RenderPipelines.Core.Runtime.dll
-Weave behaviours and messages took87 milliseconds
-Exception :System.IO.IOException: Sharing violation on path C:\Users\marco\OneDrive\Documents\JetTurbo\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <1c8569827291471e9db0dcd976e97952>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00000] in <1c8569827291471e9db0dcd976e97952>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
-  at Mono.CecilX.ModuleDefinition.GetFileStream (System.String fileName, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00006] in <9a2bc2dadc3549b3bfc74bb584d58989>:0 
-  at Mono.CecilX.ModuleDefinition.ReadModule (System.String fileName, Mono.CecilX.ReaderParameters parameters) [0x00008] in <9a2bc2dadc3549b3bfc74bb584d58989>:0 
-  at Mono.CecilX.AssemblyDefinition.ReadAssembly (System.String fileName, Mono.CecilX.ReaderParameters parameters) [0x00000] in <9a2bc2dadc3549b3bfc74bb584d58989>:0 
-  at Mirror.Weaver.Weaver.Weave (System.String assName, System.Collections.Generic.IEnumerable`1[T] dependencies) [0x00006] in C:\Users\marco\OneDrive\Documents\JetTurbo\Assets\Mirror\Editor\Weaver\Weaver.cs:176 
-  at Mirror.Weaver.Weaver.WeaveAssembly (System.String assembly, System.Collections.Generic.IEnumerable`1[T] dependencies) [0x00006] in C:\Users\marco\OneDrive\Documents\JetTurbo\Assets\Mirror\Editor\Weaver\Weaver.cs:247 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-Mirror.Weaver.CompilationFinishedHook:HandleError (string) (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:35)
-Mirror.Weaver.Weaver:WeaveAssembly (string,System.Collections.Generic.IEnumerable`1<string>) (at Assets/Mirror/Editor/Weaver/Weaver.cs:251)
-Mirror.Weaver.CompilationFinishedHook:OnCompilationFinished (string,UnityEditor.Compilation.CompilerMessage[]) (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:142)
-Mirror.Weaver.CompilationFinishedHook:WeaveExistingAssemblies () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:62)
-Mirror.Weaver.CompilationFinishedHook:OnInitializeOnLoad () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:52)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-(Filename: Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs Line: 35)
-
-Weaving failed for: Library/ScriptAssemblies/UnityEngine.TestRunner.dll
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-Mirror.Weaver.CompilationFinishedHook:OnCompilationFinished (string,UnityEditor.Compilation.CompilerMessage[]) (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:146)
-Mirror.Weaver.CompilationFinishedHook:WeaveExistingAssemblies () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:62)
-Mirror.Weaver.CompilationFinishedHook:OnInitializeOnLoad () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:52)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-(Filename: Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs Line: 146)
-
-Exception :System.IO.IOException: Sharing violation on path C:\Users\marco\OneDrive\Documents\JetTurbo\Library\ScriptAssemblies\SimpleWebTransport.dll
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <1c8569827291471e9db0dcd976e97952>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00000] in <1c8569827291471e9db0dcd976e97952>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
-  at Mono.CecilX.ModuleDefinition.GetFileStream (System.String fileName, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00006] in <9a2bc2dadc3549b3bfc74bb584d58989>:0 
-  at Mono.CecilX.ModuleDefinition.ReadModule (System.String fileName, Mono.CecilX.ReaderParameters parameters) [0x00008] in <9a2bc2dadc3549b3bfc74bb584d58989>:0 
-  at Mono.CecilX.AssemblyDefinition.ReadAssembly (System.String fileName, Mono.CecilX.ReaderParameters parameters) [0x00000] in <9a2bc2dadc3549b3bfc74bb584d58989>:0 
-  at Mirror.Weaver.Weaver.Weave (System.String assName, System.Collections.Generic.IEnumerable`1[T] dependencies) [0x00006] in C:\Users\marco\OneDrive\Documents\JetTurbo\Assets\Mirror\Editor\Weaver\Weaver.cs:176 
-  at Mirror.Weaver.Weaver.WeaveAssembly (System.String assembly, System.Collections.Generic.IEnumerable`1[T] dependencies) [0x00006] in C:\Users\marco\OneDrive\Documents\JetTurbo\Assets\Mirror\Editor\Weaver\Weaver.cs:247 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-Mirror.Weaver.CompilationFinishedHook:HandleError (string) (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:35)
-Mirror.Weaver.Weaver:WeaveAssembly (string,System.Collections.Generic.IEnumerable`1<string>) (at Assets/Mirror/Editor/Weaver/Weaver.cs:251)
-Mirror.Weaver.CompilationFinishedHook:OnCompilationFinished (string,UnityEditor.Compilation.CompilerMessage[]) (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:142)
-Mirror.Weaver.CompilationFinishedHook:WeaveExistingAssemblies () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:62)
-Mirror.Weaver.CompilationFinishedHook:OnInitializeOnLoad () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:52)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-(Filename: Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs Line: 35)
-
-Weaving failed for: Library/ScriptAssemblies/SimpleWebTransport.dll
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-Mirror.Weaver.CompilationFinishedHook:OnCompilationFinished (string,UnityEditor.Compilation.CompilerMessage[]) (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:146)
-Mirror.Weaver.CompilationFinishedHook:WeaveExistingAssemblies () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:62)
-Mirror.Weaver.CompilationFinishedHook:OnInitializeOnLoad () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:52)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-(Filename: Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs Line: 146)
-
-Find all reader and writers took 76 milliseconds
+Weave behaviours and messages took81 milliseconds
+Find all reader and writers took 91 milliseconds
+Script Module: UnityEngine.TestRunner.dll
+Weave behaviours and messages took20 milliseconds
+Find all reader and writers took 93 milliseconds
+Script Module: SimpleWebTransport.dll
+Weave behaviours and messages took9 milliseconds
+Find all reader and writers took 92 milliseconds
 Script Module: Unity.Postprocessing.Runtime.dll
-Weave behaviours and messages took19 milliseconds
-Exception :System.IO.IOException: Sharing violation on path C:\Users\marco\OneDrive\Documents\JetTurbo\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <1c8569827291471e9db0dcd976e97952>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00000] in <1c8569827291471e9db0dcd976e97952>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
-  at Mono.CecilX.ModuleDefinition.GetFileStream (System.String fileName, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00006] in <9a2bc2dadc3549b3bfc74bb584d58989>:0 
-  at Mono.CecilX.ModuleDefinition.ReadModule (System.String fileName, Mono.CecilX.ReaderParameters parameters) [0x00008] in <9a2bc2dadc3549b3bfc74bb584d58989>:0 
-  at Mono.CecilX.AssemblyDefinition.ReadAssembly (System.String fileName, Mono.CecilX.ReaderParameters parameters) [0x00000] in <9a2bc2dadc3549b3bfc74bb584d58989>:0 
-  at Mirror.Weaver.Weaver.Weave (System.String assName, System.Collections.Generic.IEnumerable`1[T] dependencies) [0x00006] in C:\Users\marco\OneDrive\Documents\JetTurbo\Assets\Mirror\Editor\Weaver\Weaver.cs:176 
-  at Mirror.Weaver.Weaver.WeaveAssembly (System.String assembly, System.Collections.Generic.IEnumerable`1[T] dependencies) [0x00006] in C:\Users\marco\OneDrive\Documents\JetTurbo\Assets\Mirror\Editor\Weaver\Weaver.cs:247 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-Mirror.Weaver.CompilationFinishedHook:HandleError (string) (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:35)
-Mirror.Weaver.Weaver:WeaveAssembly (string,System.Collections.Generic.IEnumerable`1<string>) (at Assets/Mirror/Editor/Weaver/Weaver.cs:251)
-Mirror.Weaver.CompilationFinishedHook:OnCompilationFinished (string,UnityEditor.Compilation.CompilerMessage[]) (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:142)
-Mirror.Weaver.CompilationFinishedHook:WeaveExistingAssemblies () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:62)
-Mirror.Weaver.CompilationFinishedHook:OnInitializeOnLoad () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:52)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-(Filename: Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs Line: 35)
-
-Weaving failed for: Library/ScriptAssemblies/Unity.TextMeshPro.dll
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-Mirror.Weaver.CompilationFinishedHook:OnCompilationFinished (string,UnityEditor.Compilation.CompilerMessage[]) (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:146)
-Mirror.Weaver.CompilationFinishedHook:WeaveExistingAssemblies () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:62)
-Mirror.Weaver.CompilationFinishedHook:OnInitializeOnLoad () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:52)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-(Filename: Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs Line: 146)
-
-Find all reader and writers took 72 milliseconds
+Weave behaviours and messages took24 milliseconds
+Find all reader and writers took 102 milliseconds
+Script Module: Unity.TextMeshPro.dll
+Weave behaviours and messages took64 milliseconds
+Find all reader and writers took 80 milliseconds
 Script Module: Unity.ProBuilder.Poly2Tri.dll
-Weave behaviours and messages took4 milliseconds
-Find all reader and writers took 72 milliseconds
+Weave behaviours and messages took5 milliseconds
+Find all reader and writers took 80 milliseconds
 Script Module: Unity.Timeline.dll
 Weave behaviours and messages took27 milliseconds
-Exception :System.IO.IOException: Sharing violation on path C:\Users\marco\OneDrive\Documents\JetTurbo\Library\ScriptAssemblies\Unity.ProBuilder.dll
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <1c8569827291471e9db0dcd976e97952>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00000] in <1c8569827291471e9db0dcd976e97952>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
-  at Mono.CecilX.ModuleDefinition.GetFileStream (System.String fileName, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00006] in <9a2bc2dadc3549b3bfc74bb584d58989>:0 
-  at Mono.CecilX.ModuleDefinition.ReadModule (System.String fileName, Mono.CecilX.ReaderParameters parameters) [0x00008] in <9a2bc2dadc3549b3bfc74bb584d58989>:0 
-  at Mono.CecilX.AssemblyDefinition.ReadAssembly (System.String fileName, Mono.CecilX.ReaderParameters parameters) [0x00000] in <9a2bc2dadc3549b3bfc74bb584d58989>:0 
-  at Mirror.Weaver.Weaver.Weave (System.String assName, System.Collections.Generic.IEnumerable`1[T] dependencies) [0x00006] in C:\Users\marco\OneDrive\Documents\JetTurbo\Assets\Mirror\Editor\Weaver\Weaver.cs:176 
-  at Mirror.Weaver.Weaver.WeaveAssembly (System.String assembly, System.Collections.Generic.IEnumerable`1[T] dependencies) [0x00006] in C:\Users\marco\OneDrive\Documents\JetTurbo\Assets\Mirror\Editor\Weaver\Weaver.cs:247 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-Mirror.Weaver.CompilationFinishedHook:HandleError (string) (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:35)
-Mirror.Weaver.Weaver:WeaveAssembly (string,System.Collections.Generic.IEnumerable`1<string>) (at Assets/Mirror/Editor/Weaver/Weaver.cs:251)
-Mirror.Weaver.CompilationFinishedHook:OnCompilationFinished (string,UnityEditor.Compilation.CompilerMessage[]) (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:142)
-Mirror.Weaver.CompilationFinishedHook:WeaveExistingAssemblies () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:62)
-Mirror.Weaver.CompilationFinishedHook:OnInitializeOnLoad () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:52)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-(Filename: Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs Line: 35)
-
-Weaving failed for: Library/ScriptAssemblies/Unity.ProBuilder.dll
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-Mirror.Weaver.CompilationFinishedHook:OnCompilationFinished (string,UnityEditor.Compilation.CompilerMessage[]) (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:146)
-Mirror.Weaver.CompilationFinishedHook:WeaveExistingAssemblies () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:62)
-Mirror.Weaver.CompilationFinishedHook:OnInitializeOnLoad () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:52)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-(Filename: Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs Line: 146)
-
-Find all reader and writers took 71 milliseconds
+Find all reader and writers took 94 milliseconds
+Script Module: Unity.ProBuilder.dll
+Weave behaviours and messages took61 milliseconds
+Find all reader and writers took 76 milliseconds
 Script Module: Telepathy.dll
-Weave behaviours and messages took3 milliseconds
-Find all reader and writers took 68 milliseconds
+Weave behaviours and messages took2 milliseconds
+Find all reader and writers took 78 milliseconds
 Script Module: Unity.ProBuilder.Csg.dll
 Weave behaviours and messages took2 milliseconds
-Find all reader and writers took 69 milliseconds
+Find all reader and writers took 77 milliseconds
 Script Module: kcp2k.dll
-Weave behaviours and messages took4 milliseconds
-Find all reader and writers took 75 milliseconds
+Weave behaviours and messages took5 milliseconds
+Find all reader and writers took 76 milliseconds
 Script Module: Dan.dll
 Weave behaviours and messages took3 milliseconds
-Find all reader and writers took 73 milliseconds
+Find all reader and writers took 80 milliseconds
 Script Module: Unity.ProBuilder.KdTree.dll
 Weave behaviours and messages took2 milliseconds
-Find all reader and writers took 67 milliseconds
+Find all reader and writers took 81 milliseconds
 Script Module: Unity.RenderPipelines.Core.ShaderLibrary.dll
 Weave behaviours and messages took0 milliseconds
-Find all reader and writers took 74 milliseconds
+Find all reader and writers took 78 milliseconds
 Script Module: Unity.ProBuilder.Stl.dll
-Weave behaviours and messages took3 milliseconds
+Weave behaviours and messages took1 milliseconds
 Find all reader and writers took 71 milliseconds
 Script Module: Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
 Weave behaviours and messages took0 milliseconds
-Find all reader and writers took 98 milliseconds
+Find all reader and writers took 97 milliseconds
 Script Module: UnityEditor.TestRunner.dll
-Weave behaviours and messages took30 milliseconds
-Find all reader and writers took 96 milliseconds
+Weave behaviours and messages took28 milliseconds
+Find all reader and writers took 91 milliseconds
 Script Module: Unity.ProBuilder.AssetIdRemapUtility.dll
 Weave behaviours and messages took6 milliseconds
-Find all reader and writers took 77 milliseconds
+Find all reader and writers took 74 milliseconds
 Script Module: Mirror.CompilerSymbols.dll
 Weave behaviours and messages took0 milliseconds
-Find all reader and writers took 100 milliseconds
+Find all reader and writers took 93 milliseconds
 Script Module: UnityEditor.UI.dll
 Weave behaviours and messages took10 milliseconds
-Find all reader and writers took 81 milliseconds
+Find all reader and writers took 77 milliseconds
 Script Module: Unity.ShaderGraph.Utilities.dll
 Weave behaviours and messages took0 milliseconds
 Mono: successfully reloaded assembly
-- Completed reload, in  5.159 seconds
+- Completed reload, in  6.495 seconds
 Domain Reload Profiling:
-	ReloadAssembly (5160ms)
-		BeginReloadAssembly (121ms)
+	ReloadAssembly (6496ms)
+		BeginReloadAssembly (147ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (4932ms)
-			LoadAssemblies (94ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (6206ms)
+			LoadAssemblies (112ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (291ms)
+			SetupTypeCache (329ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (61ms)
-			SetupLoadedEditorAssemblies (4455ms)
+			RebuildScriptCaches (87ms)
+			SetupLoadedEditorAssemblies (5634ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (89ms)
-				BeforeProcessingInitializeOnLoad (91ms)
-				ProcessInitializeOnLoadAttributes (406ms)
-				ProcessInitializeOnLoadMethodAttributes (3857ms)
+				RefreshPlugins (110ms)
+				BeforeProcessingInitializeOnLoad (98ms)
+				ProcessInitializeOnLoadAttributes (482ms)
+				ProcessInitializeOnLoadMethodAttributes (4931ms)
 				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -770,13 +595,13 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
-Refreshing native plugins compatible for Editor in 1.24 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.26 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3430 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 47 unused Assets / (1.8 MB). Loaded Objects now: 4018.
-Memory consumption went from 258.5 MB to 256.7 MB.
-Total: 4.200000 ms (FindLiveObjects: 0.294000 ms CreateObjectMapping: 0.224800 ms MarkObjects: 3.246600 ms  DeleteObjects: 0.433800 ms)
+Memory consumption went from 258.3 MB to 256.5 MB.
+Total: 4.429000 ms (FindLiveObjects: 0.291600 ms CreateObjectMapping: 0.195000 ms MarkObjects: 3.506800 ms  DeleteObjects: 0.434600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -790,167 +615,487 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 121566.803524 seconds.
-  path: Assets/Animations/jump_flatspin_animation.fbx
-  artifactKey: Guid(76da74612994a1c46b7b7165eb624ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/jump_flatspin_animation.fbx using Guid(76da74612994a1c46b7b7165eb624ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f911961ff22cafd9695ef52c024f510') in 0.196204 seconds 
+  Time since last request: 173032.464695 seconds.
+  path: Assets/Materials/skin 1.mat
+  artifactKey: Guid(46cec4ad1586b984b9b8190436b76a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/skin 1.mat using Guid(46cec4ad1586b984b9b8190436b76a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaade85ae09144290b270841b8dc7a78') in 0.108876 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Animations/riding_animation.fbx
-  artifactKey: Guid(4b67ab6048eaac249b3efdceef51c12d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/riding_animation.fbx using Guid(4b67ab6048eaac249b3efdceef51c12d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3aa034cd66b90ee25455ce40464a09a') in 0.045241 seconds 
+  Time since last request: 1.128504 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(7f23c3eff41b84baaa1dc6413b6ce2ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(7f23c3eff41b84baaa1dc6413b6ce2ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8722fe456c77f9fabacf4761ddf3e1df') in 0.011038 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Animations/jetturbo2_lydia.obj
-  artifactKey: Guid(42d3cb1efd1918f46aa11fa3e4addfdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/jetturbo2_lydia.obj using Guid(42d3cb1efd1918f46aa11fa3e4addfdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eab812fa3e64e8356e99edb474ec3d7') in 0.053633 seconds 
+  Time since last request: 6.209309 seconds.
+  path: Assets/Materials/lydia_mats
+  artifactKey: Guid(793e953c3c16bb847ab82af8e333aed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/lydia_mats using Guid(793e953c3c16bb847ab82af8e333aed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0c2342e223f77c26484edd8d1748f9c') in 0.009895 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Animations/superboost.fbx
-  artifactKey: Guid(6ef4132834342da4d97fff3e3944e3e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/superboost.fbx using Guid(6ef4132834342da4d97fff3e3944e3e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '372dcebeca4f2089f2d592ee4b3a3556') in 0.085230 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 70.659420 seconds.
-  path: Assets/Thirdparty/Toon City/Models/Materials/Advertising_1A_D.mat
-  artifactKey: Guid(5aa6b1e97e68645599c2945b085717d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Thirdparty/Toon City/Models/Materials/Advertising_1A_D.mat using Guid(5aa6b1e97e68645599c2945b085717d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1a55277b071a53bae17b4e373da2847') in 0.057316 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Thirdparty/Toon City/Models/Update/Materials/Brownstone_3A_D.mat
-  artifactKey: Guid(9d2f8dd0261c14d0a87136f246e9a0f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Thirdparty/Toon City/Models/Update/Materials/Brownstone_3A_D.mat using Guid(9d2f8dd0261c14d0a87136f246e9a0f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31f3aed0a7ff779818abba7aa650d0bb') in 0.029059 seconds 
+  Time since last request: 18.283331 seconds.
+  path: Assets/Materials/lydia_mats/Image_0.png
+  artifactKey: Guid(55dea2c4697348f4fa54c6ea92d17097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/lydia_mats/Image_0.png using Guid(55dea2c4697348f4fa54c6ea92d17097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '977a5359ff04e6bbffeed4541e50b8c1') in 0.057598 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000021 seconds.
-  path: Assets/Thirdparty/Toon City/Models/Materials/Building_4A_D.mat
-  artifactKey: Guid(c577e65ceca5d45c79a38465529bd4b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Thirdparty/Toon City/Models/Materials/Building_4A_D.mat using Guid(c577e65ceca5d45c79a38465529bd4b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d4bc292234d12cd1b5999a3ff687f40') in 0.031873 seconds 
+  path: Assets/Materials/lydia_mats/Image_11.png
+  artifactKey: Guid(6ed872da5283db3489bbce14a3b4afc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/lydia_mats/Image_11.png using Guid(6ed872da5283db3489bbce14a3b4afc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55ff5c0b70bf70c3cdfee9a99084a019') in 0.018566 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Materials/lydia_mats/Image_8.png
+  artifactKey: Guid(fceba92a7a20bb14cb48e5492cf899f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/lydia_mats/Image_8.png using Guid(fceba92a7a20bb14cb48e5492cf899f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '108eec6b514c565a255e0aa036f50032') in 0.018742 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 57.826816 seconds.
+  path: Assets/Scenes/Map1.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Map1.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01eb0da389d78642bf0bce268486239c') in 0.010730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.690413 seconds.
+  path: Assets/Prefabs/BoostPad.prefab
+  artifactKey: Guid(362466b9db1d86d44a2f7e1dd37556a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BoostPad.prefab using Guid(362466b9db1d86d44a2f7e1dd37556a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33df61fd1885333111baa41e4e086cfc') in 0.060141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Prefabs/Rail.prefab
+  artifactKey: Guid(e119dd9c34bb3f84fbba2c6fcfe2aa32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Rail.prefab using Guid(e119dd9c34bb3f84fbba2c6fcfe2aa32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7f5d46696852b31137702aa08a4c7e8') in 0.058389 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000020 seconds.
-  path: Assets/Thirdparty/Toon City/Models/Materials/Car_17A_D.mat
-  artifactKey: Guid(fe75d89fc810145eb8dc289993fcdb97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Thirdparty/Toon City/Models/Materials/Car_17A_D.mat using Guid(fe75d89fc810145eb8dc289993fcdb97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f4a8397fed0ea21fd882ec65582c2af') in 0.033644 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Thirdparty/Toon City/Models/Materials/Building_12A_D.mat
-  artifactKey: Guid(89cf21160bc5242f1855b61de547b18a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Thirdparty/Toon City/Models/Materials/Building_12A_D.mat using Guid(89cf21160bc5242f1855b61de547b18a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45c342ecad1d26a9102b7a44f357796f') in 0.034195 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Thirdparty/Toon City/Models/Materials/Building_20A_D.mat
-  artifactKey: Guid(38b69f0a0ef206f4388a3a2380dd9b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Thirdparty/Toon City/Models/Materials/Building_20A_D.mat using Guid(38b69f0a0ef206f4388a3a2380dd9b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36cfed91a8a0c71ef2d2baf6c73fe8bb') in 0.027772 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Thirdparty/Toon City/Models/Materials/Car_4D_D.mat
-  artifactKey: Guid(974453634cfb84c05a3a9fcf6131b16b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Thirdparty/Toon City/Models/Materials/Car_4D_D.mat using Guid(974453634cfb84c05a3a9fcf6131b16b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a55c5a9cbbf40470c59c54de01822706') in 0.033515 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Thirdparty/Toon City/Models/Materials/Building_11A_D.mat
-  artifactKey: Guid(7598b0d609ae84651b55acf26b4c839f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Thirdparty/Toon City/Models/Materials/Building_11A_D.mat using Guid(7598b0d609ae84651b55acf26b4c839f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cbfa5049b18996997f76ef76bcf1ffc') in 0.033867 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Thirdparty/Toon City/Models/Materials/Building_19A_D.mat
-  artifactKey: Guid(6f5f18a864dc4794383940620137fac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Thirdparty/Toon City/Models/Materials/Building_19A_D.mat using Guid(6f5f18a864dc4794383940620137fac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '587b3c1be480330863e7f1365254b5f2') in 0.029150 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Thirdparty/Toon City/Models/Materials/Car_3B_D.mat
-  artifactKey: Guid(38ae77aa49fc642f0b80cec41ab37e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Thirdparty/Toon City/Models/Materials/Car_3B_D.mat using Guid(38ae77aa49fc642f0b80cec41ab37e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb2e7aefe3c40052261d938b595f2254') in 0.032394 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Thirdparty/Toon City/Models/Materials/Building_21A_D.mat
-  artifactKey: Guid(5887e2d4e98feca409b7033c88c3f690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Thirdparty/Toon City/Models/Materials/Building_21A_D.mat using Guid(5887e2d4e98feca409b7033c88c3f690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fceb01c4c102907bc556dcf6f022d27c') in 0.029634 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Thirdparty/Toon City/Models/Materials/Building_9A_D.mat
-  artifactKey: Guid(20e332b159a0f4aa69b233aaf6da95be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Thirdparty/Toon City/Models/Materials/Building_9A_D.mat using Guid(20e332b159a0f4aa69b233aaf6da95be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0807c3d635331d7272d207c997eee4a') in 0.033892 seconds 
+  path: Assets/Prefabs/ramp_b.prefab
+  artifactKey: Guid(b94366c0ea40aac47b3cb4aeb4a94b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ramp_b.prefab using Guid(b94366c0ea40aac47b3cb4aeb4a94b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb03d1d7ce58fd48d69734697daa1073') in 0.018307 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000023 seconds.
-  path: Assets/Thirdparty/Toon City/Models/Materials/Car_9A_D.mat
-  artifactKey: Guid(1d850a059e3fd49ca97016b240de0eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Thirdparty/Toon City/Models/Materials/Car_9A_D.mat using Guid(1d850a059e3fd49ca97016b240de0eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1131ee7d0b88f74dc5c048852e995133') in 0.035074 seconds 
+  path: Assets/Prefabs/ScorePopUpRail.prefab
+  artifactKey: Guid(770c9beb87e0a2f4c828549ba4357a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ScorePopUpRail.prefab using Guid(770c9beb87e0a2f4c828549ba4357a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a11a892c893a42214a98f91f574cadf') in 0.033951 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Thirdparty/Toon City/Models/Materials/Car_6D_D.mat
-  artifactKey: Guid(6a30ff6c9dfba414b9025b32ae86ce9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Thirdparty/Toon City/Models/Materials/Car_6D_D.mat using Guid(6a30ff6c9dfba414b9025b32ae86ce9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f0265a46c2cb2a18d892b3fdc61e0cd') in 0.033374 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Thirdparty/Toon City/Models/Materials/Building_15A_D.mat
-  artifactKey: Guid(cb402ecc2c4174ffd9d3824c40432d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Thirdparty/Toon City/Models/Materials/Building_15A_D.mat using Guid(cb402ecc2c4174ffd9d3824c40432d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3979569bcb99ba2b913b247287c6fac7') in 0.035761 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Thirdparty/Toon City/Models/Materials/Car_4E_D.mat
-  artifactKey: Guid(82d90f8bd75684695a3f76bfeea2fb8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Thirdparty/Toon City/Models/Materials/Car_4E_D.mat using Guid(82d90f8bd75684695a3f76bfeea2fb8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '522d4e337d2e382153f325cd0998e88b') in 0.031629 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Thirdparty/Toon City/Models/Materials/Building_13A_D.mat
-  artifactKey: Guid(edb31bde0e8a749d79fcd98e0355b8c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Thirdparty/Toon City/Models/Materials/Building_13A_D.mat using Guid(edb31bde0e8a749d79fcd98e0355b8c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d92e40c041b2f5b493b842facca5989') in 0.030304 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Thirdparty/Toon City/Models/Materials/Car_7F_D.mat
-  artifactKey: Guid(d668ac9e3528a47e2b21a1330a781506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Thirdparty/Toon City/Models/Materials/Car_7F_D.mat using Guid(d668ac9e3528a47e2b21a1330a781506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0c3779c2bbc432f7db1d8c9071f3b74') in 0.031021 seconds 
+  Time since last request: 0.000034 seconds.
+  path: Assets/Prefabs/ramp_o.prefab
+  artifactKey: Guid(470dc3ad485701049b678d24650cc1b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ramp_o.prefab using Guid(470dc3ad485701049b678d24650cc1b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86804403ce093d1b0422cce7f85f0455') in 0.015967 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000029 seconds.
-  path: Assets/Thirdparty/Toon City/Models/Materials/Car_8D_D.mat
-  artifactKey: Guid(352b487105d5f42c1994d0c2122955d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Thirdparty/Toon City/Models/Materials/Car_8D_D.mat using Guid(352b487105d5f42c1994d0c2122955d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '503041a6159d947088196d871bbdac54') in 0.034785 seconds 
+  path: Assets/Prefabs/PlayerObject.prefab
+  artifactKey: Guid(c9ad937cbc3a78c45a470387a055f7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PlayerObject.prefab using Guid(c9ad937cbc3a78c45a470387a055f7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92dc38aef72b700b206e07e89421a952') in 0.142779 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000022 seconds.
-  path: Assets/Thirdparty/Toon City/Models/Materials/Building_1A_D.mat
-  artifactKey: Guid(174ff82e5a6a7451eb03c6b2a182b23d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Thirdparty/Toon City/Models/Materials/Building_1A_D.mat using Guid(174ff82e5a6a7451eb03c6b2a182b23d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '941b4d3ead231c3a1f64a27be2cabb3d') in 0.033223 seconds 
+  path: Assets/Prefabs/ScorePopUp.prefab
+  artifactKey: Guid(1753a08d1fd5c8f49bc13549a2c00cc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ScorePopUp.prefab using Guid(1753a08d1fd5c8f49bc13549a2c00cc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b789d85522392d0c5164300161ea947e') in 0.035086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 45.767306 seconds.
+  path: Assets/Prefabs/PlayerObject.prefab
+  artifactKey: Guid(c9ad937cbc3a78c45a470387a055f7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PlayerObject.prefab using Guid(c9ad937cbc3a78c45a470387a055f7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '899f55150e61705181dbdb86bc29e965') in 0.203753 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.880131 seconds.
+  path: Assets/Prefabs/PlayerObject.prefab
+  artifactKey: Guid(c9ad937cbc3a78c45a470387a055f7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PlayerObject.prefab using Guid(c9ad937cbc3a78c45a470387a055f7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b85300bee72d03384f7098f7a265acb') in 0.170052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.779755 seconds.
+  path: Assets/Prefabs/PlayerObject.prefab
+  artifactKey: Guid(c9ad937cbc3a78c45a470387a055f7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PlayerObject.prefab using Guid(c9ad937cbc3a78c45a470387a055f7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e38de59591422365d5490892870dbf5b') in 0.089874 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005284 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.180 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1180ms)
+		BeginReloadAssembly (153ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (51ms)
+		EndReloadAssembly (936ms)
+			LoadAssemblies (86ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (260ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (515ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (371ms)
+				ProcessInitializeOnLoadMethodAttributes (58ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3337 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (1.7 MB). Loaded Objects now: 4068.
+Memory consumption went from 267.3 MB to 265.6 MB.
+Total: 3.678000 ms (FindLiveObjects: 0.258000 ms CreateObjectMapping: 0.158300 ms MarkObjects: 2.828800 ms  DeleteObjects: 0.432100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 124.949834 seconds.
+  path: Assets/Thirdparty/Toon City/Models/Air_Conditioner_1A.fbx
+  artifactKey: Guid(dbdcba291129e4625adfb401c5bb02a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/Toon City/Models/Air_Conditioner_1A.fbx using Guid(dbdcba291129e4625adfb401c5bb02a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '260e75b47bbb040d405437d2804d1ac2') in 0.131075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Thirdparty/Toon City/Prefabs/Props/Air_Shaft_1A.prefab
+  artifactKey: Guid(6ae53fb7a7b9e4dfeab6c078ecb4896b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/Toon City/Prefabs/Props/Air_Shaft_1A.prefab using Guid(6ae53fb7a7b9e4dfeab6c078ecb4896b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1627e016422207378e859fe646052b99') in 0.020429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Thirdparty/Toon City/Models/Building_11A.fbx
+  artifactKey: Guid(92da6bae969af4ad2a8c09dce781b3bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/Toon City/Models/Building_11A.fbx using Guid(92da6bae969af4ad2a8c09dce781b3bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea58ffa995ab781183b84118bf51ba5e') in 0.049959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Thirdparty/Toon City/Prefabs/Props/Air_Vent_1A.prefab
+  artifactKey: Guid(98b504413de334586a334eb43b831846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/Toon City/Prefabs/Props/Air_Vent_1A.prefab using Guid(98b504413de334586a334eb43b831846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9cc56df071d42ee2ab9f23a8d3ae6dd') in 0.022060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Thirdparty/Toon City/Prefabs/Props/Emergency_Staircase_1A.prefab
+  artifactKey: Guid(7e174beeef7db4a4985fe7970aaa02b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/Toon City/Prefabs/Props/Emergency_Staircase_1A.prefab using Guid(7e174beeef7db4a4985fe7970aaa02b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b3c4c607bf9803935fc29d0f31a40bd') in 0.025615 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000018 seconds.
-  path: Assets/Thirdparty/Toon City/Models/Materials/Car_14C_D.mat
-  artifactKey: Guid(ec8ee9404d4744a799bcf92fb5b3535d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Thirdparty/Toon City/Models/Materials/Car_14C_D.mat using Guid(ec8ee9404d4744a799bcf92fb5b3535d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fd515892e12d497d9ee05103987fc40') in 0.033164 seconds 
+  path: Assets/Models/textures_ethn/N00_000_Hair_00_nml.png
+  artifactKey: Guid(ab80a7e095d5c13478b233726f9d6fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/textures_ethn/N00_000_Hair_00_nml.png using Guid(ab80a7e095d5c13478b233726f9d6fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f4c38989bbe620c50edfabaf4c4584e') in 0.027346 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Thirdparty/Toon City/Models/Update/Materials/Brownstone_1A_D.mat
-  artifactKey: Guid(ebe6d91f380a44b2eaa21ea637488abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Thirdparty/Toon City/Models/Update/Materials/Brownstone_1A_D.mat using Guid(ebe6d91f380a44b2eaa21ea637488abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3259653fc94dce314415bb5f37a7b4d5') in 0.027083 seconds 
+  Time since last request: 0.000025 seconds.
+  path: Assets/Thirdparty/Toon City/Models/Emergency_Stairs_1A.fbx
+  artifactKey: Guid(c254ddc22fd494b87af0dd1cdddff151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/Toon City/Models/Emergency_Stairs_1A.fbx using Guid(c254ddc22fd494b87af0dd1cdddff151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'defb0852af4185cee9aac7c2ca06a2c8') in 0.022570 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.382572 seconds.
-  path: Packages/com.unity.render-pipelines.core/Editor/LookDev/DisplayWindow-PersonalSkin.uss
-  artifactKey: Guid(7c95237923780ad4683f959f53629b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.core/Editor/LookDev/DisplayWindow-PersonalSkin.uss using Guid(7c95237923780ad4683f959f53629b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '671bf548541e3004c98735deb7c648fd') in 0.021857 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+  Time since last request: 0.000022 seconds.
+  path: Assets/Thirdparty/Toon City/Models/Emergency_Staircase_1A.fbx
+  artifactKey: Guid(2b08fc136e4a747dda1fb904b1ecf779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/Toon City/Models/Emergency_Staircase_1A.fbx using Guid(2b08fc136e4a747dda1fb904b1ecf779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '326c6920d1f984d02b7c5e4f6cee848a') in 0.022210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Thirdparty/Toon City/Prefabs/Props/Emergency_Stairs_1A_x3.prefab
+  artifactKey: Guid(f3d5c6f8dec5347098199c7c16ada5d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/Toon City/Prefabs/Props/Emergency_Stairs_1A_x3.prefab using Guid(f3d5c6f8dec5347098199c7c16ada5d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05bbbac79521bc6735d81a1dd10730ba') in 0.018569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Thirdparty/Toon City/Models/Air_Conditioner_3A.fbx
+  artifactKey: Guid(c042bc19a1e0e4690bb773ea6caf945e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/Toon City/Models/Air_Conditioner_3A.fbx using Guid(c042bc19a1e0e4690bb773ea6caf945e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2abf3c6b767e1207ece31cfe20751d0') in 0.027299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Thirdparty/Toon City/Models/Building_11B.fbx
+  artifactKey: Guid(eaddedfee8e44441a9f5111474d8baf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/Toon City/Models/Building_11B.fbx using Guid(eaddedfee8e44441a9f5111474d8baf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b1aee81d7c5406307f6e362d0ef509d') in 0.052091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Thirdparty/Toon City/Models/Air_Conditioner_2A.fbx
+  artifactKey: Guid(561a0c3bc3bb84cdbbb81631905426d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/Toon City/Models/Air_Conditioner_2A.fbx using Guid(561a0c3bc3bb84cdbbb81631905426d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6412cf8f311bed59b560e86c87868989') in 0.019617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Thirdparty/Toon City/Prefabs/Props/Chair_1A.prefab
+  artifactKey: Guid(3ca48b0f1a341484a9df82385304ba5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/Toon City/Prefabs/Props/Chair_1A.prefab using Guid(3ca48b0f1a341484a9df82385304ba5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f26dfdd730c69907d5e59afb23216118') in 0.016045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Thirdparty/Toon City/Prefabs/Props/Air_Vent_2A.prefab
+  artifactKey: Guid(3b709d6723fc9454fb28c12105e3ee8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/Toon City/Prefabs/Props/Air_Vent_2A.prefab using Guid(3b709d6723fc9454fb28c12105e3ee8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a37b16d5b466bf8e24c68bba754f438') in 0.022870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Thirdparty/Toon City/Models/Air_Vent_2A.fbx
+  artifactKey: Guid(c750713b71fb44afb963bc4a1b47f167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/Toon City/Models/Air_Vent_2A.fbx using Guid(c750713b71fb44afb963bc4a1b47f167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83269045a839f8e4340edc7344737bdd') in 0.030871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Thirdparty/Toon City/Prefabs/Props/Air_Shaft_1B.prefab
+  artifactKey: Guid(9bb386cd3c0b94c19bcff14e843f8e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/Toon City/Prefabs/Props/Air_Shaft_1B.prefab using Guid(9bb386cd3c0b94c19bcff14e843f8e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ee02bf288d7c979b82c0c332c2d8c33') in 0.020104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Thirdparty/Toon City/Prefabs/Props/Air_Conditioner_3A.prefab
+  artifactKey: Guid(7bdc5e1f1af39483db0c2d90160caee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thirdparty/Toon City/Prefabs/Props/Air_Conditioner_3A.prefab using Guid(7bdc5e1f1af39483db0c2d90160caee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f72511799ad56ebbf8de048e825e94c5') in 0.016814 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.911685 seconds.
+  path: Assets/Scripts/airTimeOffline.cs
+  artifactKey: Guid(30d6f7a978519cd4892a01633e1d27c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/airTimeOffline.cs using Guid(30d6f7a978519cd4892a01633e1d27c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edfbe3df765e2964c2cfebef9f394970') in 0.021686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.249464 seconds.
+  path: Assets/Scripts/airTime.cs
+  artifactKey: Guid(40e5853ea8f867843a107f66268f95aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/airTime.cs using Guid(40e5853ea8f867843a107f66268f95aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '516bd5c8f88e831a1054293428dabf90') in 0.011909 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005507 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.279 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1279ms)
+		BeginReloadAssembly (156ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (1020ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (296ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (544ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (386ms)
+				ProcessInitializeOnLoadMethodAttributes (66ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3337 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (1.7 MB). Loaded Objects now: 4075.
+Memory consumption went from 267.4 MB to 265.6 MB.
+Total: 3.470500 ms (FindLiveObjects: 0.330400 ms CreateObjectMapping: 0.187000 ms MarkObjects: 2.535500 ms  DeleteObjects: 0.417200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005527 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.242 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1243ms)
+		BeginReloadAssembly (141ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (1005ms)
+			LoadAssemblies (94ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (269ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (557ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (396ms)
+				ProcessInitializeOnLoadMethodAttributes (65ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3337 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (1.7 MB). Loaded Objects now: 4078.
+Memory consumption went from 268.8 MB to 267.1 MB.
+Total: 3.933700 ms (FindLiveObjects: 0.305700 ms CreateObjectMapping: 0.191700 ms MarkObjects: 2.996600 ms  DeleteObjects: 0.439000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005379 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.174 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1175ms)
+		BeginReloadAssembly (137ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (933ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (259ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (510ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (354ms)
+				ProcessInitializeOnLoadMethodAttributes (67ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3337 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (1.7 MB). Loaded Objects now: 4081.
+Memory consumption went from 270.3 MB to 268.6 MB.
+Total: 3.692800 ms (FindLiveObjects: 0.286900 ms CreateObjectMapping: 0.171600 ms MarkObjects: 2.730900 ms  DeleteObjects: 0.503000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006452 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.187 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1188ms)
+		BeginReloadAssembly (146ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (939ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (261ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (513ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (372ms)
+				ProcessInitializeOnLoadMethodAttributes (56ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3337 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (1.7 MB). Loaded Objects now: 4084.
+Memory consumption went from 271.8 MB to 270.1 MB.
+Total: 4.499400 ms (FindLiveObjects: 0.285200 ms CreateObjectMapping: 0.256900 ms MarkObjects: 3.517000 ms  DeleteObjects: 0.439600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
