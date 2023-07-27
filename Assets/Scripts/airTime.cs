@@ -22,6 +22,7 @@ public class airTime : MonoBehaviour
     public float timer = 3f;
     public int score_count = 0;
     public Queue<IEnumerator> coroutineQueue = new Queue<IEnumerator>();
+    bool animPlayed = false;
 
     void Start()
     {
@@ -31,6 +32,12 @@ public class airTime : MonoBehaviour
     void Update()
     {
         score.SetText("Score: " + score_count);
+
+        if (!animPlayed && coroutineQueue.Count > 0 && Input.GetKey(KeyCode.Mouse1))
+        {
+            anim.Play("touchboost");
+            animPlayed = true;
+        }
 
         // when player is in the air
         if(IsGrounded() == false)
@@ -46,8 +53,8 @@ public class airTime : MonoBehaviour
             boardAssist.constrainRotationX = true;
 
             //keep the momentium going!
-            hbs.hb.AddForce(Input.GetAxis("Fire2") * 1000 * hbs.transform.forward); 
-            hbs.hb.AddForce(Input.GetAxis("RT") * 1000 * hbs.transform.forward);
+            hbs.hb.AddForce(Input.GetAxis("Fire2") * 1000 * hbs.hb.transform.forward); 
+            hbs.hb.AddForce(Input.GetAxis("RT") * 1000 * hbs.hb.transform.forward);
             //hbs.boostEffect.enabled = true;
 
             //gravity adjustments for better feel
@@ -135,6 +142,7 @@ public class airTime : MonoBehaviour
         hbs.boostPad = true;
         yield return new WaitForSeconds(3);
         hbs.boostPad = false;
+        animPlayed = false;
     }
 
     public IEnumerator clean()
@@ -146,10 +154,10 @@ public class airTime : MonoBehaviour
     public IEnumerator CoroutineCoordinator()
     {
      while (true)
-     {
-         while (coroutineQueue.Count > 0)
-             yield return StartCoroutine(coroutineQueue.Dequeue());
-         yield return null;
+     {        
+        while (coroutineQueue.Count > 0)
+            yield return StartCoroutine(coroutineQueue.Dequeue());            
+        yield return null;
      }
  }
 
