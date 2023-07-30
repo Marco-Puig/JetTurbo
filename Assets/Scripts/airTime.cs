@@ -12,6 +12,7 @@ public class airTime : MonoBehaviour
     public bool InAir = false;
     public bool performedTrick = false;
     public Animator anim;
+    public Animator anim1;
     public bool trickBoost;
     public string[] anims;
     public TMP_Text score;
@@ -35,7 +36,10 @@ public class airTime : MonoBehaviour
 
         if (!animPlayed && coroutineQueue.Count > 0 && Input.GetKey(KeyCode.Mouse1))
         {
-            anim.Play("touchboost");
+            if (PlayerPrefs.GetInt("Character") == 0)
+                anim.Play("touchboost");
+            else
+                anim1.Play("touchboost");
             animPlayed = true;
         }
 
@@ -64,7 +68,10 @@ public class airTime : MonoBehaviour
                 // do trick
                 int count = Random.Range(0, anims.Length-1);
                 //flip is too bad to look at, so just leave it as both spin.
-                anim.Play(anims[count]);
+                if (PlayerPrefs.GetInt("Character") == 0)
+                    anim.Play(anims[count]);
+                else
+                    anim1.Play(anims[count]);
                 // have different tricks be different score amounts
                 score_count += 50;
                 clonePopUp = Instantiate(scorePopUp, new Vector3(86.6f, 200f, 0), Quaternion.identity);
@@ -75,7 +82,7 @@ public class airTime : MonoBehaviour
                 performedTrick = true;
 
                 //updated score to level will need to adjust how much exp you get
-                PlayerPrefs.SetFloat("Level", PlayerPrefs.GetFloat("Level") + (score_count / 2000));
+                PlayerPrefs.SetFloat("Level", PlayerPrefs.GetFloat("Level") + (score_count / 3000));
             }
         }
         else{
@@ -87,7 +94,7 @@ public class airTime : MonoBehaviour
 
     bool AnimatorIsPlaying()
     {
-        return anim.GetCurrentAnimatorStateInfo(0).length > anim.GetCurrentAnimatorStateInfo(0).normalizedTime;
+        return anim.GetCurrentAnimatorStateInfo(0).length > anim.GetCurrentAnimatorStateInfo(0).normalizedTime || anim1.GetCurrentAnimatorStateInfo(0).length > anim1.GetCurrentAnimatorStateInfo(0).normalizedTime;
     }
 
     bool IsGrounded()

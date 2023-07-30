@@ -15,7 +15,7 @@ C:/Users/marco/OneDrive/Documents/JetTurbo
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-56350
+61619
 Successfully changed project path to: C:/Users/marco/OneDrive/Documents/JetTurbo
 C:/Users/marco/OneDrive/Documents/JetTurbo
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/marco/OneDrive/Documents/JetTurbo
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [18132] Host "[IP] 10.0.0.132 [Port] 0 [Flags] 2 [Guid] 953608928 [EditorId] 953608928 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KHEODDI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [676] Host "[IP] 10.0.0.132 [Port] 0 [Flags] 2 [Guid] 2168030056 [EditorId] 2168030056 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KHEODDI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [18132] Host "[IP] 10.0.0.132 [Port] 0 [Flags] 2 [Guid] 953608928 [EditorId] 953608928 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KHEODDI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [676] Host "[IP] 10.0.0.132 [Port] 0 [Flags] 2 [Guid] 2168030056 [EditorId] 2168030056 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KHEODDI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 104.62 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 116.02 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.26f1 (a16dc32e0ff2)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/Resources/UnitySubsystems
@@ -143,8 +143,8 @@ Fossilize ERROR: Failed to parse ApplicationInfoFilter, letting recording go thr
 [vulkan] Loaded instance function vkGetPhysicalDeviceMemoryProperties2KHR
 [vulkan] Loaded instance function vkGetPhysicalDeviceSparseImageFormatProperties2KHR
 [Vulkan init] SelectPhysicalDevice requestedDeviceIndex=-1 xrDevice=0000000000000000
-[Vulkan init] Physical Device 000001A1B1BEBD40 [0]: "NVIDIA GeForce GTX 1070" deviceType=2 vendorID=10de deviceID=1b81
-[Vulkan init] Selected physical device 000001A1B1BEBD40
+[Vulkan init] Physical Device 000001FDA2A237F0 [0]: "NVIDIA GeForce GTX 1070" deviceType=2 vendorID=10de deviceID=1b81
+[Vulkan init] Selected physical device 000001FDA2A237F0
 [Vulkan init] Graphics queue count=1
 [Vulkan init] extensions: count=164
 [Vulkan init] extensions: name=VK_KHR_16bit_storage, enabled=1
@@ -452,145 +452,145 @@ Vulkan vendor=[NVIDIA] id=[10de]
 Vulkan renderer=[NVIDIA GeForce GTX 1070] id=[1b81]
 Vulkan device type 2
 Vulkan driverversion=[0x8610c000] uint=[-2045722624]
-Vulkan PSO: Cache data successfully loaded [size=3585508,path=C:/Users/marco/AppData/Local/Temp/Velocity Interactive/JetTurbo/vulkan_pso_cache.bin]
+Vulkan PSO: Cache data successfully loaded [size=3653652,path=C:/Users/marco/AppData/Local/Temp/Velocity Interactive/JetTurbo/vulkan_pso_cache.bin]
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56332
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56168
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006273 seconds.
+Registered in 0.006427 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 87.87 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 96.06 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.619 seconds
+- Completed reload, in  0.687 seconds
 Domain Reload Profiling:
-	ReloadAssembly (620ms)
-		BeginReloadAssembly (77ms)
+	ReloadAssembly (688ms)
+		BeginReloadAssembly (84ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (448ms)
-			LoadAssemblies (74ms)
+		EndReloadAssembly (498ms)
+			LoadAssemblies (82ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (97ms)
+			SetupTypeCache (105ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (276ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (302ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (88ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (135ms)
-				ProcessInitializeOnLoadMethodAttributes (44ms)
+				RefreshPlugins (96ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (147ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005550 seconds.
+Registered in 0.005591 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 170.75 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 91.48 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
-Find all reader and writers took 98 milliseconds
+Find all reader and writers took 100 milliseconds
 Script Module: UnityEngine.UI.dll
-Weave behaviours and messages took68 milliseconds
-Find all reader and writers took 89 milliseconds
+Weave behaviours and messages took71 milliseconds
+Find all reader and writers took 96 milliseconds
 Script Module: Unity.RenderPipelines.Core.Runtime.dll
-Weave behaviours and messages took69 milliseconds
-Find all reader and writers took 75 milliseconds
+Weave behaviours and messages took77 milliseconds
+Find all reader and writers took 79 milliseconds
 Script Module: UnityEngine.TestRunner.dll
-Weave behaviours and messages took19 milliseconds
-Find all reader and writers took 65 milliseconds
-Script Module: SimpleWebTransport.dll
-Weave behaviours and messages took9 milliseconds
-Find all reader and writers took 70 milliseconds
-Script Module: Unity.Postprocessing.Runtime.dll
-Weave behaviours and messages took19 milliseconds
-Find all reader and writers took 88 milliseconds
-Script Module: Unity.TextMeshPro.dll
-Weave behaviours and messages took56 milliseconds
-Find all reader and writers took 65 milliseconds
-Script Module: Unity.ProBuilder.Poly2Tri.dll
-Weave behaviours and messages took6 milliseconds
-Find all reader and writers took 71 milliseconds
-Script Module: Unity.Timeline.dll
-Weave behaviours and messages took22 milliseconds
-Find all reader and writers took 74 milliseconds
-Script Module: Unity.ProBuilder.dll
-Weave behaviours and messages took57 milliseconds
-Find all reader and writers took 61 milliseconds
-Script Module: Telepathy.dll
-Weave behaviours and messages took2 milliseconds
+Weave behaviours and messages took20 milliseconds
 Find all reader and writers took 69 milliseconds
+Script Module: SimpleWebTransport.dll
+Weave behaviours and messages took10 milliseconds
+Find all reader and writers took 74 milliseconds
+Script Module: Unity.Postprocessing.Runtime.dll
+Weave behaviours and messages took22 milliseconds
+Find all reader and writers took 81 milliseconds
+Script Module: Unity.TextMeshPro.dll
+Weave behaviours and messages took68 milliseconds
+Find all reader and writers took 63 milliseconds
+Script Module: Unity.ProBuilder.Poly2Tri.dll
+Weave behaviours and messages took8 milliseconds
+Find all reader and writers took 73 milliseconds
+Script Module: Unity.Timeline.dll
+Weave behaviours and messages took23 milliseconds
+Find all reader and writers took 84 milliseconds
+Script Module: Unity.ProBuilder.dll
+Weave behaviours and messages took62 milliseconds
+Find all reader and writers took 66 milliseconds
+Script Module: Telepathy.dll
+Weave behaviours and messages took5 milliseconds
+Find all reader and writers took 77 milliseconds
 Script Module: Unity.ProBuilder.Csg.dll
-Weave behaviours and messages took1 milliseconds
-Find all reader and writers took 68 milliseconds
+Weave behaviours and messages took2 milliseconds
+Find all reader and writers took 73 milliseconds
 Script Module: kcp2k.dll
 Weave behaviours and messages took3 milliseconds
-Find all reader and writers took 71 milliseconds
+Find all reader and writers took 73 milliseconds
 Script Module: Dan.dll
 Weave behaviours and messages took3 milliseconds
-Find all reader and writers took 69 milliseconds
+Find all reader and writers took 66 milliseconds
 Script Module: Unity.ProBuilder.KdTree.dll
-Weave behaviours and messages took2 milliseconds
-Find all reader and writers took 65 milliseconds
+Weave behaviours and messages took6 milliseconds
+Find all reader and writers took 75 milliseconds
 Script Module: Unity.RenderPipelines.Core.ShaderLibrary.dll
 Weave behaviours and messages took0 milliseconds
-Find all reader and writers took 67 milliseconds
+Find all reader and writers took 101 milliseconds
 Script Module: Unity.ProBuilder.Stl.dll
-Weave behaviours and messages took2 milliseconds
-Find all reader and writers took 70 milliseconds
+Weave behaviours and messages took1 milliseconds
+Find all reader and writers took 71 milliseconds
 Script Module: Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
 Weave behaviours and messages took0 milliseconds
-Find all reader and writers took 93 milliseconds
+Find all reader and writers took 97 milliseconds
 Script Module: UnityEditor.TestRunner.dll
-Weave behaviours and messages took33 milliseconds
-Find all reader and writers took 88 milliseconds
+Weave behaviours and messages took34 milliseconds
+Find all reader and writers took 93 milliseconds
 Script Module: Unity.ProBuilder.AssetIdRemapUtility.dll
-Weave behaviours and messages took2 milliseconds
-Find all reader and writers took 78 milliseconds
+Weave behaviours and messages took3 milliseconds
+Find all reader and writers took 79 milliseconds
 Script Module: Mirror.CompilerSymbols.dll
 Weave behaviours and messages took0 milliseconds
-Find all reader and writers took 89 milliseconds
+Find all reader and writers took 97 milliseconds
 Script Module: UnityEditor.UI.dll
-Weave behaviours and messages took11 milliseconds
-Find all reader and writers took 75 milliseconds
+Weave behaviours and messages took8 milliseconds
+Find all reader and writers took 76 milliseconds
 Script Module: Unity.ShaderGraph.Utilities.dll
 Weave behaviours and messages took0 milliseconds
 Mono: successfully reloaded assembly
-- Completed reload, in  5.862 seconds
+- Completed reload, in  5.829 seconds
 Domain Reload Profiling:
-	ReloadAssembly (5863ms)
-		BeginReloadAssembly (119ms)
+	ReloadAssembly (5829ms)
+		BeginReloadAssembly (125ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (19ms)
-		EndReloadAssembly (5630ms)
-			LoadAssemblies (92ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (5597ms)
+			LoadAssemblies (99ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (441ms)
+			SetupTypeCache (272ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (79ms)
-			SetupLoadedEditorAssemblies (4956ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (5128ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (171ms)
-				BeforeProcessingInitializeOnLoad (88ms)
-				ProcessInitializeOnLoadAttributes (394ms)
-				ProcessInitializeOnLoadMethodAttributes (4290ms)
+				RefreshPlugins (92ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (393ms)
+				ProcessInitializeOnLoadMethodAttributes (4546ms)
 				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -599,12 +599,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 1.25 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.45 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3430 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 47 unused Assets / (1.8 MB). Loaded Objects now: 4018.
-Memory consumption went from 258.2 MB to 256.5 MB.
-Total: 4.954700 ms (FindLiveObjects: 0.315200 ms CreateObjectMapping: 0.290500 ms MarkObjects: 3.846400 ms  DeleteObjects: 0.501500 ms)
+Unloading 3432 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 47 unused Assets / (1.8 MB). Loaded Objects now: 4020.
+Memory consumption went from 258.3 MB to 256.6 MB.
+Total: 4.298600 ms (FindLiveObjects: 0.295700 ms CreateObjectMapping: 0.209300 ms MarkObjects: 3.351400 ms  DeleteObjects: 0.441100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -618,46 +618,10 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 187066.980857 seconds.
-  path: Assets/Builders/EasyRoads3D/images/home.jpg
-  artifactKey: Guid(3b39af9cdf13d3143bb35d0fc023287b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Builders/EasyRoads3D/images/home.jpg using Guid(3b39af9cdf13d3143bb35d0fc023287b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3049b20ba2d06c8ac4b3f1494e2d38fd') in 0.114596 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Thirdparty/SCI-FI UI Pack Pro/Common/White Icons/Textures/Icons2/Icon_Hourglass.png
-  artifactKey: Guid(9f0daad3d77c6b445bcb80f14558dd6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Thirdparty/SCI-FI UI Pack Pro/Common/White Icons/Textures/Icons2/Icon_Hourglass.png using Guid(9f0daad3d77c6b445bcb80f14558dd6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad5700acacafe1cb8da80ee7cd65c2b4') in 0.088716 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Thirdparty/SCI-FI UI Pack Pro/SCI-FI UI Pack_V1 Pro(Blue)/Textures/DemoScene_Blue/Decorations/Icon_ItemShowYellow.png
-  artifactKey: Guid(939ac73987fcb5341b48ccb3b8073d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Thirdparty/SCI-FI UI Pack Pro/SCI-FI UI Pack_V1 Pro(Blue)/Textures/DemoScene_Blue/Decorations/Icon_ItemShowYellow.png using Guid(939ac73987fcb5341b48ccb3b8073d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f66cc857a7b47776bc9a4ae82b2dfad9') in 0.017902 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Thirdparty/SCI-FI UI Pack Pro/SCI-FI UI Pack_V1 Pro(Blue)/Textures/DemoScene_Blue/Decorations/Icon_ItemShowGreen.png
-  artifactKey: Guid(4da3f70fd729bac41b4c23f4a3389cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Thirdparty/SCI-FI UI Pack Pro/SCI-FI UI Pack_V1 Pro(Blue)/Textures/DemoScene_Blue/Decorations/Icon_ItemShowGreen.png using Guid(4da3f70fd729bac41b4c23f4a3389cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a45fd33f9cc2015d074063c6ac842a45') in 0.069182 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Thirdparty/SCI-FI UI Pack Pro/SCI-FI UI Pack_V1 Pro(Blue)/Textures/DemoScene_Blue/Decorations/Icon_ItemShowBlue.png
-  artifactKey: Guid(227f3e422a1c34145b1a7fcb498d939b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Thirdparty/SCI-FI UI Pack Pro/SCI-FI UI Pack_V1 Pro(Blue)/Textures/DemoScene_Blue/Decorations/Icon_ItemShowBlue.png using Guid(227f3e422a1c34145b1a7fcb498d939b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c068f03dcb904dc3edf4f26d8f80c1f4') in 0.017337 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Thirdparty/SCI-FI UI Pack Pro/SCI-FI UI Pack_V2 Pro(Cyan)/Textures/DemoScene_Cyan/Decorations/Icon_ItemShowRed.png
-  artifactKey: Guid(e822e688ee7da5f48bd4826e83f4e6a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Thirdparty/SCI-FI UI Pack Pro/SCI-FI UI Pack_V2 Pro(Cyan)/Textures/DemoScene_Cyan/Decorations/Icon_ItemShowRed.png using Guid(e822e688ee7da5f48bd4826e83f4e6a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '498ede7968f0cc27ebbf642cf4f50637') in 0.021380 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Thirdparty/SCI-FI UI Pack Pro/SCI-FI UI Pack_V2 Pro(Cyan)/Textures/DemoScene_Cyan/Decorations/Icon_ItemShowGreen.png
-  artifactKey: Guid(66f803e24ab78cf4f9c5f0879b83a53b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Thirdparty/SCI-FI UI Pack Pro/SCI-FI UI Pack_V2 Pro(Cyan)/Textures/DemoScene_Cyan/Decorations/Icon_ItemShowGreen.png using Guid(66f803e24ab78cf4f9c5f0879b83a53b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '709325a24efd8a32dbcabcd950e44512') in 0.019915 seconds 
+  Time since last request: 379463.600888 seconds.
+  path: Assets/Materials/lydia_mats/face.mat
+  artifactKey: Guid(6047d535021ec604ba01169edb5d2d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/lydia_mats/face.mat using Guid(6047d535021ec604ba01169edb5d2d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '783f876a2efb6e9bbd394cfe86ad22a5') in 0.134554 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

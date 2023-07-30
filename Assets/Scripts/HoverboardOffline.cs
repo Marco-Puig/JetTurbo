@@ -9,7 +9,6 @@ public class HoverboardOffline : MonoBehaviour
     public Rigidbody hb;
     public airTimeOffline at;
     public bool InAir;
-    public GameObject boardModel;
     public float mult;
     public float moveForce;
     public float moveForceDefault;
@@ -73,7 +72,6 @@ public class HoverboardOffline : MonoBehaviour
 
         if (InAir == false){
             ApplyMovement(boostForce, boostTorque);
-            BoardTilt();
             Drifting(); 
         }
         else{
@@ -213,61 +211,6 @@ public class HoverboardOffline : MonoBehaviour
 
     float tilt_x = 1.5f;
     float tilt_z = 0.0f;
-
-    void BoardTilt()
-    {   
-        //REFACTOR USING LERP (Mathf.Lerp()) from BoardAssist.cs
-        //basic version of tilting implementation
-        //refactor code to just 0.5f and 1.0fs, rather than incerementing
-        if (Input.GetKey(KeyCode.A) && !(Input.GetKey(KeyCode.Mouse1)) && !(Input.GetKey(KeyCode.W))){
-            float tilt_z = 1.0f;
-            float tilt_x = 0.0f; 
-            Quaternion localRotation = Quaternion.Euler(tilt_x, 0f, tilt_z);
-            boardModel.transform.rotation = transform.rotation * localRotation;
-        }
-        else if (Input.GetKey(KeyCode.D) && !(Input.GetKey(KeyCode.Mouse1)) && !(Input.GetKey(KeyCode.W))){
-            float tilt_z = -1.0f;
-            float tilt_x = 0.0f; 
-            Quaternion localRotation = Quaternion.Euler(tilt_x, 0f, tilt_z);
-            boardModel.transform.rotation = transform.rotation * localRotation;
-        }   
-        else if (Input.GetKey(KeyCode.W) && !(Input.GetKey(KeyCode.Mouse1))){
-            float tilt_x = 0.5f;
-            float tilt_z = 0.0f;
-
-            if (Input.GetKey(KeyCode.D)){
-                tilt_z = -1.0f;
-            }
-            if (Input.GetKey(KeyCode.A)){
-                tilt_z = 1.0f;
-            }
-            Quaternion localRotation = Quaternion.Euler(tilt_x, 0f, tilt_z);
-            boardModel.transform.rotation = transform.rotation * localRotation;
-        }
-        else if (Input.GetKey(KeyCode.Mouse1)){
-            if (Input.GetKey(KeyCode.D)){
-                tilt_z = -1.5f;
-            }
-            if (Input.GetKey(KeyCode.A)){
-                tilt_z = 1.5f;
-            }
-            Quaternion localRotation = Quaternion.Euler(tilt_x, 0f, tilt_z);
-            boardModel.transform.rotation = transform.rotation * localRotation;    
-        }
-        else if (Input.GetKey(KeyCode.S) && !Input.GetKey(KeyCode.Mouse1)){
-            float tilt_z = 0.0f;
-            float tilt_x = 0.0f;
-            if (tilt_x >= -4.0f){
-                tilt_x -= 0.7f;
-            } 
-            Quaternion localRotation = Quaternion.Euler(tilt_x, 0f, tilt_z);
-            boardModel.transform.rotation = transform.rotation * localRotation;
-        }
-        else{
-            Quaternion localRotation = Quaternion.Euler(0f, 0f, 0f);
-            boardModel.transform.rotation = transform.rotation * localRotation;
-        }
-    }
 
     void Drifting(){
         //torque value

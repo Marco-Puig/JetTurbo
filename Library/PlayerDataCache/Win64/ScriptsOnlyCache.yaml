@@ -3,8 +3,11 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - BoardAssist
     - Boostpad
+    - CharacterData
+    - CharacterDataManager
     - CountdownStart
     - CustomNetworkManager
+    - EndGameManager
     - EndGameManagerOffline
     - ExitBtn
     - Hoverboard
@@ -22,7 +25,9 @@ ScriptsOnlyBuild:
     - StatsDev
     - SteamLobby
     - SteamUserDisplay
+    - Timer
     - TimerOffline
+    - TriggerEndScreen
     - TriggerEndScreenOffline
     - WebUrlBtn
     - airTime
@@ -108,8 +113,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -222,9 +229,6 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.SpriteState
     - UnityEngine.UI.Toggle/ToggleEvent
   methodsToPreserve:
-  - assembly: Assembly-CSharp
-    fullTypeName: ExitBtn
-    methodName: ClickRestart
   - assembly: Assembly-CSharp
     fullTypeName: ExitBtn
     methodName: ClickLeave
@@ -394,29 +398,29 @@ ScriptsOnlyBuild:
     fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerPanel
     methodName: ResetDebugManager
   - assembly: Assembly-CSharp
-    fullTypeName: SettingsMenu
-    methodName: SetResolution
+    fullTypeName: LoadingScreen
+    methodName: LoadLevel
   - assembly: Assembly-CSharp
     fullTypeName: SettingsMenu
-    methodName: SetSensitvity
+    methodName: SetVolume
   - assembly: Assembly-CSharp
     fullTypeName: SettingsMenu
     methodName: SetFullScreen
   - assembly: Assembly-CSharp
     fullTypeName: SettingsMenu
-    methodName: SetQuality
+    methodName: SetSensitvity
   - assembly: Assembly-CSharp
     fullTypeName: SettingsMenu
-    methodName: SetVolume
-  - assembly: Assembly-CSharp
-    fullTypeName: LoadingScreen
-    methodName: LoadLevel
-  - assembly: Assembly-CSharp
-    fullTypeName: ExitBtn
-    methodName: ClickRestart
+    methodName: SetResolution
   - assembly: Assembly-CSharp
     fullTypeName: ExitBtn
     methodName: ClickLeave
+  - assembly: Assembly-CSharp
+    fullTypeName: SettingsMenu
+    methodName: SetQuality
+  - assembly: Assembly-CSharp
+    fullTypeName: ExitBtn
+    methodName: ClickRestart
   - assembly: Assembly-CSharp
     fullTypeName: SettingsMenu
     methodName: SetVolume
@@ -538,6 +542,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5306}
     - Class: 114
+      Script: {instanceID: 5372}
+    - Class: 114
       Script: {instanceID: 5454}
     - Class: 114
       Script: {instanceID: 5486}
@@ -656,6 +662,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 2712}
     - Class: 114
       Script: {instanceID: 2994}
+    - Class: 114
+      Script: {instanceID: 3088}
     - Class: 114
       Script: {instanceID: 3206}
     - Class: 114
@@ -863,6 +871,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 8108}
     - Class: 114
       Script: {instanceID: 8130}
+    - Class: 114
+      Script: {instanceID: 924264}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 122
@@ -1013,6 +1023,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2736}
     - Class: 114
+      Script: {instanceID: 2764}
+    - Class: 114
       Script: {instanceID: 2782}
     - Class: 114
       Script: {instanceID: 2816}
@@ -1053,6 +1065,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4084}
     - Class: 114
+      Script: {instanceID: 4088}
+    - Class: 114
       Script: {instanceID: 4398}
     - Class: 114
       Script: {instanceID: 4514}
@@ -1082,8 +1096,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 5744}
     - Class: 114
       Script: {instanceID: 5756}
-    - Class: 114
-      Script: {instanceID: 5782}
     - Class: 114
       Script: {instanceID: 5812}
     - Class: 114
@@ -1147,8 +1159,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7648}
     - Class: 114
-      Script: {instanceID: 7656}
-    - Class: 114
       Script: {instanceID: 7858}
     - Class: 114
       Script: {instanceID: 8004}
@@ -1162,6 +1172,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 8568}
     - Class: 114
       Script: {instanceID: 8668}
+    - Class: 114
+      Script: {instanceID: 720724}
+    - Class: 114
+      Script: {instanceID: 924264}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -1469,7 +1483,7 @@ ScriptsOnlyBuild:
     className: DebugUIHandlerToggle
   - hash:
       serializedVersion: 2
-      Hash: aa5536fea81f0e8eb2e6da26d689a82f
+      Hash: 919d9d0cb413bdb9576dea59a4392a4e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: HoverboardOffline
@@ -1565,7 +1579,7 @@ ScriptsOnlyBuild:
     className: cam_control
   - hash:
       serializedVersion: 2
-      Hash: 83d8647548219fd87b0d03f8c8016750
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: TriggerEndScreen
@@ -2663,7 +2677,7 @@ ScriptsOnlyBuild:
     className: PressedBtn
   - hash:
       serializedVersion: 2
-      Hash: 553f4c1aa462265d3d4051bc8162cc81
+      Hash: c4b39fbbc2cddc511d0d0e47f3db340a
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Hoverboard
@@ -2765,7 +2779,7 @@ ScriptsOnlyBuild:
     className: CanvasController
   - hash:
       serializedVersion: 2
-      Hash: 0938b41a9c222389393573b81e36a735
+      Hash: 478ecded4c0848268c97ec4456e4fe5a
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: taunt
@@ -3053,7 +3067,7 @@ ScriptsOnlyBuild:
     className: CountdownStart
   - hash:
       serializedVersion: 2
-      Hash: 961e606897d6b3faf4b4922511022751
+      Hash: 8fd0a681a820e7c8e400e23213dd31a7
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: airTimeOffline
@@ -3155,7 +3169,7 @@ ScriptsOnlyBuild:
     className: DebugUIHandlerFoldout
   - hash:
       serializedVersion: 2
-      Hash: 6879f610c4a8d5df68e1fbc84778a5a8
+      Hash: 2a2c9d5af7fbe6d797fc47afac1c134a
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: airTime
@@ -3195,6 +3209,18 @@ ScriptsOnlyBuild:
     assemblyName: Mirror.Examples.dll
     namespaceName: Mirror.Examples.NetworkRoom
     className: NetworkRoomPlayerExt
+  - hash:
+      serializedVersion: 2
+      Hash: 9fe8628da7e23aabbdadbb6d6c6d751c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CharacterDataManager
+  - hash:
+      serializedVersion: 2
+      Hash: e52b10edff47be8dfca7393d69001c42
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CharacterData
   platform: 19
   scenePathNames:
   - Assets/Scenes/menu.unity
