@@ -209,9 +209,6 @@ public class HoverboardOffline : MonoBehaviour
 
     }
 
-    float tilt_x = 1.5f;
-    float tilt_z = 0.0f;
-
     void Drifting(){
         //torque value
         float driftTorque = Mathf.Lerp(0, 150, 20f);

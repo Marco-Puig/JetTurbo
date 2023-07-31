@@ -13,6 +13,7 @@ public class airTimeOffline : MonoBehaviour
     public bool performedTrick = false;
     public Animator anim;
     public Animator anim1;
+    public Animator anim2;
     public bool trickBoost;
     public string[] anims;
     public TMP_Text score;
@@ -57,8 +58,8 @@ public class airTimeOffline : MonoBehaviour
             boardAssist.constrainRotationX = true;
 
             //keep the momentium going!
-            hbs.hb.AddForce(Input.GetAxis("Fire2") * 1000 * hbs.transform.forward); 
-            hbs.hb.AddForce(Input.GetAxis("RT") * 1000 * hbs.transform.forward);
+            hbs.hb.AddForce(Input.GetAxis("Fire2") * 1500 * hbs.transform.forward * Time.deltaTime); 
+            hbs.hb.AddForce(Input.GetAxis("RT") * 1500 * hbs.transform.forward * Time.deltaTime);
             //hbs.boostEffect.enabled = true;
 
             //gravity adjustments for better feel
@@ -68,6 +69,7 @@ public class airTimeOffline : MonoBehaviour
                 // do trick
                 int count = Random.Range(0, anims.Length-1);
                 //flip is too bad to look at, so just leave it as both spin.
+                anim2.Play(anims[count]);
                 if (PlayerPrefs.GetInt("Character") == 0)
                     anim.Play(anims[count]);
                 else
@@ -82,7 +84,7 @@ public class airTimeOffline : MonoBehaviour
                 performedTrick = true;
 
                 //updated score to level will need to adjust how much exp you get
-                PlayerPrefs.SetFloat("Level", PlayerPrefs.GetFloat("Level") + (score_count / 300));
+                PlayerPrefs.SetFloat("Level", PlayerPrefs.GetFloat("Level") + (score_count / 1000));
             }
         }
         else{

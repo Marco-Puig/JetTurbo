@@ -232,9 +232,6 @@ public class Hoverboard : NetworkBehaviour
 
     }
 
-    float tilt_x = 1.5f;
-    float tilt_z = 0.0f;
-
     void Drifting(){
         //torque value
         float driftTorque = Mathf.Lerp(0, 150, 20f);
@@ -359,6 +356,6 @@ public class Hoverboard : NetworkBehaviour
     
     void SetPosition()
     {
-        hb.transform.position = new Vector3(Random.Range(94,109), -14.77f, 23.26001f);
+        hb.transform.position = new Vector3(Random.Range(94,107), -14.77f, 23.26001f);
     }
 }

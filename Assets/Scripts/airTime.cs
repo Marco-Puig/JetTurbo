@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using Mirror;
 
-public class airTime : MonoBehaviour
+public class airTime : NetworkBehaviour
 {
     public GameObject player;
     public BoardAssist boardAssist;
@@ -13,6 +14,7 @@ public class airTime : MonoBehaviour
     public bool performedTrick = false;
     public Animator anim;
     public Animator anim1;
+    public Animator anim2;
     public bool trickBoost;
     public string[] anims;
     public TMP_Text score;
@@ -32,6 +34,8 @@ public class airTime : MonoBehaviour
 
     void Update()
     {
+        if (hasAuthority)
+        {
         score.SetText("Score: " + score_count);
 
         if (!animPlayed && coroutineQueue.Count > 0 && Input.GetKey(KeyCode.Mouse1))
@@ -57,8 +61,8 @@ public class airTime : MonoBehaviour
             boardAssist.constrainRotationX = true;
 
             //keep the momentium going!
-            hbs.hb.AddForce(Input.GetAxis("Fire2") * 1000 * hbs.hb.transform.forward); 
-            hbs.hb.AddForce(Input.GetAxis("RT") * 1000 * hbs.hb.transform.forward);
+            hbs.hb.AddForce(Input.GetAxis("Fire2") * 1500 * hbs.hb.transform.forward * Time.deltaTime); 
+            hbs.hb.AddForce(Input.GetAxis("RT") * 1500 * hbs.hb.transform.forward * Time.deltaTime);
             //hbs.boostEffect.enabled = true;
 
             //gravity adjustments for better feel
@@ -68,6 +72,8 @@ public class airTime : MonoBehaviour
                 // do trick
                 int count = Random.Range(0, anims.Length-1);
                 //flip is too bad to look at, so just leave it as both spin.
+                //flip is too bad to look at, so just leave it as both spin.
+                anim2.Play(anims[count]);
                 if (PlayerPrefs.GetInt("Character") == 0)
                     anim.Play(anims[count]);
                 else
@@ -82,14 +88,16 @@ public class airTime : MonoBehaviour
                 performedTrick = true;
 
                 //updated score to level will need to adjust how much exp you get
-                PlayerPrefs.SetFloat("Level", PlayerPrefs.GetFloat("Level") + (score_count / 3000));
+                PlayerPrefs.SetFloat("Level", PlayerPrefs.GetFloat("Level") + (score_count / 1000));
             }
         }
         else{
             boardAssist.constrainRotationZ = false;
             boardAssist.constrainRotationX = false;
             hbs.InAir = false;
+        }            
         }
+
     }
 
     bool AnimatorIsPlaying()
@@ -166,6 +174,6 @@ public class airTime : MonoBehaviour
             yield return StartCoroutine(coroutineQueue.Dequeue());            
         yield return null;
      }
- }
+    }
 
 }
