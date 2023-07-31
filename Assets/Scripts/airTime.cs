@@ -61,8 +61,8 @@ public class airTime : NetworkBehaviour
             boardAssist.constrainRotationX = true;
 
             //keep the momentium going!
-            hbs.hb.AddForce(Input.GetAxis("Fire2") * 1500 * hbs.hb.transform.forward * Time.deltaTime); 
-            hbs.hb.AddForce(Input.GetAxis("RT") * 1500 * hbs.hb.transform.forward * Time.deltaTime);
+            hbs.hb.AddForce(Input.GetAxis("Fire2") * 20000 * hbs.hb.transform.forward * Time.deltaTime); 
+            hbs.hb.AddForce(Input.GetAxis("RT") * 20000 * hbs.hb.transform.forward * Time.deltaTime);
             //hbs.boostEffect.enabled = true;
 
             //gravity adjustments for better feel

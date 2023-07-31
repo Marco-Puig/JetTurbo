@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class airTimeOffline : MonoBehaviour
 {
@@ -58,8 +59,18 @@ public class airTimeOffline : MonoBehaviour
             boardAssist.constrainRotationX = true;
 
             //keep the momentium going!
-            hbs.hb.AddForce(Input.GetAxis("Fire2") * 1500 * hbs.transform.forward * Time.deltaTime); 
-            hbs.hb.AddForce(Input.GetAxis("RT") * 1500 * hbs.transform.forward * Time.deltaTime);
+            if ((SceneManager.GetActiveScene().name == "Map1_Offline"))
+            {
+                hbs.hb.AddForce(Input.GetAxis("Fire2") * 20000 * hbs.transform.forward * (Time.deltaTime + 1)); 
+                hbs.hb.AddForce(Input.GetAxis("RT") * 20000 * hbs.transform.forward * (Time.deltaTime + 1));
+            }
+            else 
+            {
+                hbs.hb.AddForce(Input.GetAxis("Fire2") * 1000 * hbs.transform.forward * (Time.deltaTime + 1)); 
+                hbs.hb.AddForce(Input.GetAxis("RT") * 1000 * hbs.transform.forward * (Time.deltaTime + 1));                
+            }
+
+
             //hbs.boostEffect.enabled = true;
 
             //gravity adjustments for better feel
@@ -68,7 +79,7 @@ public class airTimeOffline : MonoBehaviour
             if ((Input.GetKey(KeyCode.Mouse0) || Input.GetButton("A"))  && !(AnimatorIsPlaying())){
                 // do trick
                 int count = Random.Range(0, anims.Length-1);
-                //flip is too bad to look at, so just leave it as both spin.
+                // flip is too bad to look at, so just leave it as both spin.
                 anim2.Play(anims[count]);
                 if (PlayerPrefs.GetInt("Character") == 0)
                     anim.Play(anims[count]);

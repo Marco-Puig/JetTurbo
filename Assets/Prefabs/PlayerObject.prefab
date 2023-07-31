@@ -11590,9 +11590,9 @@ MonoBehaviour:
   anim: {fileID: 4003598903106760288}
   anim1: {fileID: 6431826983577295481}
   anims:
-  - jump flatspin animation
-  - jump flatspin animation
-  - jump flatspin animation
+  - wavetaunt
+  - wavetaunt
+  - wavetaunt
 --- !u!114 &1948719229948197909
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15786,6 +15786,7 @@ GameObject:
   - component: {fileID: 8522826067091938924}
   - component: {fileID: 4728845470794235612}
   - component: {fileID: 6772409724958877469}
+  - component: {fileID: 4416063905158528242}
   m_Layer: 0
   m_Name: GroundCheck
   m_TagString: Untagged
@@ -15833,6 +15834,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40e5853ea8f867843a107f66268f95aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
   player: {fileID: 3007003824963892861}
   boardAssist: {fileID: 101433325328769626}
   hbs: {fileID: 6697174891554473540}
@@ -15873,6 +15876,23 @@ MonoBehaviour:
   airTime: {fileID: 4728845470794235612}
   fade: {fileID: 4033452484702420954}
   faded: 0
+--- !u!114 &4416063905158528242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5217564991393675229}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b91ecbcc199f4492b9a91e820070131, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneId: 0
+  serverOnly: 0
+  visible: 0
+  m_AssetId: 
+  hasSpawned: 0
 --- !u!1 &5278495577092734594
 GameObject:
   m_ObjectHideFlags: 0
