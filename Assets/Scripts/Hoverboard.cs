@@ -41,11 +41,14 @@ public class Hoverboard : NetworkBehaviour
     
     void Start()
     {
-        initialMouseX = Input.mousePosition.x;
-        initialRotation = hb.transform.rotation;
-        ResetMousePosition();
+        if (hasAuthority)
+        {
+            initialMouseX = Input.mousePosition.x;
+            initialRotation = hb.transform.rotation;
+            ResetMousePosition();
 
-        Input.ResetInputAxes();
+            Input.ResetInputAxes();
+        }
     }
 
     public Transform[] anchors = new Transform[4];
@@ -53,19 +56,22 @@ public class Hoverboard : NetworkBehaviour
 
     void Update()
     {
-        //keep track of speed and boostings
-        speed = hb.velocity.magnitude; 
-        double speed_for_text = System.Math.Round(speed, 0); 
-        speed_count.SetText((speed_for_text * 3).ToString());
+        if (hasAuthority)
+        {
+            //keep track of speed and boostings
+            speed = hb.velocity.magnitude; 
+            double speed_for_text = System.Math.Round(speed, 0); 
+            speed_count.SetText((speed_for_text * 3).ToString());
 
-        if (!(Input.GetKey(KeyCode.Mouse1) || Input.GetAxis("RT") > 0))
-            boostPad = false;
+            if (!(Input.GetKey(KeyCode.Mouse1) || Input.GetAxis("RT") > 0))
+                boostPad = false;
         
-        if (boostPad) boostReady.enabled = false; else boostReady.enabled = true;
+            if (boostPad) boostReady.enabled = false; else boostReady.enabled = true;
         
-        //check if player is paused
-        if (Input.GetKeyDown(KeyCode.Escape))
-        { if (isPaused) isPaused = false; else isPaused = true;}
+            //check if player is paused
+            if (Input.GetKeyDown(KeyCode.Escape))
+            { if (isPaused) isPaused = false; else isPaused = true;}
+        }
     }
 
     void FixedUpdate()
@@ -109,11 +115,14 @@ public class Hoverboard : NetworkBehaviour
 
     void ApplyF(Transform anchor, RaycastHit hit)
     {
+        if (hasAuthority)
+        {
         if (Physics.Raycast(anchor.position, -anchor.up, out hit) && InAir == false /*to prevent a rocket*/ && hovering)
         {
             float force = 0;
             force = Mathf.Abs(1 / (hit.point.y - anchor.position.y));
             hb.AddForceAtPosition(hb.transform.up * force * mult, anchor.position, ForceMode.Acceleration);
+        }
         }
         
     }
@@ -122,6 +131,8 @@ public class Hoverboard : NetworkBehaviour
     // will need a lot of tweaking
     void ApplyMovement(float amountForce, float amountTorque)
     {   
+        if (hasAuthority)
+        {
         if (Input.GetKey(KeyCode.Mouse1) || Input.GetAxis("RT") > 0)
         {
             //boosting
@@ -160,10 +171,13 @@ public class Hoverboard : NetworkBehaviour
                 hb.AddTorque(Input.GetAxis("Joystick X") * turnTorque * hb.transform.up * PlayerPrefs.GetFloat("Mouse Sensitivity"));
             }
         }
+        }
     }
 
     void ApplyCam(bool toggled)
     {
+        if (hasAuthority)
+        {
         //better game feel using camera
         if (boostPad == false){
             if (toggled == true){
@@ -180,7 +194,10 @@ public class Hoverboard : NetworkBehaviour
                 boostEffect.endColor = new Color(0f, 0f, 0f, 0f);
             }
         }
+        }
 
+        if (hasAuthority)
+        {
         if (boostPad){
             StartCoroutine(dec());
             StartCoroutine(dec_speed());
@@ -209,11 +226,13 @@ public class Hoverboard : NetworkBehaviour
             }
         }
 
-
+        }
     }
 
     void Ramping(bool toggled, float max, float min)
     {
+        if (hasAuthority)
+        {
         if (toggled == true)
             moveForce += 80.0f;
         else
@@ -229,10 +248,12 @@ public class Hoverboard : NetworkBehaviour
         {
             moveForce = min; 
         }
-
+        }
     }
 
     void Drifting(){
+        if (hasAuthority)
+        {
         //torque value
         float driftTorque = Mathf.Lerp(0, 150, 20f);
         //right
@@ -289,29 +310,44 @@ public class Hoverboard : NetworkBehaviour
             driftPurple.enabled = false;
             //driftReady.SetText("Drift: Not Ready");
         }
+        }
     }
     public IEnumerator driftWait()
     {
+        if (hasAuthority)
+        {
         l = false;
         r = false;
         driftCoolDown = true;
+        }
         yield return new WaitForSeconds(2f);
+        if (hasAuthority)
+        {
         driftCoolDown = false;
+        }
     }
 
     public IEnumerator dec(){
+        if (hasAuthority)
+        {
         mainCam.fieldOfView += 0.3f;
         speedEffect.Stop();
         speedEffect.Play();
         l = false;
-        r = false;            
+        r = false; 
+        }           
         yield return new WaitForSeconds(1);
+        if (hasAuthority)
+        {
         if (mainCam.fieldOfView >= 75.0f){
             mainCam.fieldOfView -= 0.6f;
+        }
         }
     }
 
     public IEnumerator dec_speed(){
+        if (hasAuthority)
+        {
         if ((at.trickBoost || driftBoost)){
             if (Input.GetKey(KeyCode.Mouse1) || Input.GetAxis("RT") > 0){
                 boostReady.enabled = false;
@@ -339,19 +375,27 @@ public class Hoverboard : NetworkBehaviour
         }
         boostEffect.startColor = new Color(1f, 0.6f, 0.1f);
         boostEffect.endColor = new Color(0f, 0f, 0f, 0f);
+        }
         yield return new WaitForSeconds(1);
         yield return new WaitForSeconds(2);
+        if (hasAuthority)
+        {
         if ((Input.GetKey(KeyCode.Mouse1) || Input.GetAxis("RT") > 0)  && l == false && r == true && boostEffect.startColor != Color.magenta)
             boostEffect.startColor = new Color(0.1439124f, 0.8442528f, 0.9245283f);
-       // boostPad = false;
+        // boostPad = false;
+        }
+
     }
 
     private void ResetMousePosition()
     {
+        if (hasAuthority)
+        {
         float currentMouseX = Input.mousePosition.x;
         float deltaX = currentMouseX - initialMouseX;
         Quaternion rotationOffset = Quaternion.Euler(0f, deltaX, 0f);
         hb.transform.rotation = initialRotation * rotationOffset;
+        }
     }
     
     void SetPosition()

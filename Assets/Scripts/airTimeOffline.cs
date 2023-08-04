@@ -61,20 +61,27 @@ public class airTimeOffline : MonoBehaviour
             //keep the momentium going!
             if ((SceneManager.GetActiveScene().name == "Map1_Offline"))
             {
-                hbs.hb.AddForce(Input.GetAxis("Fire2") * 20000 * hbs.transform.forward * (Time.deltaTime + 1)); 
-                hbs.hb.AddForce(Input.GetAxis("RT") * 20000 * hbs.transform.forward * (Time.deltaTime + 1));
+                hbs.hb.AddForce(Input.GetAxis("Fire2") * 230000 * hbs.transform.forward * Time.deltaTime); 
+                hbs.hb.AddForce(Input.GetAxis("RT") * 230000 * hbs.transform.forward * Time.deltaTime);
             }
             else 
             {
+                #if UNITY_EDITOR            
                 hbs.hb.AddForce(Input.GetAxis("Fire2") * 1000 * hbs.transform.forward * (Time.deltaTime + 1)); 
-                hbs.hb.AddForce(Input.GetAxis("RT") * 1000 * hbs.transform.forward * (Time.deltaTime + 1));                
+                hbs.hb.AddForce(Input.GetAxis("RT") * 1000 * hbs.transform.forward * (Time.deltaTime + 1));    
+                #else
+                hbs.hb.AddForce(Input.GetAxis("Fire2") * 15000 * hbs.transform.forward * (Time.deltaTime + 1)); 
+                hbs.hb.AddForce(Input.GetAxis("RT") * 15000 * hbs.transform.forward * (Time.deltaTime + 1));              
+                #endif 
             }
-
 
             //hbs.boostEffect.enabled = true;
 
             //gravity adjustments for better feel
-            hbs.hb.AddForce(0,-500,0); 
+            if ((SceneManager.GetActiveScene().name == "Map1_Offline"))
+                hbs.hb.AddForce(0,-900,0); 
+            else
+                hbs.hb.AddForce(0,-500,0); 
 
             if ((Input.GetKey(KeyCode.Mouse0) || Input.GetButton("A"))  && !(AnimatorIsPlaying())){
                 // do trick

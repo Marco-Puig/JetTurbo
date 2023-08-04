@@ -13,6 +13,13 @@ public class menu : MonoBehaviour
     public GameObject ui_char;
     public GameObject ui_leaderboard;
 
+    public void Update()
+    {
+        if (PlayerPrefs.GetFloat("Mouse Sensitivity") == 0.0f)
+        {
+            PlayerPrefs.SetFloat("Mouse Sensitivity", 1.0f);
+        }
+    }
     public void Quit(){
     #if UNITY_EDITOR
          UnityEditor.EditorApplication.isPlaying = false;

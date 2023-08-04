@@ -44,9 +44,8 @@ public class EndGameManagerOffline : MonoBehaviour
             //save and display highscore
             if (SceneManager.GetActiveScene().name == "Map1_Offline")
             {
-                if ((float)timer.b < PlayerPrefs.GetFloat("HighScore") && PlayerPrefs.GetFloat("HighScore") != 0f){
+                if ((float)timer.b < PlayerPrefs.GetFloat("HighScore") || PlayerPrefs.GetFloat("HighScore") == 0f){
                     PlayerPrefs.SetFloat("HighScore", (float)timer.b);
-                    PlayerPrefs.Save();
                 }
             }
 

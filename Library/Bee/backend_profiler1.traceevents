@@ -1,430 +1,570 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1690838504247604, "dur":1749, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690838504249359, "dur":169, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
-,{ "pid":12345, "tid":0, "ts":1690838504249572, "dur":24, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
-,{ "pid":12345, "tid":0, "ts":1690838504249596, "dur":270, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
-,{ "pid":12345, "tid":0, "ts":1690838504249883, "dur":558, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690838504250441, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690838504765239, "dur":267, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690838504765506, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690838504765517, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690838504765518, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690838504765526, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690838504765528, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690838504765533, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690838504765535, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690838504765539, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690838504765540, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690838504765545, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690838504765547, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690838504765552, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690838504765553, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690838504765563, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690838504765565, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690838504765571, "dur":64, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690838504765635, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690838504765647, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690838504765649, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690838504765654, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690838504765655, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690838504765661, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690838504765662, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690838504765666, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690838504765681, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690838504765713, "dur":2335, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1690838504250597, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1690838504250597, "dur":4368, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1690838504254975, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1690838504254978, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1690838504255083, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1690838504255085, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1690838504255132, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":1, "ts":1690838504255230, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1690838504255280, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo.exe" }}
-,{ "pid":12345, "tid":1, "ts":1690838504255342, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1690838504255402, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1690838504255463, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1690838504255535, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1690838504255605, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1690838504255659, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1690838504255767, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1690838504255812, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1690838504255998, "dur":129, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1690838504256128, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1690838504256187, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1690838504256234, "dur":81661, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
-,{ "pid":12345, "tid":1, "ts":1690838504337896, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1690838504337977, "dur":92848, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/kcp2k.dll" }}
-,{ "pid":12345, "tid":1, "ts":1690838504430826, "dur":160, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1690838504430991, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/sharedassets0.resource" }}
-,{ "pid":12345, "tid":1, "ts":1690838504431066, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1690838504431078, "dur":27742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/sharedassets0.resource" }}
-,{ "pid":12345, "tid":1, "ts":1690838504458909, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/level3" }}
-,{ "pid":12345, "tid":1, "ts":1690838504458973, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1690838504458992, "dur":146087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/level3" }}
-,{ "pid":12345, "tid":1, "ts":1690838504605149, "dur":160120, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1690838504251126, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1690838504251127, "dur":3860, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1690838504254988, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":2, "ts":1690838504255171, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1690838504255217, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":2, "ts":1690838504255332, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1690838504255396, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1690838504255471, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1690838504255529, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1690838504255582, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1690838504255632, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1690838504255690, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1690838504255735, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1690838504255807, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1690838504255865, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1690838504255923, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1690838504255986, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1690838504256118, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1690838504256175, "dur":2176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
-,{ "pid":12345, "tid":2, "ts":1690838504258352, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1690838504258446, "dur":55838, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/Telepathy.dll" }}
-,{ "pid":12345, "tid":2, "ts":1690838504314285, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1690838504314356, "dur":41608, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/Mirror.Authenticators.dll" }}
-,{ "pid":12345, "tid":2, "ts":1690838504355965, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1690838504356049, "dur":258520, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":2, "ts":1690838504614612, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1690838504614736, "dur":1386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":2, "ts":1690838504616357, "dur":148914, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1690838504251073, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1690838504251074, "dur":3928, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1690838504255003, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":3, "ts":1690838504255135, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1690838504255196, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":3, "ts":1690838504255302, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1690838504255370, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1690838504255453, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1690838504255515, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1690838504255573, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1690838504255624, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1690838504255680, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1690838504255727, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1690838504255807, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1690838504255868, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1690838504255925, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1690838504255987, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1690838504256134, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1690838504256206, "dur":178756, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
-,{ "pid":12345, "tid":3, "ts":1690838504434962, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1690838504435056, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":3, "ts":1690838504435127, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1690838504435138, "dur":177744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":3, "ts":1690838504612940, "dur":152283, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1690838504251965, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1690838504251965, "dur":3008, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1690838504254975, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":4, "ts":1690838504255130, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1690838504255185, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":4, "ts":1690838504255281, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1690838504255327, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1690838504255403, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1690838504255463, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1690838504255532, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1690838504255587, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1690838504255643, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1690838504255718, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1690838504255794, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1690838504255852, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1690838504255912, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1690838504255968, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1690838504256017, "dur":120, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1690838504256137, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1690838504256224, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1690838504256282, "dur":55820, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/Unity.ProBuilder.Csg.dll" }}
-,{ "pid":12345, "tid":4, "ts":1690838504312103, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1690838504312159, "dur":166131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/Mirror.Components.dll" }}
-,{ "pid":12345, "tid":4, "ts":1690838504478292, "dur":165, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1690838504478462, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/level2" }}
-,{ "pid":12345, "tid":4, "ts":1690838504478552, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1690838504478568, "dur":50915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/level2" }}
-,{ "pid":12345, "tid":4, "ts":1690838504529560, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/level0.resS" }}
-,{ "pid":12345, "tid":4, "ts":1690838504529636, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1690838504529657, "dur":67843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/level0.resS" }}
-,{ "pid":12345, "tid":4, "ts":1690838504597548, "dur":167693, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1690838504251518, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1690838504251518, "dur":3470, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1690838504254988, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":5, "ts":1690838504255158, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1690838504255210, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":5, "ts":1690838504255312, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1690838504255373, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1690838504255426, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1690838504255470, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1690838504255531, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1690838504255588, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1690838504255645, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1690838504255733, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1690838504255796, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1690838504255858, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1690838504255917, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1690838504255976, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1690838504256024, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1690838504256135, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1690838504256217, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1690838504256289, "dur":222221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
-,{ "pid":12345, "tid":5, "ts":1690838504478511, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1690838504478577, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/level1.resS" }}
-,{ "pid":12345, "tid":5, "ts":1690838504478630, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1690838504478636, "dur":286536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/level1.resS" }}
-,{ "pid":12345, "tid":5, "ts":1690838504765205, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
-,{ "pid":12345, "tid":5, "ts":1690838504765207, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1690838504250807, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1690838504250807, "dur":4162, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1690838504254976, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":6, "ts":1690838504255175, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1690838504255227, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":6, "ts":1690838504255353, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1690838504255440, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1690838504255514, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1690838504255565, "dur":162008, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":6, "ts":1690838504417574, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1690838504417638, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":6, "ts":1690838504417697, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1690838504417706, "dur":1139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":6, "ts":1690838504418885, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":6, "ts":1690838504418936, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1690838504418954, "dur":27823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":6, "ts":1690838504446823, "dur":1740, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":6, "ts":1690838504448564, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1690838504448674, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/resources.assets" }}
-,{ "pid":12345, "tid":6, "ts":1690838504448754, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1690838504448801, "dur":102579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/resources.assets" }}
-,{ "pid":12345, "tid":6, "ts":1690838504551465, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":6, "ts":1690838504551566, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1690838504551588, "dur":33183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":6, "ts":1690838504584889, "dur":719, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":6, "ts":1690838504585626, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1690838504585643, "dur":6529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":6, "ts":1690838504592705, "dur":172562, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1690838504250915, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1690838504250915, "dur":4055, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1690838504254976, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":7, "ts":1690838504255134, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1690838504255215, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":7, "ts":1690838504255330, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1690838504255385, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1690838504255447, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1690838504255503, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1690838504255561, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1690838504255609, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1690838504255660, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1690838504255720, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1690838504255856, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1690838504255915, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":7, "ts":1690838504255984, "dur":156, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1690838504256140, "dur":89793, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":7, "ts":1690838504345933, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1690838504346023, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/EasyRoads3Dv3.dll" }}
-,{ "pid":12345, "tid":7, "ts":1690838504346073, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1690838504346114, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/DelaunayER.dll" }}
-,{ "pid":12345, "tid":7, "ts":1690838504346152, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1690838504346188, "dur":92471, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/Dan.dll" }}
-,{ "pid":12345, "tid":7, "ts":1690838504438660, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1690838504438742, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":7, "ts":1690838504438798, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1690838504438807, "dur":91867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":7, "ts":1690838504530733, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/level0" }}
-,{ "pid":12345, "tid":7, "ts":1690838504530798, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1690838504530811, "dur":61950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/level0" }}
-,{ "pid":12345, "tid":7, "ts":1690838504592813, "dur":172411, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1690838504250694, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1690838504250694, "dur":4277, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1690838504254976, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":8, "ts":1690838504255119, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1690838504255172, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":8, "ts":1690838504255290, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1690838504255338, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1690838504255397, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1690838504255459, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1690838504255522, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1690838504255577, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1690838504255628, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1690838504255673, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1690838504255724, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1690838504255788, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1690838504255842, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1690838504255893, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1690838504255945, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1690838504255994, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1690838504256134, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1690838504256205, "dur":2275, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
-,{ "pid":12345, "tid":8, "ts":1690838504258481, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1690838504258549, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":8, "ts":1690838504258601, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1690838504258641, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":8, "ts":1690838504258681, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1690838504258721, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":8, "ts":1690838504258764, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1690838504258803, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":8, "ts":1690838504258876, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1690838504258927, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":8, "ts":1690838504258968, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1690838504259009, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":8, "ts":1690838504259047, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1690838504259082, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":8, "ts":1690838504259116, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1690838504259150, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":8, "ts":1690838504259188, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1690838504259214, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":8, "ts":1690838504259244, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1690838504259276, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":8, "ts":1690838504259303, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1690838504259327, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":8, "ts":1690838504259353, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1690838504259378, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":8, "ts":1690838504259403, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1690838504259428, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":8, "ts":1690838504259454, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1690838504259478, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":8, "ts":1690838504259503, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1690838504259527, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":8, "ts":1690838504259553, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1690838504259588, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":8, "ts":1690838504259621, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1690838504259645, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":8, "ts":1690838504259674, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1690838504259699, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":8, "ts":1690838504259726, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1690838504259752, "dur":98248, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/SimpleWebTransport.dll" }}
-,{ "pid":12345, "tid":8, "ts":1690838504358001, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1690838504358094, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Plugins/x86_64/steam_api64.dll" }}
-,{ "pid":12345, "tid":8, "ts":1690838504358168, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1690838504358214, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":8, "ts":1690838504358267, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1690838504359009, "dur":1779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":8, "ts":1690838504360832, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/sharedassets3.assets.resS" }}
-,{ "pid":12345, "tid":8, "ts":1690838504360899, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1690838504360906, "dur":11523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/sharedassets3.assets.resS" }}
-,{ "pid":12345, "tid":8, "ts":1690838504372472, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/sharedassets3.assets" }}
-,{ "pid":12345, "tid":8, "ts":1690838504372518, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1690838504372525, "dur":867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/sharedassets3.assets" }}
-,{ "pid":12345, "tid":8, "ts":1690838504373428, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/sharedassets2.resource" }}
-,{ "pid":12345, "tid":8, "ts":1690838504373469, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1690838504373474, "dur":2429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/sharedassets2.resource" }}
-,{ "pid":12345, "tid":8, "ts":1690838504375942, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/sharedassets2.assets.resS" }}
-,{ "pid":12345, "tid":8, "ts":1690838504375986, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1690838504375993, "dur":41750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/sharedassets2.assets.resS" }}
-,{ "pid":12345, "tid":8, "ts":1690838504417787, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/sharedassets1.resource" }}
-,{ "pid":12345, "tid":8, "ts":1690838504417832, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1690838504417837, "dur":4900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/sharedassets1.resource" }}
-,{ "pid":12345, "tid":8, "ts":1690838504422784, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":8, "ts":1690838504422834, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1690838504422842, "dur":23763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":8, "ts":1690838504446660, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":8, "ts":1690838504446816, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1690838504446864, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":8, "ts":1690838504446915, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1690838504446926, "dur":37799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":8, "ts":1690838504484783, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/level1" }}
-,{ "pid":12345, "tid":8, "ts":1690838504484872, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1690838504484889, "dur":111063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/level1" }}
-,{ "pid":12345, "tid":8, "ts":1690838504596017, "dur":169253, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1690838504251030, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1690838504251030, "dur":3942, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1690838504254976, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":9, "ts":1690838504255138, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1690838504255193, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":9, "ts":1690838504255292, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1690838504255338, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1690838504255400, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1690838504255452, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1690838504255516, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1690838504255572, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1690838504255648, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1690838504255719, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1690838504255802, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1690838504255862, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1690838504255920, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1690838504255996, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1690838504256136, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1690838504256209, "dur":54929, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/Unity.ProBuilder.Stl.dll" }}
-,{ "pid":12345, "tid":9, "ts":1690838504311138, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1690838504311222, "dur":327202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/Mirror.dll" }}
-,{ "pid":12345, "tid":9, "ts":1690838504638424, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1690838504638485, "dur":126784, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1690838504251244, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1690838504251244, "dur":3758, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1690838504255002, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":10, "ts":1690838504255161, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1690838504255210, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":10, "ts":1690838504255325, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1690838504255378, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1690838504255439, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1690838504255489, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1690838504255544, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1690838504255599, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1690838504255718, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1690838504255783, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1690838504255831, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1690838504255882, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1690838504255931, "dur":160, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1690838504256091, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1690838504256190, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1690838504256238, "dur":42971, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
-,{ "pid":12345, "tid":10, "ts":1690838504299209, "dur":143, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1690838504299354, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":10, "ts":1690838504299402, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1690838504299441, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":10, "ts":1690838504299477, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1690838504299513, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":10, "ts":1690838504299548, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1690838504299584, "dur":153682, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/Mirror.Examples.dll" }}
-,{ "pid":12345, "tid":10, "ts":1690838504453267, "dur":120, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1690838504453395, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/level3.resS" }}
-,{ "pid":12345, "tid":10, "ts":1690838504453478, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1690838504453492, "dur":190040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/level3.resS" }}
-,{ "pid":12345, "tid":10, "ts":1690838504643563, "dur":121677, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1690838504251163, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1690838504251163, "dur":3870, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1690838504255033, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":11, "ts":1690838504255148, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1690838504255200, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":11, "ts":1690838504255312, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1690838504255370, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1690838504255445, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1690838504255499, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1690838504255548, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1690838504255608, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1690838504255668, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1690838504255718, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1690838504255794, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1690838504255857, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1690838504255918, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1690838504255980, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1690838504256086, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1690838504256122, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1690838504256206, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1690838504256256, "dur":358704, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/Unity.ProBuilder.dll" }}
-,{ "pid":12345, "tid":11, "ts":1690838504614961, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1690838504615054, "dur":150214, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1690838504251371, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1690838504251371, "dur":3597, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1690838504254976, "dur":303, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":12, "ts":1690838504255280, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1690838504255324, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":12, "ts":1690838504255414, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1690838504255474, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1690838504255535, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1690838504255609, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1690838504255671, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1690838504255723, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1690838504255787, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1690838504255836, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1690838504255891, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1690838504255936, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1690838504255988, "dur":154, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1690838504256143, "dur":278325, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":12, "ts":1690838504534470, "dur":218, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1690838504534693, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/globalgamemanagers.assets.resS" }}
-,{ "pid":12345, "tid":12, "ts":1690838504534828, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1690838504534845, "dur":55445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/globalgamemanagers.assets.resS" }}
-,{ "pid":12345, "tid":12, "ts":1690838504591662, "dur":245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_2/JetTurbo_Data/boot.config" }}
-,{ "pid":12345, "tid":12, "ts":1690838504591909, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1690838504591970, "dur":173268, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690838504769303, "dur":1460, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid":12345, "tid":0, "ts":1690845113736419, "dur":984, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690845113737409, "dur":102, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1690845113737543, "dur":25, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1690845113737568, "dur":261, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1690845113737843, "dur":543, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690845113738386, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690845114979523, "dur":423, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690845114979947, "dur":50, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690845114979997, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690845114980003, "dur":24, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690845114980027, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690845114980031, "dur":32, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690845114980063, "dur":88, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690845114980151, "dur":20, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690845114980171, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690845114980175, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690845114980188, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690845114980191, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690845114980203, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690845114980206, "dur":19, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690845114980225, "dur":32, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690845114980257, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690845114980274, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690845114980279, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690845114980289, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690845114980291, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690845114980302, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690845114980304, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690845114980318, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690845114980320, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690845114980332, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690845114980377, "dur":7, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690845114980440, "dur":3030, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1690845113738268, "dur":145, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690845113738413, "dur":3931, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690845113742351, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1690845113742498, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690845113743331, "dur":1318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1690845113744683, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1690845113744756, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690845113744761, "dur":811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1690845113745623, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1690845113745713, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690845113745719, "dur":698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1690845113746461, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690845113746554, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690845113746601, "dur":2122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690845113748758, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1690845113748854, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690845113748880, "dur":11851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1690845113760779, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690845113760831, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690845113760837, "dur":1078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690845113761962, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690845113762014, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690845113762020, "dur":1067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690845113763136, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690845113763206, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690845113763213, "dur":1001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690845113764291, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690845113764353, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690845113764359, "dur":3621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690845113768037, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690845113768106, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690845113768116, "dur":2654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690845113770825, "dur":1214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690845113772044, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690845113772056, "dur":10918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690845113783189, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690845113783322, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690845113783332, "dur":3238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690845113786611, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690845113786768, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690845113786774, "dur":7250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690845113794074, "dur":109394, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690845113903473, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690845113903483, "dur":906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690845113904427, "dur":105863, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/kcp2k.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690845114010324, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690845114010347, "dur":1075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/kcp2k.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690845114011467, "dur":549, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":1, "ts":1690845114012021, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690845114012033, "dur":6273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":1, "ts":1690845114018361, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":1, "ts":1690845114018408, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690845114018417, "dur":9663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":1, "ts":1690845114028126, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":1, "ts":1690845114028178, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690845114028189, "dur":21397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":1, "ts":1690845114049637, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/level3.resS" }}
+,{ "pid":12345, "tid":1, "ts":1690845114049690, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690845114049696, "dur":884793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/level3.resS" }}
+,{ "pid":12345, "tid":1, "ts":1690845114934520, "dur":44985, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690845113738376, "dur":63, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690845113738439, "dur":3943, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690845113742383, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1690845113742534, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690845113768098, "dur":901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1690845113769061, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690845113769133, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690845113769139, "dur":1524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690845113770821, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690845113770883, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690845113770889, "dur":7129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690845113778069, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690845113778121, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690845113778133, "dur":5794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690845113783971, "dur":425, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690845113784400, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690845113784408, "dur":4185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690845113788640, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690845113788727, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690845113788734, "dur":1365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690845113790142, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690845113790295, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690845113790300, "dur":4373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690845113794723, "dur":1223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690845113795950, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690845113795960, "dur":51687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690845113847690, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690845113847787, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690845113847796, "dur":10647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690845113858498, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690845113858650, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690845113858661, "dur":2606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690845113861313, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690845113861435, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690845113861444, "dur":3287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690845113864775, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690845113864877, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690845113864884, "dur":2110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690845113867034, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690845113867126, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690845113867133, "dur":1977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690845113869150, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690845113869250, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690845113869257, "dur":1203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690845113870505, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690845113870601, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690845113870608, "dur":1092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690845113871742, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690845113871828, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690845113871833, "dur":7087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690845113878974, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690845113879088, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690845113879097, "dur":1702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690845113881166, "dur":186415, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/Mirror.Examples.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690845114067586, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690845114067598, "dur":933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/Mirror.Examples.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690845114068577, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1690845114068633, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690845114068638, "dur":667972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1690845114736642, "dur":242878, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690845113738107, "dur":285, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690845113738394, "dur":3946, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690845113742352, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1690845113742355, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690845113742454, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1690845113742459, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690845113742927, "dur":1802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1690845113744731, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1690845113744797, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690845113744803, "dur":765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1690845113745603, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1690845113745663, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690845113745668, "dur":754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1690845113746463, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690845113746552, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690845113746594, "dur":14214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690845113760863, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690845113760921, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690845113760927, "dur":1064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690845113762030, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690845113762078, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690845113762084, "dur":1025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690845113763155, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690845113763206, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690845113763214, "dur":1099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690845113764369, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690845113764425, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690845113764431, "dur":4000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690845113768478, "dur":480, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690845113768961, "dur":3350, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690845113772325, "dur":11850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690845113784225, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690845113784313, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690845113784319, "dur":2950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690845113787322, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690845113787408, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690845113787413, "dur":4972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690845113792521, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690845113792613, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690845113792620, "dur":3171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690845113795837, "dur":84073, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690845113879914, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690845113879922, "dur":996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690845113880957, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690845113881037, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690845113881065, "dur":2998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690845113884106, "dur":161795, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/Mirror.Components.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690845114045906, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690845114045916, "dur":923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/Mirror.Components.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690845114046882, "dur":732, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1690845114047617, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690845114047625, "dur":17688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1690845114065382, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/level3" }}
+,{ "pid":12345, "tid":3, "ts":1690845114065439, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690845114065453, "dur":437230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/level3" }}
+,{ "pid":12345, "tid":3, "ts":1690845114502718, "dur":476810, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690845113738126, "dur":269, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690845113738395, "dur":4074, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690845113742469, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1690845113742570, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690845113792071, "dur":1522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1690845113793668, "dur":305, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690845113793976, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690845113793981, "dur":2668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690845113796695, "dur":73691, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690845113870390, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690845113870398, "dur":887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690845113871326, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690845113871414, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690845113871419, "dur":7504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690845113878972, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690845113879091, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690845113879098, "dur":1453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690845113880593, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690845113880676, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690845113880682, "dur":6188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690845113886910, "dur":64421, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/Mirror.Authenticators.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690845113951334, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690845113951341, "dur":776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/Mirror.Authenticators.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690845113952155, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Plugins/x86_64/steam_api64.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690845113952205, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690845113952283, "dur":856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Plugins/x86_64/steam_api64.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690845113953180, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1690845113953223, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690845113953229, "dur":1033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1690845113954301, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1690845113954345, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690845113954351, "dur":16092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1690845113970486, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":4, "ts":1690845113970530, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690845113970537, "dur":744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":4, "ts":1690845113971320, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":4, "ts":1690845113971359, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690845113971365, "dur":2323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":4, "ts":1690845113973729, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1690845113973771, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690845113973779, "dur":50133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1690845114023963, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1690845114024014, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690845114024025, "dur":25557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1690845114049633, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1690845114049680, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690845114049686, "dur":54809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1690845114104584, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1690845114104685, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690845114104725, "dur":577998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1690845114682775, "dur":296759, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690845113738163, "dur":241, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690845113738404, "dur":3938, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690845113742351, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1690845113742495, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690845113743169, "dur":1243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1690845113744453, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1690845113744518, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690845113744577, "dur":599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1690845113745210, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1690845113745279, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690845113745284, "dur":594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1690845113745910, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1690845113745985, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690845113745990, "dur":778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1690845113746801, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690845113746879, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690845113746883, "dur":37020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690845113783958, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690845113784119, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690845113784134, "dur":2455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690845113786632, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690845113786772, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690845113786778, "dur":3528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690845113790351, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690845113790429, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690845113790434, "dur":3388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690845113793870, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690845113793972, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690845113793978, "dur":1851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690845113795869, "dur":50070, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690845113845945, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690845113845957, "dur":1566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690845113847571, "dur":103153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/Telepathy.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690845113950730, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690845113950740, "dur":793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/Telepathy.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690845113951574, "dur":174668, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690845114126345, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690845114126360, "dur":14252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690845114140661, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1690845114140704, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690845114140710, "dur":273419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1690845114414165, "dur":565378, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690845113738144, "dur":256, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690845113738400, "dur":3965, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690845113742365, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1690845113742512, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690845113767524, "dur":1306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1690845113769557, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690845113769616, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690845113769623, "dur":1549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690845113771637, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690845113771725, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690845113771742, "dur":8671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690845113780481, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690845113780594, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690845113780606, "dur":5751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690845113786411, "dur":221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690845113786635, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690845113786642, "dur":3290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690845113789979, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690845113790080, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690845113790086, "dur":3239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690845113793369, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690845113793413, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690845113793420, "dur":7614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690845113803494, "dur":352506, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690845114156003, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690845114156009, "dur":13415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690845114169515, "dur":809958, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690845113738217, "dur":193, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690845113738410, "dur":3973, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690845113742384, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1690845113742542, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690845113787652, "dur":1134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1690845113788843, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690845113788927, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690845113788932, "dur":2450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690845113791433, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690845113791616, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690845113791622, "dur":3169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690845113794843, "dur":241161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690845114036009, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690845114036021, "dur":5171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690845114041253, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1690845114041347, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690845114041360, "dur":308554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1690845114349950, "dur":629630, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690845113738274, "dur":154, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690845113738428, "dur":3915, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690845113742351, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1690845113742502, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690845113752183, "dur":767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1690845113752986, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo.exe" }}
+,{ "pid":12345, "tid":8, "ts":1690845113753027, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690845113753031, "dur":1000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo.exe" }}
+,{ "pid":12345, "tid":8, "ts":1690845113754061, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690845113754102, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690845113754136, "dur":818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690845113754981, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690845113755012, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690845113755017, "dur":599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690845113755654, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690845113755703, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690845113755710, "dur":768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690845113756508, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690845113756546, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690845113756569, "dur":621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690845113757218, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690845113757251, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690845113757255, "dur":565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690845113757847, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690845113757878, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690845113757883, "dur":682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690845113758593, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690845113758623, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690845113758627, "dur":575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690845113759230, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690845113759266, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690845113759271, "dur":587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690845113759886, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690845113759920, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690845113759925, "dur":711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690845113760689, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690845113760747, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690845113760753, "dur":1052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690845113761848, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690845113761900, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690845113761907, "dur":1007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690845113762956, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690845113763028, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690845113763035, "dur":957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690845113764042, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690845113764102, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690845113764110, "dur":2166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690845113766344, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690845113766464, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690845113766481, "dur":5846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690845113772439, "dur":234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690845113772741, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690845113772751, "dur":12581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690845113785375, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690845113785552, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690845113785560, "dur":3185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690845113788804, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690845113788913, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690845113788919, "dur":2851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690845113791816, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690845113791925, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690845113791931, "dur":2756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690845113794756, "dur":53785, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690845113848545, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690845113848554, "dur":1172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690845113850954, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690845113851101, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690845113851110, "dur":13022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690845113864177, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690845113864282, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690845113864291, "dur":1842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690845113866175, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690845113866276, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690845113866283, "dur":1865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690845113868193, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690845113868334, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690845113868342, "dur":2329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690845113870711, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690845113870795, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690845113870800, "dur":2770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690845113873612, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690845113873702, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690845113873708, "dur":2867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690845113876625, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690845113876730, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690845113876739, "dur":3724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690845113880507, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690845113880591, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690845113880597, "dur":1312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690845113881959, "dur":320155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/Mirror.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690845114202119, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690845114202127, "dur":956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/Mirror.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690845114203112, "dur":776396, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690845113738310, "dur":126, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690845113738436, "dur":3948, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690845113742384, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1690845113742536, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690845113768612, "dur":1870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1690845113770546, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690845113770612, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690845113770621, "dur":4490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690845113775167, "dur":196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690845113775368, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690845113775383, "dur":11177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690845113786604, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690845113786694, "dur":201, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690845113786902, "dur":2674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690845113789617, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690845113789755, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690845113789762, "dur":4149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690845113793968, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690845113794065, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690845113794071, "dur":2263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690845113796380, "dur":343775, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690845114140165, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690845114140181, "dur":1890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690845114142116, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1690845114142173, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690845114142184, "dur":271879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1690845114414103, "dur":565363, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690845113738293, "dur":139, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690845113738432, "dur":3909, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690845113742351, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":10, "ts":1690845113742539, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690845113769398, "dur":1392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":10, "ts":1690845113771276, "dur":1884, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690845113773164, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690845113773172, "dur":8339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690845113781568, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690845113781701, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690845113781711, "dur":4062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690845113785823, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690845113785915, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690845113785922, "dur":2416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690845113788381, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690845113788479, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690845113788486, "dur":3569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690845113792103, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690845113792214, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690845113792220, "dur":2809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690845113795073, "dur":76037, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690845113871113, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690845113871119, "dur":7895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690845113879807, "dur":149870, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/SimpleWebTransport.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690845114029683, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690845114029693, "dur":1123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/SimpleWebTransport.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690845114030871, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":10, "ts":1690845114030934, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690845114030946, "dur":4303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":10, "ts":1690845114035299, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1690845114035349, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690845114035438, "dur":702055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1690845114737530, "dur":242283, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690845113738417, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690845113738418, "dur":3926, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690845113742352, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1690845113742535, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690845113769004, "dur":1675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1690845113770860, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690845113770906, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690845113770911, "dur":7118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690845113778082, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690845113778136, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690845113778142, "dur":5474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690845113783668, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690845113783770, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690845113783777, "dur":3190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690845113787015, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690845113787097, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690845113787103, "dur":3865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690845113791076, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690845113791287, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690845113791303, "dur":3365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690845113794721, "dur":253056, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690845114047780, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690845114047789, "dur":830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690845114048656, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1690845114048697, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690845114048702, "dur":18214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1690845114066964, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/level2" }}
+,{ "pid":12345, "tid":11, "ts":1690845114067009, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690845114067018, "dur":78280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/level2" }}
+,{ "pid":12345, "tid":11, "ts":1690845114145335, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":11, "ts":1690845114145371, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690845114145377, "dur":8735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":11, "ts":1690845114154144, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":11, "ts":1690845114154177, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690845114154184, "dur":704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":11, "ts":1690845114154919, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/boot.config" }}
+,{ "pid":12345, "tid":11, "ts":1690845114155021, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690845114155027, "dur":14401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/boot.config" }}
+,{ "pid":12345, "tid":11, "ts":1690845114169518, "dur":810229, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690845113738472, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690845113738472, "dur":3892, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690845113742365, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1690845113742511, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690845113752505, "dur":861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1690845113753419, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":12, "ts":1690845113753541, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690845113753577, "dur":12896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":12, "ts":1690845113766548, "dur":167715, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":12, "ts":1690845113934268, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690845113934278, "dur":1014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":12, "ts":1690845113935331, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/EasyRoads3Dv3.dll" }}
+,{ "pid":12345, "tid":12, "ts":1690845113935429, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690845113935436, "dur":4794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/EasyRoads3Dv3.dll" }}
+,{ "pid":12345, "tid":12, "ts":1690845113940273, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/DelaunayER.dll" }}
+,{ "pid":12345, "tid":12, "ts":1690845113940375, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690845113940383, "dur":877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/DelaunayER.dll" }}
+,{ "pid":12345, "tid":12, "ts":1690845113941295, "dur":100998, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/Dan.dll" }}
+,{ "pid":12345, "tid":12, "ts":1690845114042297, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690845114042306, "dur":852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/Managed/Dan.dll" }}
+,{ "pid":12345, "tid":12, "ts":1690845114043197, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":12, "ts":1690845114043336, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690845114043344, "dur":24903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":12, "ts":1690845114068312, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/level1.resS" }}
+,{ "pid":12345, "tid":12, "ts":1690845114068370, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690845114068377, "dur":910959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo_Data/level1.resS" }}
+,{ "pid":12345, "tid":12, "ts":1690845114979409, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":12, "ts":1690845114979416, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690845114984794, "dur":1864, "ph":"X", "name": "ProfilerWriteOutput" }
 ,
