@@ -113,8 +113,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -249,14 +251,8 @@ ScriptsOnlyBuild:
     fullTypeName: SettingsMenu
     methodName: SetVolume
   - assembly: Assembly-CSharp
-    fullTypeName: btnSound
-    methodName: OnClick
-  - assembly: Assembly-CSharp
-    fullTypeName: menu
-    methodName: Multiplayer
-  - assembly: Assembly-CSharp
-    fullTypeName: SteamLobby
-    methodName: HostLobby
+    fullTypeName: WebUrlBtn
+    methodName: url
   - assembly: Assembly-CSharp
     fullTypeName: btnSound
     methodName: OnClick
@@ -624,6 +620,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 28
       Script: {instanceID: 0}
+    - Class: 29
+      Script: {instanceID: 0}
     - Class: 33
       Script: {instanceID: 0}
     - Class: 43
@@ -714,6 +712,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 199
       Script: {instanceID: 0}
+    - Class: 205
+      Script: {instanceID: 0}
     - Class: 218
       Script: {instanceID: 0}
     - Class: 222
@@ -730,6 +730,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 258
       Script: {instanceID: 0}
+    - Class: 363
+      Script: {instanceID: 0}
     - Class: 1953259897
       Script: {instanceID: 0}
     Assets/Scenes/Map1_Offline.unity:
@@ -744,6 +746,8 @@ ScriptsOnlyBuild:
     - Class: 23
       Script: {instanceID: 0}
     - Class: 28
+      Script: {instanceID: 0}
+    - Class: 29
       Script: {instanceID: 0}
     - Class: 33
       Script: {instanceID: 0}
@@ -899,6 +903,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 199
       Script: {instanceID: 0}
+    - Class: 205
+      Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
     - Class: 218
@@ -917,6 +923,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 258
       Script: {instanceID: 0}
+    - Class: 363
+      Script: {instanceID: 0}
     - Class: 1953259897
       Script: {instanceID: 0}
     Assets/Scenes/menu.unity:
@@ -931,6 +939,8 @@ ScriptsOnlyBuild:
     - Class: 23
       Script: {instanceID: 0}
     - Class: 28
+      Script: {instanceID: 0}
+    - Class: 29
       Script: {instanceID: 0}
     - Class: 33
       Script: {instanceID: 0}
@@ -1200,6 +1210,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 199
       Script: {instanceID: 0}
+    - Class: 205
+      Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
     - Class: 218
@@ -1217,6 +1229,8 @@ ScriptsOnlyBuild:
     - Class: 245
       Script: {instanceID: 0}
     - Class: 258
+      Script: {instanceID: 0}
+    - Class: 363
       Script: {instanceID: 0}
     - Class: 1953259897
       Script: {instanceID: 0}
@@ -3225,4 +3239,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Map1.unity
   - Assets/Scenes/Dev_Tst_Offline.unity
   - Assets/Scenes/Map1_Offline.unity
-  playerPath: C:/Users/marco/OneDrive/Desktop/jt_demo_build_3/JetTurbo.exe
+  playerPath: C:/Users/marco/OneDrive/Documents/JetTurbo/Builds/JetTurbo.exe

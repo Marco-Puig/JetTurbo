@@ -58,22 +58,10 @@ public class airTimeOffline : MonoBehaviour
             boardAssist.constrainRotationZ = true;
             boardAssist.constrainRotationX = true;
 
-            //keep the momentium going!
-            if ((SceneManager.GetActiveScene().name == "Map1_Offline"))
-            {
-                hbs.hb.AddForce(Input.GetAxis("Fire2") * 230000 * hbs.transform.forward * Time.deltaTime); 
-                hbs.hb.AddForce(Input.GetAxis("RT") * 230000 * hbs.transform.forward * Time.deltaTime);
-            }
-            else 
-            {
-                #if UNITY_EDITOR            
-                hbs.hb.AddForce(Input.GetAxis("Fire2") * 1000 * hbs.transform.forward * (Time.deltaTime + 1)); 
-                hbs.hb.AddForce(Input.GetAxis("RT") * 1000 * hbs.transform.forward * (Time.deltaTime + 1));    
-                #else
-                hbs.hb.AddForce(Input.GetAxis("Fire2") * 15000 * hbs.transform.forward * (Time.deltaTime + 1)); 
-                hbs.hb.AddForce(Input.GetAxis("RT") * 15000 * hbs.transform.forward * (Time.deltaTime + 1));              
-                #endif 
-            }
+            //keep the momentium going! 
+            hbs.hb.AddForce(Input.GetAxis("Fire2") * 280000 * hbs.transform.forward * Time.deltaTime); 
+            hbs.hb.AddForce(Input.GetAxis("RT") * 280000 * hbs.transform.forward * Time.deltaTime);
+            
 
             //hbs.boostEffect.enabled = true;
 
