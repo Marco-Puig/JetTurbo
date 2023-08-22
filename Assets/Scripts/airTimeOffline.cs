@@ -59,8 +59,8 @@ public class airTimeOffline : MonoBehaviour
             boardAssist.constrainRotationX = true;
 
             //keep the momentium going! 
-            hbs.hb.AddForce(Input.GetAxis("Fire2") * 280000 * hbs.transform.forward * Time.deltaTime); 
-            hbs.hb.AddForce(Input.GetAxis("RT") * 280000 * hbs.transform.forward * Time.deltaTime);
+            hbs.hb.AddForce(Input.GetAxis("Fire2") * 240000 * hbs.transform.forward * Time.deltaTime); 
+            hbs.hb.AddForce(Input.GetAxis("RT") * 240000 * hbs.transform.forward * Time.deltaTime);
             
 
             //hbs.boostEffect.enabled = true;

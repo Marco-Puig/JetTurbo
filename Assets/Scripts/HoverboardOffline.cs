@@ -226,9 +226,10 @@ public class HoverboardOffline : MonoBehaviour
                 driftBoost = true;
                 InAir = false;
             }
-            else
+            {
                 boostEffect.startColor = Color.magenta;
-                InAir = true;
+                InAir = true;                
+            }
         }
         else{
             drift_countR = 0; 
@@ -246,9 +247,14 @@ public class HoverboardOffline : MonoBehaviour
             if (drift_countL >= 80){
                 at.coroutineQueue.Enqueue(at.boost());
                 driftBoost = true;
+                InAir = false;
             }
             else
+            {
                 boostEffect.startColor = Color.magenta;
+                InAir = true;                
+            }
+
         }
         else{
             drift_countL = 0; 

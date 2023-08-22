@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class BoardAssist : MonoBehaviour
 {
@@ -18,6 +19,12 @@ public class BoardAssist : MonoBehaviour
     {
         startPosition = hb.transform.position;
         startRotation = hb.transform.eulerAngles;
+    }
+
+    void Update()
+    { 
+        if ((SceneManager.GetActiveScene().name == "Map1_Offline"))
+            constrainRotationZ = true;
     }
    
     void FixedUpdate () {

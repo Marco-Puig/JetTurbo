@@ -8,7 +8,7 @@ public class TriggerEndScreenOffline : MonoBehaviour
 
     void OnTriggerEnter(Collider col)
     {
-        Destroy(col.transform.parent.gameObject);
+        //Destroy(col.transform.parent.gameObject);
         manager.ready = true;
     }
 }
