@@ -35,19 +35,15 @@ Made using Blender, Unity, and written in C#
 | Solid Physics | Done  |
 | Controller Support | Done |
 | Rail Grinding | Done  |
-| Multiplayer | Done  |
 | Menu | Done |
 | Loading Screen | Done |
 | UI | Done  |
 | Leaderboard | Done  |
-| Maps | WIP  |
+| Maps | Done  |
 | Effects | Done  |
-| Modes | WIP  |
-| Models | WIP  |
-| Animations | WIP  |
+| Modes | Done  |
+| Models | Done  |
+| Animations | Done  |
 | Music | Done |
 | Steamworks | Done  |
-| Steam Demo | WIP  |
-| More Maps | WIP  |
-| More Characters | WIP  |
-| More Boards | WIP  |
+| Steam Demo | Done  |
