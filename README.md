@@ -1,11 +1,17 @@
 # JetTurbo
-3D Hoverboard Toon-Style Racing Game! 
+3D Hoverboard Toon-Style Racing Game! \
+Demo avaliable on [Steam]( https://store.steampowered.com/app/2550300/JetTurbo/) \
 Made using Blender, Unity, and written in C#
+
+
+## Gameplay Screenshots
+![ss_23600a050adf72027b9b1482e22d11b67309309b](https://github.com/Marco-Puig/JetTurbo/assets/90495366/5548c8b5-bec3-4fa5-a377-19e4c74972ef)
+![ss_4224f5dc69f74c9f5148283d6a8492e4ebc244e3](https://github.com/Marco-Puig/JetTurbo/assets/90495366/d873a33b-e629-4dca-adb9-53103cfed1db)
 
 ## In-Engine Screenshot
 ![Capture](https://user-images.githubusercontent.com/90495366/234157447-da11aea7-e105-4dcd-8d32-5da62a6d09c2.PNG)
 
-## Gameplay Screenshots
+## Gameplay Screenshots [OLD]
 ![ui_template1](https://github.com/Marco-Puig/JetTurbo/assets/90495366/829191a7-2335-45ad-a455-4fe41e08b889)
 ![Capture](https://github.com/Marco-Puig/JetTurbo/assets/90495366/35070aac-e44d-49f0-8da1-f206cda72633)
 
